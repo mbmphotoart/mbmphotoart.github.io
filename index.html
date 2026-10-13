@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f7f6f2">
+<meta name="description" content="MBM Photo Art — fotografia d'autore, paesaggi, ritratti e dettagli.">
+<title>MBM Photo Art — Fotografia d'autore</title>
+<link rel="preconnect" href="https://images.unsplash.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f7f6f2;--paper:#fff;--ink:#242521;--muted:#777970;--line:#e5e3dc;--accent:#9a7851}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:"DM Sans",sans-serif}a{color:inherit;text-decoration:none}.wrap{width:min(1220px,calc(100% - 48px));margin:auto}
+header{position:absolute;inset:0 0 auto;z-index:4;border-bottom:1px solid #ffffff80}.nav{height:88px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:12px;font-size:12px;font-weight:700;letter-spacing:.16em}.monogram{width:42px;height:42px;display:grid;place-items:center;border:1px solid #fff;color:#fff;font:500 16px "Playfair Display",serif;letter-spacing:-.08em}.navlinks{display:flex;gap:28px;color:white;font-size:11px;letter-spacing:.12em;text-transform:uppercase}.navlinks a:hover{opacity:.7}
+.hero{height:91vh;min-height:650px;max-height:930px;position:relative;display:flex;align-items:flex-end;overflow:hidden;background:#c4c3bd}.hero-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 48%;filter:brightness(.78)}.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#0007,transparent 80%),linear-gradient(0deg,#0006,transparent 58%)}.hero-content{position:relative;z-index:1;padding-bottom:100px;color:#fff;max-width:850px}.eyebrow{text-transform:uppercase;letter-spacing:.2em;font-size:10px;font-weight:700;color:var(--accent)}.hero .eyebrow{color:#f0d9b9}h1,h2,h3,p{margin-top:0}h1{font:400 clamp(55px,8vw,100px)/.98 "Playfair Display",serif;letter-spacing:-.045em;margin:22px 0}.hero h1 span{font-style:italic;color:#e6d1b5}.hero p{max-width:490px;font-size:15px;line-height:1.85;color:#f3f1ec;margin-bottom:30px}.button{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 22px;background:var(--ink);color:white;border:1px solid var(--ink);font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.13em;transition:.2s}.button:hover{background:transparent;color:var(--ink)}.button.light{background:transparent;border-color:#ffffffb3;color:#fff}.button.light:hover{background:#fff;color:var(--ink)}
+.section{padding:108px 0}.section-head{display:flex;align-items:end;justify-content:space-between;gap:30px;margin-bottom:38px}h2{font:400 clamp(36px,5vw,58px)/1.08 "Playfair Display",serif;letter-spacing:-.035em;margin:12px 0 0}.section-head p{max-width:390px;color:var(--muted);font-size:13px;line-height:1.8;margin:0}.filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:26px}.filter{padding:10px 15px;background:transparent;border:1px solid var(--line);color:var(--muted);cursor:pointer;font:500 10px "DM Sans",sans-serif;text-transform:uppercase;letter-spacing:.1em}.filter.active,.filter:hover{border-color:var(--ink);color:var(--ink)}.gallery{display:grid;grid-template-columns:repeat(12,1fr);gap:16px}.photo{position:relative;grid-column:span 6;overflow:hidden;background:#e5e3dc;min-height:290px;border:0;padding:0;cursor:pointer;text-align:left;color:white}.photo:nth-child(3n+1){grid-column:span 7}.photo:nth-child(3n+2){grid-column:span 5}.photo img{display:block;width:100%;height:100%;min-height:330px;max-height:500px;object-fit:cover;transition:transform .65s,filter .4s;filter:saturate(.8)}.photo:hover img{transform:scale(1.04);filter:saturate(1)}.photo:after{content:"";position:absolute;inset:45% 0 0;background:linear-gradient(transparent,#0009);pointer-events:none}.photo-label{position:absolute;z-index:1;bottom:22px;left:24px;right:24px;display:flex;align-items:end;justify-content:space-between;gap:12px}.photo-label strong{display:block;font:400 25px "Playfair Display",serif}.photo-label small{display:block;margin-top:6px;color:#eee;font-size:9px;letter-spacing:.14em;text-transform:uppercase}.arrow{font-size:21px;color:#f0d9b9}.photo[hidden]{display:none}.note{font-size:11px;color:var(--muted);margin-top:20px}
+.about{background:#eeede7}.about-grid{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:76px}.about-image{width:100%;height:540px;object-fit:cover}.about-copy p{max-width:500px;color:var(--muted);font-size:14px;line-height:1.95;margin:24px 0}.signature{font:italic 27px "Playfair Display",serif;margin-top:26px}.contact{text-align:center;padding:105px 0 112px}.contact h2{max-width:750px;margin:15px auto 22px}.contact p{max-width:520px;margin:0 auto 28px;color:var(--muted);font-size:14px;line-height:1.8}footer{border-top:1px solid var(--line);padding:25px 0;color:var(--muted);font-size:10px;letter-spacing:.07em}.footer-inner{display:flex;align-items:center;justify-content:space-between;gap:18px}.footer-brand{font-weight:700;letter-spacing:.15em;color:var(--ink)}.lightbox{display:none;position:fixed;inset:0;z-index:20;background:#111e;align-items:center;justify-content:center;padding:25px}.lightbox.open{display:flex}.lightbox img{max-width:95vw;max-height:83vh;object-fit:contain}.close{position:absolute;top:20px;right:24px;width:44px;height:44px;background:#fff;color:#222;border:0;font-size:25px;cursor:pointer}
+@media(max-width:760px){.wrap{width:calc(100% - 32px)}.nav{height:72px}.monogram{width:35px;height:35px}.brand{font-size:9px;gap:8px}.navlinks{gap:12px;font-size:9px}.hero{height:86vh;min-height:640px}.hero-content{padding-bottom:75px}.section{padding:76px 0}.section-head{display:block}.section-head p{margin-top:18px}.gallery{display:block}.photo{display:block;width:100%;margin-bottom:14px}.photo img{min-height:300px;max-height:420px}.about-grid{grid-template-columns:1fr;gap:30px}.about-image{height:390px}.contact{padding:78px 0}.footer-inner{flex-direction:column;align-items:flex-start}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="brand" href="#home" aria-label="MBM Photo Art home"><span class="monogram">MBM</span><span>MBM PHOTO ART</span></a>
+<nav class="navlinks" aria-label="Navigazione"><a href="#portfolio">Portfolio</a><a href="#about">La visione</a><a href="#contact">Contatti</a></nav>
+</div></header>
+<main>
+<section class="hero" id="home">
+<img class="hero-img" src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=2200&q=90" alt="Paesaggio montano riflesso in un lago" fetchpriority="high">
+<div class="wrap hero-content"><div class="eyebrow">Fotografia d'autore</div><h1>La bellezza<br>di un <span>istante.</span></h1><p>Immagini che raccontano luoghi, persone e dettagli. Uno sguardo personale sul mondo, tra luce naturale, emozione e composizione.</p><a class="button light" href="#portfolio">Scopri il portfolio&nbsp; ↗</a></div>
+</section>
+<section class="section" id="portfolio"><div class="wrap">
+<div class="section-head"><div><div class="eyebrow">Portfolio selezionato</div><h2>Storie in immagini.</h2></div><p>Ogni fotografia è un incontro tra luce e sensibilità. Una raccolta in continua evoluzione, fatta di momenti da conservare.</p></div>
+<div class="filters" role="group" aria-label="Filtra fotografie">
+<button class="filter active" data-filter="all">Tutte le foto</button><button class="filter" data-filter="landscape">Paesaggi</button><button class="filter" data-filter="portrait">Ritratti</button><button class="filter" data-filter="details">Dettagli</button>
+</div>
+<div class="gallery">
+<button class="photo" data-category="landscape" aria-label="Ingrandisci foto Orizzonti"><img loading="lazy" src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=85" alt="Vette di montagna"><span class="photo-label"><span><strong>Orizzonti</strong><small>Paesaggi</small></span><span class="arrow">↗</span></span></button>
+<button class="photo" data-category="portrait" aria-label="Ingrandisci foto Presenza"><img loading="lazy" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1000&q=85" alt="Ritratto in luce naturale"><span class="photo-label"><span><strong>Presenza</strong><small>Ritratti</small></span><span class="arrow">↗</span></span></button>
+<button class="photo" data-category="landscape" aria-label="Ingrandisci foto Riflessi"><img loading="lazy" src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=85" alt="Paesaggio immerso nella luce"><span class="photo-label"><span><strong>Riflessi</strong><small>Paesaggi</small></span><span class="arrow">↗</span></span></button>
+<button class="photo" data-category="details" aria-label="Ingrandisci foto Luce gentile"><img loading="lazy" src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=1000&q=85" alt="Luce del mattino sulla natura"><span class="photo-label"><span><strong>Luce gentile</strong><small>Dettagli</small></span><span class="arrow">↗</span></span></button>
+<button class="photo" data-category="landscape" aria-label="Ingrandisci foto Silenzio"><img loading="lazy" src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1200&q=85" alt="Lago alpino circondato dalle montagne"><span class="photo-label"><span><strong>Silenzio</strong><small>Paesaggi</small></span><span class="arrow">↗</span></span></button>
+<button class="photo" data-category="details" aria-label="Ingrandisci foto Natura"><img loading="lazy" src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1000&q=85" alt="Luce tra gli alberi di un bosco"><span class="photo-label"><span><strong>Natura</strong><small>Dettagli</small></span><span class="arrow">↗</span></span></button>
+</div>
+<p class="note">Le immagini attuali sono esempi dimostrativi: sostituiscile con i tuoi scatti per completare il portfolio personale.</p>
+</div></section>
+<section class="section about" id="about"><div class="wrap about-grid">
+<img class="about-image" loading="lazy" src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=85" alt="Paesaggio naturale avvolto dalla luce">
+<div class="about-copy"><div class="eyebrow">La visione</div><h2>Osservare.<br>Attendere. Raccontare.</h2><p>La fotografia è il modo in cui mi fermo a osservare ciò che spesso passa inosservato: una luce particolare, un'espressione autentica, un paesaggio che cambia in pochi secondi.</p><p>Con MBM Photo Art raccolgo immagini che cercano semplicità, equilibrio e carattere. Ogni scatto è un piccolo racconto visivo.</p><div class="signature">MBM Photo Art</div></div>
+</div></section>
+<section class="contact" id="contact"><div class="wrap"><div class="eyebrow">Restiamo in contatto</div><h2>Ogni bella storia<br>inizia da un incontro.</h2><p>Per collaborazioni, progetti fotografici o richieste, questa sezione sarà presto pronta ad accogliere il tuo contatto.</p><a class="button" href="#home" id="contactButton">Contatti in arrivo</a></div></section>
+</main>
+<footer><div class="wrap footer-inner"><span class="footer-brand">MBM PHOTO ART</span><span>Fotografia d'autore · Paesaggi · Ritratti · Dettagli</span><span>© <span id="year"></span> MBM Photo Art</span></div></footer>
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Fotografia ingrandita"><button class="close" id="closeLightbox" aria-label="Chiudi">×</button><img id="lightboxImage" alt=""></div>
+<script>
+const filters=document.querySelectorAll('.filter'),photos=document.querySelectorAll('.photo');
+filters.forEach(btn=>btn.addEventListener('click',()=>{filters.forEach(f=>f.classList.toggle('active',f===btn));photos.forEach(p=>p.hidden=btn.dataset.filter!=='all'&&p.dataset.category!==btn.dataset.filter)}));
+const box=document.getElementById('lightbox'),big=document.getElementById('lightboxImage');
+photos.forEach(p=>p.addEventListener('click',()=>{const im=p.querySelector('img');big.src=im.src;big.alt=im.alt;box.classList.add('open');document.getElementById('closeLightbox').focus()}));
+function closeBox(){box.classList.remove('open');big.src=''}
+document.getElementById('closeLightbox').addEventListener('click',closeBox);box.addEventListener('click',e=>{if(e.target===box)closeBox()});document.addEventListener('keydown',e=>{if(e.key==='Escape')closeBox()});document.getElementById('year').textContent=new Date().getFullYear();
+</script>
+</body></html>
