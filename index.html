@@ -60,6 +60,7 @@ const filters=document.querySelectorAll('.filter'),photos=document.querySelector
 filters.forEach(btn=>btn.addEventListener('click',()=>{filters.forEach(f=>f.classList.toggle('active',f===btn));photos.forEach(p=>p.hidden=btn.dataset.filter!=='all'&&p.dataset.category!==btn.dataset.filter)}));
 const box=document.getElementById('lightbox'),big=document.getElementById('lightboxImage');
 photos.forEach(p=>p.addEventListener('click',()=>{const im=p.querySelector('img');big.src=im.src;big.alt=im.alt;box.classList.add('open');document.getElementById('closeLightbox').focus()}));
+document.querySelectorAll('main img:not(.photo img)').forEach(im=>{if(im.closest('a.brand')||im.id==='lightboxImage')return;im.style.cursor='zoom-in';im.addEventListener('click',()=>{big.src=im.currentSrc||im.src;big.alt=im.alt||'Fotografia';box.classList.add('open');document.getElementById('closeLightbox').focus()})});
 function closeBox(){box.classList.remove('open');big.src=''}
 document.getElementById('closeLightbox').addEventListener('click',closeBox);box.addEventListener('click',e=>{if(e.target===box)closeBox()});document.addEventListener('keydown',e=>{if(e.key==='Escape')closeBox()});document.getElementById('year').textContent=new Date().getFullYear();
 </script>
