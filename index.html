@@ -8,9 +8,7 @@
 <title>MBM Photo Art — Fotografia d'autore</title>
 <link rel="icon" type="image/svg+xml" href="logo.svg?v=2">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="assets/passo-della-novena.webp" fetchpriority="high">
 <style>
 :root{--bg:#f7f6f2;--paper:#fff;--ink:#242521;--muted:#777970;--line:#e5e3dc;--accent:#9a7851}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:"DM Sans",sans-serif}a{color:inherit;text-decoration:none}.wrap{width:min(1220px,calc(100% - 48px));margin:auto}
@@ -20,6 +18,32 @@ header{position:absolute;inset:0 0 auto;z-index:4;border-bottom:1px solid #fffff
 .nellim-gallery-image{filter:grayscale(.96) brightness(1.11) contrast(1.08) sepia(.025)}.about{background:#eeede7}.about-grid{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:76px}.about-image{width:100%;height:540px;object-fit:cover;object-position:center;filter:grayscale(.96) brightness(1.11) contrast(1.08) sepia(.025)}.about-copy p{max-width:500px;color:var(--muted);font-size:14px;line-height:1.95;margin:24px 0}.signature{font:italic 27px "Playfair Display",serif;margin-top:26px}.contact{text-align:center;padding:105px 0 112px}.contact h2{max-width:750px;margin:15px auto 22px}.contact p{max-width:520px;margin:0 auto 28px;color:var(--muted);font-size:14px;line-height:1.8}footer{border-top:1px solid var(--line);padding:25px 0;color:var(--muted);font-size:10px;letter-spacing:.07em}.footer-inner{display:flex;align-items:center;justify-content:space-between;gap:18px}.footer-brand{font-weight:700;letter-spacing:.15em;color:var(--ink)}.lightbox{display:none;position:fixed;inset:0;z-index:20;background:#111e;align-items:center;justify-content:center;padding:25px}.lightbox.open{display:flex}.lightbox img{display:block;width:auto;height:auto;max-width:95vw;max-height:88vh;object-fit:contain;filter:none}.close{position:absolute;top:20px;right:24px;width:44px;height:44px;background:#fff;color:#222;border:0;font-size:25px;cursor:pointer}
 @media(max-width:760px){.nature-intro{grid-template-columns:1fr;gap:28px;padding:26px 22px}.photo.nature-feature{grid-column:span 12;min-height:0}.photo.nature-feature img{min-height:0;max-height:none}.photo img{height:auto;min-height:0;max-height:none;object-fit:contain}.wrap{width:calc(100% - 32px)}.nav{height:72px}.monogram{width:40px;height:40px}.brand{font-size:9px;gap:8px}.navlinks{gap:12px;font-size:9px}.hero{height:86vh;min-height:640px}.hero-content{padding-bottom:75px}.section{padding:76px 0}.section-head{display:block}.section-head p{margin-top:18px}.gallery{display:block}.photo{display:block;width:100%;margin-bottom:14px}.photo img{min-height:300px;max-height:420px}.about-grid{grid-template-columns:1fr;gap:30px}.about-image{height:390px}.contact{padding:78px 0}.footer-inner{flex-direction:column;align-items:flex-start}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+
+/* Ripartenza visuale: hero alpino chiaro, minimale e veloce */
+:root{--bg:#f7f7f5;--paper:#fff;--ink:#10213b;--muted:#5d6470;--line:#e1e3e6;--accent:#b7a184}
+body{font-family:Arial,Helvetica,sans-serif}
+h1,h2,h3,.photo-label strong,.signature{font-family:Georgia,"Times New Roman",serif}
+header{border-bottom:1px solid #10213b24;background:#ffffff08}
+.brand,.navlinks{color:#10213b}
+.hero{height:100svh;min-height:620px;max-height:none;align-items:center;background:#f5f5f3}
+.hero-img{object-position:center 48%;filter:none}
+.hero:after{background:linear-gradient(90deg,#ffffffb8 0%,#ffffff82 34%,#ffffff24 68%,#ffffff0a 100%);opacity:1}
+.hero-content{padding-top:88px;padding-bottom:0;color:#10213b;max-width:850px}
+.hero .eyebrow{color:#8b785f}
+h1{font-size:clamp(58px,7.2vw,100px);line-height:.98;letter-spacing:-.055em}
+.hero h1 span{color:#9a876b}
+.hero p{color:#263348}
+.button.light{color:#10213b;border-color:#10213b;background:transparent}
+.button.light:hover{background:#10213b;color:#fff}
+@media(max-width:760px){
+ .brand,.navlinks{color:#10213b}
+ .hero{height:90svh;min-height:620px;align-items:center}
+ .hero-img{object-position:54% center}
+ .hero:after{background:linear-gradient(90deg,#ffffffd9 0%,#ffffffa8 58%,#ffffff45 100%)}
+ .hero-content{padding-top:78px;padding-bottom:0}
+ h1{font-size:clamp(52px,13vw,76px)}
+}
+
 </style>
 </head>
 <body>
@@ -29,7 +53,7 @@ header{position:absolute;inset:0 0 auto;z-index:4;border-bottom:1px solid #fffff
 </div></header>
 <main>
 <section class="hero" id="home">
-<img class="hero-img" src="assets/portfolio-01-paesaggio-lago.jpg" alt="Paesaggio montano riflesso in un lago" fetchpriority="high">
+<img class="hero-img" src="assets/passo-della-novena.webp" alt="Vette alpine innevate avvolte dalla nebbia" fetchpriority="high" decoding="async">
 <div class="wrap hero-content"><div class="eyebrow">Fotografia d'autore</div><h1>La bellezza<br>di un <span>istante.</span></h1><p>Immagini che raccontano luoghi, persone e dettagli. Uno sguardo personale sul mondo, tra luce naturale, emozione e composizione.</p><a class="button light" href="#portfolio">Scopri il portfolio&nbsp; ↗</a></div>
 </section>
 <section class="section" id="portfolio"><div class="wrap">
