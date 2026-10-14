@@ -2,7 +2,7 @@
 <html lang="it">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#f7f6f2">
 <meta name="description" content="MBM Photo Art — fotografie di Magda Bernasconi. Paesaggi, montagna, natura, mare e fotografia in bianco e nero.">
 <title>MBM Photo Art — Magda Bernasconi</title>
@@ -22,13 +22,60 @@ footer{background:var(--dark);color:#f7f6f2;padding:34px 0}.footer-inner{display
 .lightbox{position:fixed;inset:0;background:#111e;z-index:20;display:none;align-items:center;justify-content:center;padding:28px}.lightbox.open{display:flex}.lightbox img{max-width:min(94vw,1500px);max-height:86vh;object-fit:contain;box-shadow:0 18px 80px #0008}.lightbox button{position:absolute;top:20px;right:24px;background:transparent;border:1px solid #ffffff80;color:white;width:44px;height:44px;font-size:24px;cursor:pointer}
 @media(max-width:850px){.nav{height:72px}.navlinks{gap:13px;font-size:9px}.brand{letter-spacing:.12em}.brand img{width:38px}.hero{height:78vh;min-height:580px}.hero-content{padding-bottom:75px}.section{padding:75px 0}.gallery{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 14px}.show-grid{grid-template-columns:1fr}.show-image,.show-image img{min-height:320px;max-height:440px}.show-copy{padding:48px 30px 55px}.about-grid{grid-template-columns:1fr;gap:20px}}
 @media(max-width:560px){.wrap{width:calc(100% - 32px)}.nav{align-items:center}.navlinks{gap:11px}.navlinks a{font-size:8px;letter-spacing:.05em}.navlinks a:nth-child(4){display:none}.brand{gap:7px;font-size:9px}.brand img{width:30px;height:36px}.hero{min-height:600px;height:82vh}.hero-content{padding-bottom:58px}.hero h1{font-size:55px}.hero p{font-size:13px}.section{padding:62px 0}.section-head{display:block}.section-head p{margin-top:18px}.gallery{gap:23px 10px}.photo-image{aspect-ratio:3/4}.photo-info strong{font-size:18px}.photo-info small{font-size:9px}.photo-info .arrow{font-size:15px}.filters{gap:6px}.filter{padding:9px 10px;font-size:9px}.footer-inner{align-items:flex-start;flex-direction:column}.footer-links{gap:16px}}
+
+/* Navigazione touch per iPhone e iPad */
+.menu-toggle{display:none}
+@media(max-width:900px){
+ .nav{position:relative;gap:12px}
+ .menu-toggle{display:flex;width:46px;height:46px;flex:0 0 46px;align-items:center;justify-content:center;flex-direction:column;gap:5px;border:1px solid #ffffff80;background:#ffffff12;border-radius:50%;color:#fff;cursor:pointer;touch-action:manipulation}
+ .menu-toggle span{display:block;width:18px;height:2px;background:#fff;border-radius:2px;transition:transform .2s,opacity .2s}
+ .menu-toggle[aria-expanded="true"] span:first-child{transform:translateY(7px) rotate(45deg)}
+ .menu-toggle[aria-expanded="true"] span:nth-child(2){opacity:0}
+ .menu-toggle[aria-expanded="true"] span:last-child{transform:translateY(-7px) rotate(-45deg)}
+ .navlinks{display:none;position:absolute;top:calc(100% - 1px);left:0;right:0;z-index:12;padding:10px;background:var(--paper);color:var(--ink);box-shadow:0 18px 40px #0002;flex-direction:column;align-items:stretch;gap:0;font-size:11px;letter-spacing:.09em}
+ .navlinks.open{display:flex}
+ .navlinks a{display:flex;align-items:center;min-height:48px;padding:0 13px;border-bottom:1px solid var(--line);font-size:11px;letter-spacing:.09em;color:var(--ink);opacity:1}
+ .navlinks a:last-child{border-bottom:0}
+ .navlinks a:active{background:#efede6}
+}
+@media(max-width:600px){
+ .wrap{width:calc(100% - 32px)}
+ .nav{height:70px}
+ .brand{font-size:9px;gap:8px}
+ .brand img{width:36px;height:40px}
+ .menu-toggle{width:44px;height:44px;flex-basis:44px}
+ .hero{min-height:560px;height:84svh;max-height:none}
+ .hero-content{padding-bottom:52px}
+ .hero h1{font-size:clamp(46px,13vw,64px)}
+ .hero p{max-width:36ch;font-size:13px;line-height:1.75}
+ .section{padding:64px 0}
+ .filters{display:flex;flex-wrap:nowrap;overflow-x:auto;overflow-y:hidden;padding-bottom:8px;margin-right:-16px;scroll-snap-type:x proximity;-webkit-overflow-scrolling:touch}
+ .filters .filter{flex:0 0 auto;white-space:nowrap;scroll-snap-align:start;min-height:42px}
+ .gallery{grid-template-columns:1fr;gap:25px}
+ .photo-image{aspect-ratio:4/3}
+ .photo-info strong{font-size:21px}
+ .show-grid{grid-template-columns:1fr}
+ .show-image{min-height:0;aspect-ratio:4/3}
+ .show-image img{min-height:0;height:100%}
+ .show-copy{padding:38px 24px}
+ .about-grid{grid-template-columns:1fr;gap:25px}
+ .lightbox{padding:10px}
+ .lightbox img{max-width:100%;max-height:80svh}
+ .close{top:max(12px,env(safe-area-inset-top));right:12px;width:46px;height:46px}
+}
+@media(orientation:landscape) and (max-width:900px){
+ .hero{height:100svh;min-height:430px}
+ .hero-content{padding-bottom:26px}
+ .hero h1{font-size:clamp(42px,7vw,64px)}
+}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
 </style>
 </head>
 <body>
 <header><div class="wrap nav">
 <a class="brand" href="#home" aria-label="MBM Photo Art, home"><img src="logo.svg" alt=""><span>MBM PHOTO ART</span></a>
-<nav class="navlinks" aria-label="Navigazione principale"><a href="#portfolio">Portfolio</a><a href="concorsi-vinti.html">Concorsi vinti</a><a href="mostra.html">Mostra permanente</a><a href="#about">La visione</a><a href="#contatti">Contatti</a></nav>
+<button class="menu-toggle" type="button" aria-label="Apri il menu" aria-controls="siteMenu" aria-expanded="false"><span></span><span></span><span></span></button>
+<nav class="navlinks" id="siteMenu" aria-label="Navigazione principale"><a href="#portfolio">Portfolio</a><a href="concorsi-vinti.html">Concorsi vinti</a><a href="mostra.html">Mostra permanente</a><a href="#about">La visione</a><a href="#contatti">Contatti</a></nav>
 </div></header>
 <main>
 <section class="hero" id="home">
@@ -73,6 +120,13 @@ footer{background:var(--dark);color:#f7f6f2;padding:34px 0}.footer-inner{display
 <footer id="contatti"><div class="wrap footer-inner"><div>© <span id="year"></span> MBM PHOTO ART · MAGDA BERNASCONI</div><div class="footer-links"><a href="concorsi-vinti.html">Concorsi vinti</a><a href="mostra.html">Mostra permanente</a><a href="mailto:bernasconim8@gmail.com">Scrivimi</a></div></div></footer>
 <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Fotografia ingrandita"><button type="button" id="closeLightbox" aria-label="Chiudi">×</button><img id="lightboxImage" alt=""></div>
 <script>
+
+const menuToggle=document.querySelector('.menu-toggle'),siteMenu=document.getElementById('siteMenu');
+function setMenu(open){menuToggle.setAttribute('aria-expanded',String(open));menuToggle.setAttribute('aria-label',open?'Chiudi il menu':'Apri il menu');siteMenu.classList.toggle('open',open)}
+menuToggle.addEventListener('click',()=>setMenu(menuToggle.getAttribute('aria-expanded')!=='true'));
+siteMenu.querySelectorAll('a').forEach(link=>link.addEventListener('click',()=>setMenu(false)));
+document.addEventListener('keydown',e=>{if(e.key==='Escape')setMenu(false)});
+document.addEventListener('click',e=>{if(!siteMenu.contains(e.target)&&!menuToggle.contains(e.target))setMenu(false)});
 const filters=[...document.querySelectorAll(".filter")], photos=[...document.querySelectorAll(".photo")];
 filters.forEach(btn=>btn.addEventListener("click",()=>{const f=btn.dataset.filter;filters.forEach(b=>{const active=b===btn;b.classList.toggle("active",active);b.setAttribute("aria-pressed",String(active))});photos.forEach(p=>{p.hidden=f!=="all"&&!p.dataset.cats.split(" ").includes(f)})}));
 const lightbox=document.getElementById("lightbox"), lightboxImage=document.getElementById("lightboxImage");
