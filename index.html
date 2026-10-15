@@ -9,7 +9,7 @@
 <link rel="icon" type="image/svg+xml" href="logo.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@200;300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
 <style>
 :root{--bg:#f7f6f2;--paper:#fffefa;--ink:#262722;--muted:#777970;--line:#e4e1d9;--accent:#9b7954;--dark:#20231f}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:"DM Sans",sans-serif}a{color:inherit;text-decoration:none}button{font:inherit}.wrap{width:min(1240px,calc(100% - 48px));margin:auto}
@@ -89,6 +89,19 @@ header{position:relative;background:#fff;border-bottom:1px solid #efefed}
 @media(max-width:1050px){.hero{min-height:540px}.hero h1{font-size:clamp(58px,8vw,84px);max-width:390px}.hero-img{width:75%;right:-7%}.hero-content{padding:75px 0}.hero p{max-width:300px}}
 @media(max-width:600px){.hero{min-height:0;height:auto;display:flex;flex-direction:column;align-items:stretch;overflow:hidden}.hero-content{width:calc(100% - 32px);padding:42px 0 12px;order:0}.hero h1{font-size:clamp(52px,14vw,76px);max-width:none;margin-bottom:20px}.hero p{max-width:28ch;font-size:16px;margin-bottom:24px}.hero-img{position:relative;inset:auto;width:100%;height:auto;aspect-ratio:16/9;object-fit:contain;order:1;z-index:0;margin-top:5px}.hero .button{min-height:48px}.section{padding-top:48px}}
 @media(orientation:landscape) and (max-width:900px) and (min-width:601px){.hero{height:auto;min-height:420px}.hero-content{padding:48px 0}.hero h1{font-size:64px}}
+
+/* Titolo: carattere sottile, ritmo e spazio tra le righe. */
+.hero-content{padding-top:78px;padding-bottom:88px}
+.hero-signature{font-size:9px;font-weight:500;letter-spacing:.23em;text-transform:uppercase;color:#777b78;margin-bottom:27px}
+.hero h1{font-size:clamp(64px,7.3vw,104px);font-weight:300;line-height:1.09;letter-spacing:-.055em;max-width:540px;margin:0 0 22px;color:#232724}
+.hero h1 span{display:block;white-space:nowrap}
+.hero h1 .title-second{font-weight:200;color:#515952}
+.hero h1:after{content:"";display:block;width:44px;height:1px;background:#a5a99e;margin-top:29px}
+.hero p{font-size:clamp(14px,1.3vw,17px);font-weight:400;color:#747971;line-height:1.7;max-width:300px;margin-bottom:29px}
+.hero .button{letter-spacing:.14em;border-color:#b8bcb3;min-height:46px;padding:0 21px}
+@media(max-width:1050px){.hero h1{font-size:clamp(58px,7.6vw,80px)}.hero-signature{font-size:8px;letter-spacing:.18em}}
+@media(max-width:600px){.hero-content{padding-top:34px;padding-bottom:10px}.hero-signature{font-size:8px;letter-spacing:.19em;margin-bottom:22px}.hero h1{font-size:clamp(52px,13.5vw,76px);line-height:1.08;letter-spacing:-.05em;margin-bottom:20px}.hero h1:after{margin-top:23px;width:38px}.hero p{font-size:14px;max-width:27ch;margin-bottom:23px}}
+@media(orientation:landscape) and (max-width:900px) and (min-width:601px){.hero-content{padding-top:35px;padding-bottom:40px}.hero h1{font-size:62px}.hero-signature{margin-bottom:18px}}
 </style>
 <link rel="stylesheet" href="brand-theme.css?v=20261015-attimi">
 </head>
@@ -101,7 +114,7 @@ header{position:relative;background:#fff;border-bottom:1px solid #efefed}
 <main>
 <section class="hero" id="home" aria-labelledby="home-title">
 <img class="hero-img" src="assets/home-attimi-che-restano.jpg" alt="Cime innevate tra le nuvole, fotografia di Magda Bernasconi" fetchpriority="high" width="2048" height="1152">
-<div class="wrap hero-content"><h1 id="home-title">Attimi che<br>restano.</h1><p>La fotografia, il mio modo di ricordare.</p><a class="button" href="#portfolio">Esplora le fotografie <span aria-hidden="true">&nbsp;→</span></a></div>
+<div class="wrap hero-content"><div class="hero-signature">Fotografie di Magda Bernasconi</div><h1 id="home-title"><span class="title-first">Attimi che</span><span class="title-second">restano.</span></h1><p>La fotografia, il mio modo di ricordare.</p><a class="button" href="#portfolio">Esplora le fotografie <span aria-hidden="true">&nbsp;→</span></a></div>
 </section>
 <section class="section" id="portfolio"><div class="wrap">
 <div class="section-head"><div><div class="eyebrow">La visione · Magda Bernasconi</div><h2>Il mondo, un istante alla volta.</h2></div><p>Paesaggi, atmosfere e dettagli raccolti con uno sguardo attento alla luce e alle emozioni.</p></div>
