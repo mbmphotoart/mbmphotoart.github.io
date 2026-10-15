@@ -1,0 +1,10 @@
+/* The original logo.svg is kept intact; only its displayed colour changes. */
+header[data-brand-tone="light"]{--brand-ink:#171817;--brand-logo-filter:brightness(0);--brand-line:#25262033;color:var(--brand-ink)}
+header[data-brand-tone="dark"]{--brand-ink:#fff;--brand-logo-filter:brightness(0) invert(1);--brand-line:#ffffff66;color:var(--brand-ink)}
+header[data-brand-tone] .brand{color:var(--brand-ink)}
+header[data-brand-tone] .brand img{filter:var(--brand-logo-filter)}
+header[data-brand-tone] .menu-toggle{color:var(--brand-ink);border-color:var(--brand-line);background:transparent}
+header[data-brand-tone] .menu-toggle span{background:var(--brand-ink)}
+header[data-brand-tone] .navlinks,header[data-brand-tone] .links{color:var(--brand-ink)}
+@media(max-width:900px){header[data-brand-tone] .navlinks.open{color:#171817;background:#fff}header[data-brand-tone] .navlinks.open a{color:#171817}}
+@media(max-width:850px){header[data-brand-tone] .links.open{color:#171817;background:#fff}header[data-brand-tone] .links.open a{color:#171817}}
