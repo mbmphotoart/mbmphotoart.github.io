@@ -2,90 +2,143 @@
 <html lang="it">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#f7f6f2">
-<meta name="description" content="Il rumore del silenzio — mostra fotografica permanente di Magda Bernasconi.">
-<title>Il rumore del silenzio — MBM Photo Art</title>
-<link rel="icon" type="image/svg+xml" href="logo.svg?v=2">
-
+<meta name="description" content="Il rumore del silenzio, mostra fotografica permanente di Magda Bernasconi a Mendrisio. Fotografie stampate interamente su vetro.">
+<title>Il rumore del silenzio — Magda Bernasconi | MBM Photo Art</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#f7f6f2;--ink:#242521;--muted:#777970;--line:#e5e3dc;--accent:#9a7851}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:"DM Sans",sans-serif}a{color:inherit;text-decoration:none}
-.wrap{width:min(1120px,calc(100% - 48px));margin:auto}
-header{background:#292d2a;color:white;border-bottom:1px solid #ffffff30}.nav{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:12px;font-size:12px;font-weight:700;letter-spacing:.16em}.brand img{width:48px;height:44px;object-fit:contain}.links{display:flex;gap:24px;font-size:11px;letter-spacing:.12em;text-transform:uppercase}
-.hero{position:relative;overflow:hidden;background:#e8edf4;color:#242521;padding:0}.hero-cover{min-height:390px;height: min(43vw,560px);border-radius:24px;isolation:isolate}.hero-art{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:cover;object-position:center 57%;border-radius:24px}.hero-cover:after{content:"";position:absolute;inset:0;z-index:0;border-radius:24px;background:linear-gradient(90deg,#f8f8f5dd 0%,#f8f8f555 48%,transparent 78%)}.hero-title{position:relative;z-index:1;padding:56px clamp(24px,5vw,60px);max-width:620px}.hero-title h1{font:400 clamp(44px,6vw,76px)/.98 Georgia,"Times New Roman",serif;letter-spacing:-.04em;margin:18px 0 12px;color:#242521}.hero-title p{font-size:14px;color:#34352f;margin:0}.nellim2-gallery{display:block;width:100%;height:auto;aspect-ratio:auto;object-fit:contain;filter:none}
-.hero-image{display:none}.eyebrow{font-size:10px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:#bda17e}h1{font:400 clamp(48px,7vw,82px)/1.02 "Playfair Display",serif;letter-spacing:-.045em;margin:18px 0 12px}.byline{font-size:15px;color:#e4e3dc}.intro{display:grid;grid-template-columns:1fr 1fr;gap:40px;padding:44px 0;border-bottom:1px solid var(--line);align-items:center}.quote{font:italic clamp(20px,2.5vw,27px)/1.45 "Playfair Display",serif}.quote small{display:block;margin-top:12px;font:500 12px "DM Sans",sans-serif;color:var(--muted)}.intro p{font-size:14px;line-height:1.9;color:var(--muted)}
-.gallery-section{padding:48px 0 70px}h2{font:400 clamp(34px,4vw,48px)/1.1 "Playfair Display",serif;letter-spacing:-.035em;margin:10px 0 16px}.lead{font-size:14px;line-height:1.8;color:var(--muted);max-width:720px;margin-bottom:30px}.gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px 16px}.photo{margin:0;min-width:0}.photo a{display:block;background:#e6e4dd;overflow:hidden}.photo img{display:block;width:100%;aspect-ratio:3/2;object-fit:cover;transition:transform .35s ease}.photo a:hover img{transform:scale(1.025)}figcaption{font-size:12px;padding:9px 2px;color:#55564f}
-.location{background:#eeede7;padding:48px 0}.location p{font-size:14px;line-height:1.9;color:var(--muted)}footer{border-top:1px solid var(--line);padding:25px 0;color:var(--muted);font-size:11px}.footer{display:flex;justify-content:space-between;gap:18px}.footer strong{color:var(--ink);letter-spacing:.15em}
-@media(max-width:760px){.hero-cover{height:460px;min-height:0}.hero-title{padding:42px 28px}.hero-title h1{font-size:clamp(42px,10vw,62px)}}
-@media(max-width:760px){.wrap{width:calc(100% - 32px)}.hero-cover{height:430px}.hero-title{padding:38px 22px}.hero-title h1{font-size:clamp(40px,11vw,56px)}.nav{padding:14px 0;align-items:flex-start;flex-direction:column}.links{gap:14px;flex-wrap:wrap;font-size:9px}.hero{padding:54px 0 44px}.intro{grid-template-columns:1fr;gap:24px;padding:34px 0}.gallery{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px 10px}.footer{flex-direction:column}}
-@media(max-width:420px){.gallery{grid-template-columns:1fr}}
-.lightbox{display:none;position:fixed;inset:0;z-index:100;background:rgba(12,14,13,.92);align-items:center;justify-content:center;padding:24px;cursor:zoom-out}.lightbox.open{display:flex}.lightbox img{width:min(92vw,1400px);height:min(82vh,850px);max-width:95vw;max-height:88vh;aspect-ratio:3/2;object-fit:contain;box-shadow:0 10px 50px #0005;cursor:default}.lightbox img.nellim2-lightbox{filter:none}.lightbox-close{position:absolute;top:16px;right:18px;width:44px;height:44px;border:0;border-radius:50%;background:#fff;color:#222;font-size:28px;line-height:1;cursor:pointer}
-/* Font locali di sistema: primo rendering senza attese di servizi esterni */
-body{font-family:Arial,Helvetica,sans-serif}h1,h2,h3,.signature{font-family:Georgia,"Times New Roman",serif}
+:root{--paper:#f7f6f2;--ink:#252620;--muted:#686961;--line:#deddd5;--accent:#b49b7b;--white:#fff}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:20px}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:"DM Sans",Arial,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{width:min(1180px,calc(100% - 64px));margin-inline:auto}
+header{position:absolute;z-index:5;top:0;left:0;right:0;color:var(--ink)}
+.nav{min-height:82px;display:flex;align-items:center;justify-content:space-between;gap:24px;border-bottom:1px solid #25262020}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;font-size:11px;font-weight:600;letter-spacing:.18em;white-space:nowrap}
+.brand img{width:34px;height:38px;object-fit:contain}
+.links{display:flex;align-items:center;gap:clamp(15px,2.5vw,32px)}
+.links a{text-decoration:none;text-transform:uppercase;font-size:10px;letter-spacing:.12em;padding:10px 0;border-bottom:1px solid transparent}
+.links a:hover,.links a[aria-current=page]{border-color:var(--accent)}
+.menu-toggle{display:none;border:1px solid #25262055;background:#ffffffa8;border-radius:50%;width:44px;height:44px;align-items:center;justify-content:center;flex-direction:column;gap:5px}
+.menu-toggle span{height:1.5px;width:17px;background:var(--ink)}
+.hero{position:relative;min-height:420px;height:min(58vw,650px);max-height:700px;overflow:hidden;border-radius:0 0 30px 30px;background:#e7ebf0;isolation:isolate}
+.hero-art{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 58%;z-index:-2}
+.hero:after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,#f7f6f2e8 0%,#f7f6f277 43%,transparent 76%),linear-gradient(0deg,#f7f6f244,transparent 55%)}
+.hero-inner{padding-top:clamp(120px,14vw,185px);padding-bottom:64px}
+.eyebrow{font-size:10px;line-height:1.6;text-transform:uppercase;letter-spacing:.22em;color:#927c60;font-weight:600}
+h1,h2,.quote{font-family:"Playfair Display",Georgia,serif;font-weight:400}
+h1{font-size:clamp(48px,7vw,88px);line-height:.98;letter-spacing:-.045em;margin:20px 0 14px;max-width:670px}
+.byline{font-size:14px;margin:0}
+.intro{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(32px,7vw,100px);padding:66px 0 62px;border-bottom:1px solid var(--line);align-items:start}
+.quote{font-size:clamp(22px,2.5vw,31px);font-style:italic;line-height:1.42;margin:0}
+.quote cite{display:block;margin-top:17px;font:500 11px "DM Sans",Arial,sans-serif;font-style:normal;color:var(--muted);letter-spacing:.04em}
+.intro-copy p{margin:0 0 16px;font-size:14px;line-height:1.95;color:#55564f}
+.glass-note{margin-top:22px;padding:18px 20px;border-left:2px solid var(--accent);background:#efeee8;font-size:12px;line-height:1.8;color:#4e4f48}
+.gallery-section{padding:64px 0 82px}
+.section-heading{display:flex;justify-content:space-between;align-items:end;gap:28px;margin-bottom:32px}
+h2{font-size:clamp(36px,4.6vw,58px);line-height:1.05;letter-spacing:-.035em;margin:10px 0 0}
+.lead{max-width:420px;color:var(--muted);font-size:13px;line-height:1.8;margin:0}
+.gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px 18px}
+.photo{margin:0;min-width:0}
+.photo-button{display:block;width:100%;padding:0;border:0;background:#e8e6df;overflow:hidden;cursor:zoom-in;aspect-ratio:4/3}
+.photo-button img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .5s ease}
+.photo-button:hover img{transform:scale(1.035)}
+figcaption{display:flex;justify-content:space-between;gap:12px;padding:12px 2px 0;font-size:12px;color:#55564f}
+figcaption span{font-size:10px;color:#9a8a73;letter-spacing:.1em}
+.location{padding:48px 0 54px;background:#eeede7}
+.location-grid{display:grid;grid-template-columns:1fr 1fr;gap:36px;align-items:center}
+.location h2{font-size:clamp(32px,4vw,46px);margin:12px 0}
+.location p{font-size:13px;line-height:1.9;color:var(--muted)}
+.map-link{display:inline-flex;align-items:center;gap:9px;text-decoration:none;border-bottom:1px solid var(--accent);padding:7px 0;font-size:11px;letter-spacing:.06em}
+footer{padding:24px 0;font-size:11px;color:var(--muted)}
+.footer{display:flex;justify-content:space-between;gap:18px;align-items:center}
+.footer a{text-decoration:none}
+.lightbox{display:none;position:fixed;inset:0;z-index:20;background:#11130ff2;align-items:center;justify-content:center;padding:24px}
+.lightbox.open{display:flex}
+.lightbox img{display:block;max-width:94vw;max-height:86svh;object-fit:contain}
+.lightbox-close{position:absolute;top:max(18px,env(safe-area-inset-top));right:18px;width:46px;height:46px;border:1px solid #ffffff70;border-radius:50%;background:#ffffff;color:#222;font-size:28px;cursor:pointer}
+@media(max-width:850px){.wrap{width:calc(100% - 40px)}.nav{min-height:72px}.menu-toggle{display:flex}.links{display:none;position:absolute;top:72px;left:20px;right:20px;background:var(--paper);padding:8px 18px;box-shadow:0 15px 35px #0002;flex-direction:column;align-items:stretch;gap:0}.links.open{display:flex}.links a{min-height:46px;display:flex;align-items:center;border-bottom:1px solid var(--line)}.hero{height:500px;min-height:0}.hero-inner{padding-top:145px}.intro{grid-template-columns:1fr;gap:25px;padding:45px 0}.gallery{grid-template-columns:repeat(2,minmax(0,1fr));gap:26px 14px}.section-heading{display:block}.lead{margin-top:18px}.location-grid{grid-template-columns:1fr;gap:8px}}
+@media(max-width:520px){.wrap{width:calc(100% - 32px)}.brand{font-size:9px;letter-spacing:.13em;gap:9px}.brand img{width:31px;height:35px}.hero{height:440px;border-radius:0 0 22px 22px}.hero-art{object-position:53% center}.hero:after{background:linear-gradient(90deg,#f7f6f2dd 0%,#f7f6f277 65%,transparent 100%),linear-gradient(0deg,#f7f6f255,transparent 60%)}.hero-inner{padding-top:132px}.hero h1{font-size:clamp(43px,12vw,60px);margin-top:18px}.byline{font-size:13px}.intro{padding:38px 0}.quote{font-size:24px}.gallery-section{padding:44px 0 54px}.gallery{grid-template-columns:1fr;gap:27px}.photo-button{aspect-ratio:4/3}.photo-button img{object-position:center}.location{padding:38px 0}.footer{align-items:flex-start;flex-direction:column;gap:8px}.lightbox{padding:12px}.lightbox img{max-width:100%;max-height:82svh}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
 </style>
 </head>
 <body>
-<header><div class="wrap nav"><a class="brand" href="index.html"><img src="logo.svg?v=2" alt="MBM Photo Art"><span>MBM PHOTO ART</span></a><nav class="links"><a href="index.html#portfolio">Portfolio</a><a href="index.html#about">La visione</a><a href="concorsi-vinti.html">Concorsi vinti</a><a href="index.html#contact">Contatti</a></nav></div></header>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="index.html"><img src="logo.svg" alt=""><span>MBM PHOTO ART</span></a>
+    <button class="menu-toggle" type="button" aria-label="Apri il menu" aria-expanded="false" aria-controls="siteLinks"><span></span><span></span><span></span></button>
+    <nav class="links" id="siteLinks" aria-label="Navigazione principale">
+      <a href="index.html#portfolio">Portfolio</a>
+      <a href="index.html#about">La visione</a>
+      <a href="concorsi-vinti.html">Concorsi vinti</a>
+      <a href="mostra.html" aria-current="page">Mostre</a>
+      <a href="index.html#contact">Contatti</a>
+    </nav>
+  </div>
+</header>
 <main>
-<section class="hero hero-cover"><img class="hero-art" src="assets/mostra-copertina.webp?v=20261014" alt="Paesaggio innevato della Lapponia — Il rumore del silenzio" fetchpriority="high"><div class="hero-title"><div class="eyebrow">Mostra fotografica permanente · Mendrisio</div><h1>Il rumore<br>del silenzio.</h1><p>Di Magda Bernasconi</p></div></section>
-<div class="wrap">
-<section class="intro">
-  <div class="quote">“Una fotografia è un segreto che parla di un segreto. Più essa racconta, meno è possibile conoscere.”<small>Diane Arbus</small></div>
-  <div><div class="eyebrow">Il progetto</div><p>Una raccolta di luoghi, emozioni e dettagli. Sono amante della natura e quando sono a contatto con essa mi sento libera, al mio posto, in pace. Attraverso la fotografia cerco di raccontare le sensazioni che provo quando la osservo. Mi lascia affascinare e trasportare dal silenzio, dai profumi e dai mille colori. Il viaggio diventa per me un pretesto per scoprire e fotografare il mio mondo.</p><p>Le fotografie della mostra sono stampate interamente su vetro, una soluzione che esalta i colori, la profondità e la purezza dell’immagine, offrendo una resa unica e luminosa.</p></div>
-</section>
-<section class="gallery-section"><div class="eyebrow">La mostra</div><h2>Paesaggi da ascoltare.</h2><p class="lead">Le fotografie qui presentate sono esclusivamente quelle estratte dal PDF della mostra. Le immagini sono esclusivamente le tue fotografie estratte dal PDF della mostra, senza immagini di repertorio o generate.</p>
-<div class="gallery">
-      <figure class="photo">
-        <img src="assets/valle-verzasca-01.webp" alt="Valle Verzasca" loading="lazy">
-        <figcaption>Valle Verzasca</figcaption>
-      </figure>
-      <figure class="photo">
-        <img src="assets/dalpe.webp" alt="Dalpe" loading="lazy">
-        <figcaption>Dalpe</figcaption>
-      </figure>
-      <figure class="photo">
-        <img src="assets/piumogna-faido.webp" alt="Piumogna – Faido" loading="lazy">
-        <figcaption>Piumogna – Faido</figcaption>
-      </figure>
-      <figure class="photo">
-        <img src="assets/petronilla-biasca.webp" alt="Petronilla – Biasca" loading="lazy">
-        <figcaption>Petronilla – Biasca</figcaption>
-      </figure>
-      <figure class="photo">
-        <img src="assets/passo-della-novena.webp" alt="Passo della Novena" loading="lazy">
-        <figcaption>Passo della Novena</figcaption>
-      </figure>
-      <figure class="photo">
-        <img src="assets/rodano-bellwald.webp" alt="Rodano – Bellwald" loading="lazy">
-        <figcaption>Rodano – Bellwald</figcaption>
-      </figure>
-      <figure class="photo">
-        <img src="assets/mostra-copertina.webp?v=20261014" alt="Paesaggio innevato di Nellim, Lapponia — Il rumore del silenzio" loading="lazy" decoding="async">
-        <figcaption>Nellim – Lapponia</figcaption>
-      </figure>
-      <figure class="photo">
-        <img src="assets/valle-verzasca-02.webp" alt="Valle Verzasca" loading="lazy">
-        <figcaption>Valle Verzasca</figcaption>
-      </figure>
-      <figure class="photo">
-        <img src="assets/sunny-island-miami.webp" alt="Sunny Island – Miami" loading="lazy">
-        <figcaption>Sunny Island – Miami</figcaption>
-      </figure>
-      <figure class="photo">
-        <img src="assets/mendrisio.webp" alt="Mendrisio" loading="lazy">
-        <figcaption>Mendrisio</figcaption>
-      </figure>
-</div></section>
-</div>
-<section class="location"><div class="wrap"><div class="eyebrow">Dove visitarla</div><h2>Centromedico Mendrisio</h2><p>Via Giuseppe Motta 2<br>6850 Mendrisio, Svizzera</p><p><a href="https://www.google.com/maps/search/?api=1&query=Centromedico+Mendrisio+Via+Giuseppe+Motta+2">Visualizza sulla mappa ↗</a></p></div></section>
+  <section class="hero" aria-labelledby="page-title">
+    <img class="hero-art" src="assets/mostra-copertina.webp" alt="Bosco innevato in Lapponia, nella luce azzurra dell'inverno" fetchpriority="high">
+    <div class="wrap hero-inner">
+      <div class="eyebrow">Mostra fotografica permanente · Mendrisio</div>
+      <h1 id="page-title">Il rumore<br>del silenzio.</h1>
+      <p class="byline">Di Magda Bernasconi</p>
+    </div>
+  </section>
+  <div class="wrap">
+    <section class="intro" aria-label="Il progetto">
+      <blockquote class="quote">“Una fotografia è un segreto che parla di un segreto. Più essa racconta, meno è possibile conoscere.”<cite>Diane Arbus</cite></blockquote>
+      <div class="intro-copy">
+        <div class="eyebrow">La mia visione</div>
+        <p>Sono amante della natura e quando sono a contatto con essa mi sento libera, al mio posto, in pace. Attraverso la fotografia cerco di raccontare le sensazioni che provo quando la osservo.</p>
+        <p>Mi lascio affascinare e trasportare dal silenzio, dai profumi e dai mille colori. Il viaggio diventa per me un pretesto per scoprire e fotografare il mio mondo.</p>
+        <div class="glass-note">Le fotografie della mostra sono stampate interamente su vetro: una scelta che accompagna il progetto e invita a osservare ogni immagine con calma, lasciando spazio alla luce e ai dettagli.</div>
+      </div>
+    </section>
+    <section class="gallery-section" aria-labelledby="gallery-title">
+      <div class="section-heading">
+        <div><div class="eyebrow">Una selezione fotografica</div><h2 id="gallery-title">Paesaggi da ascoltare.</h2></div>
+        <p class="lead">Luoghi, acqua, foreste e neve. Ogni fotografia è una traccia di un viaggio e di un momento di silenzio.</p>
+      </div>
+      <div class="gallery">
+        <figure class="photo"><button class="photo-button" type="button" data-full="assets/valle-verzasca-01.webp" aria-label="Ingrandisci Valle Verzasca"><img src="assets/valle-verzasca-01.webp" alt="Acqua e rocce nella Valle Verzasca" loading="lazy" decoding="async"></button><figcaption>Valle Verzasca <span>01</span></figcaption></figure>
+        <figure class="photo"><button class="photo-button" type="button" data-full="assets/dalpe.webp" aria-label="Ingrandisci Dalpe"><img src="assets/dalpe.webp" alt="Bosco avvolto dalla nebbia a Dalpe" loading="lazy" decoding="async"></button><figcaption>Dalpe <span>02</span></figcaption></figure>
+        <figure class="photo"><button class="photo-button" type="button" data-full="assets/piumogna-faido.webp" aria-label="Ingrandisci Piumogna Faido"><img src="assets/piumogna-faido.webp" alt="Cascata della Piumogna a Faido" loading="lazy" decoding="async"></button><figcaption>Piumogna – Faido <span>03</span></figcaption></figure>
+        <figure class="photo"><button class="photo-button" type="button" data-full="assets/petronilla-biasca.webp" aria-label="Ingrandisci Petronilla Biasca"><img src="assets/petronilla-biasca.webp" alt="Cascata Petronilla a Biasca" loading="lazy" decoding="async"></button><figcaption>Petronilla – Biasca <span>04</span></figcaption></figure>
+        <figure class="photo"><button class="photo-button" type="button" data-full="assets/passo-della-novena.webp" aria-label="Ingrandisci Passo della Novena"><img src="assets/passo-della-novena.webp" alt="Strada del Passo della Novena tra alte pareti di neve" loading="lazy" decoding="async"></button><figcaption>Passo della Novena <span>05</span></figcaption></figure>
+        <figure class="photo"><button class="photo-button" type="button" data-full="assets/rodano-bellwald.webp" aria-label="Ingrandisci Rodano Bellwald"><img src="assets/rodano-bellwald.webp" alt="Il Rodano visto dall'alto tra fitte foreste" loading="lazy" decoding="async"></button><figcaption>Rodano – Bellwald <span>06</span></figcaption></figure>
+        <figure class="photo"><button class="photo-button" type="button" data-full="assets/nellim-lapponia.webp" aria-label="Ingrandisci Nellim Lapponia al crepuscolo"><img src="assets/nellim-lapponia.webp" alt="Rami scuri sopra il paesaggio innevato di Nellim al crepuscolo" loading="lazy" decoding="async"></button><figcaption>Nellim – Lapponia <span>07</span></figcaption></figure>
+        <figure class="photo"><button class="photo-button" type="button" data-full="assets/mostra-copertina.webp" aria-label="Ingrandisci Nellim Lapponia nel blu dell'inverno"><img src="assets/mostra-copertina.webp" alt="Foresta innevata di Nellim sotto il cielo azzurro" loading="lazy" decoding="async"></button><figcaption>Nellim – Lapponia <span>08</span></figcaption></figure>
+        <figure class="photo"><button class="photo-button" type="button" data-full="assets/valle-verzasca-02.webp" aria-label="Ingrandisci Valle Verzasca dalle acque turchesi"><img src="assets/valle-verzasca-02.webp" alt="Acqua turchese tra le rocce della Valle Verzasca" loading="lazy" decoding="async"></button><figcaption>Valle Verzasca <span>09</span></figcaption></figure>
+        <figure class="photo"><button class="photo-button" type="button" data-full="assets/sunny-island-miami.webp" aria-label="Ingrandisci Sunny Island Miami"><img src="assets/sunny-island-miami.webp" alt="Costa e mare a Sunny Isles, Miami" loading="lazy" decoding="async"></button><figcaption>Sunny Island – Miami <span>10</span></figcaption></figure>
+        <figure class="photo"><button class="photo-button" type="button" data-full="assets/mendrisio.webp" aria-label="Ingrandisci Mendrisio"><img src="assets/mendrisio.webp" alt="Filari di vite nel paesaggio di Mendrisio" loading="lazy" decoding="async"></button><figcaption>Mendrisio <span>11</span></figcaption></figure>
+      </div>
+    </section>
+  </div>
+  <section class="location" id="visita">
+    <div class="wrap location-grid">
+      <div><div class="eyebrow">Dove visitarla</div><h2>Centromedico Mendrisio</h2></div>
+      <div><p>Via Giuseppe Motta 2<br>6850 Mendrisio, Svizzera</p><a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Centromedico+Mendrisio+Via+Giuseppe+Motta+2" target="_blank" rel="noopener">Visualizza sulla mappa ↗</a></div>
+    </div>
+  </section>
 </main>
-<footer><div class="wrap footer"><strong>MBM PHOTO ART</strong><span>Il rumore del silenzio · Magda Bernasconi</span><a href="mailto:bernasconim8@gmail.com">bernasconim8@gmail.com</a><a href="index.html">Torna al portfolio ↗</a></div></footer>
-<div class="lightbox" id="photoLightbox" role="dialog" aria-modal="true" aria-label="Fotografia ingrandita"><button class="lightbox-close" id="photoLightboxClose" aria-label="Chiudi fotografia">×</button><img id="photoLightboxImage" alt=""></div><script>
-(()=>{const box=document.getElementById('photoLightbox'),big=document.getElementById('photoLightboxImage'),close=document.getElementById('photoLightboxClose');if(!box)return;
-function open(img){big.src=img.dataset.full||img.getAttribute('src')||img.currentSrc||img.src;big.alt=img.alt||'Fotografia';big.classList.toggle('nellim2-lightbox',img.classList.contains('nellim2-gallery'));box.classList.add('open');document.body.style.overflow='hidden';close.focus()}
-function shut(){box.classList.remove('open');big.src='';big.classList.remove('nellim2-lightbox');document.body.style.overflow=''}
-document.querySelectorAll('main img').forEach(img=>{if(img.closest('header .brand')||img.closest('#photoLightbox'))return;img.dataset.full=img.getAttribute('src');img.style.cursor='zoom-in';img.setAttribute('tabindex','0');img.setAttribute('role','button');img.setAttribute('aria-label',(img.alt||'Fotografia')+' — ingrandisci');img.addEventListener('click',e=>{e.preventDefault();e.stopPropagation();open(img)});img.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();open(img)}})});
-close.addEventListener('click',shut);box.addEventListener('click',e=>{if(e.target===box)shut()});document.addEventListener('keydown',e=>{if(e.key==='Escape')shut()});
-})();
-</script></body></html>
+<footer><div class="wrap footer"><span>© MBM Photo Art · Magda Bernasconi</span><a href="mailto:bernasconim8@gmail.com">bernasconim8@gmail.com</a><a href="index.html">Torna al portfolio ↑</a></div></footer>
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Fotografia ingrandita"><button class="lightbox-close" type="button" aria-label="Chiudi immagine">×</button><img src="" alt=""></div>
+<script>
+const menuButton=document.querySelector('.menu-toggle');
+const links=document.querySelector('.links');
+menuButton.addEventListener('click',()=>{const open=menuButton.getAttribute('aria-expanded')!=='true';menuButton.setAttribute('aria-expanded',String(open));menuButton.setAttribute('aria-label',open?'Chiudi il menu':'Apri il menu');links.classList.toggle('open',open)});
+links.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{links.classList.remove('open');menuButton.setAttribute('aria-expanded','false')}));
+const lightbox=document.getElementById('lightbox'),lightboxImg=lightbox.querySelector('img'),closeLightbox=lightbox.querySelector('.lightbox-close');
+document.querySelectorAll('.photo-button').forEach(button=>button.addEventListener('click',()=>{lightboxImg.src=button.dataset.full;lightboxImg.alt=button.querySelector('img').alt;lightbox.classList.add('open');document.body.style.overflow='hidden';closeLightbox.focus()}));
+function closeImage(){lightbox.classList.remove('open');lightboxImg.src='';document.body.style.overflow=''}
+closeLightbox.addEventListener('click',closeImage);
+lightbox.addEventListener('click',e=>{if(e.target===lightbox)closeImage()});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeImage();links.classList.remove('open');menuButton.setAttribute('aria-expanded','false')}});
+</script>
+</body>
+</html>
