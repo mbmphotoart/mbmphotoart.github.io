@@ -26,7 +26,7 @@ header{position:absolute;z-index:5;top:0;left:0;right:0;color:var(--ink)}
 .menu-toggle{display:none;border:1px solid #25262055;background:#ffffffa8;border-radius:50%;width:44px;height:44px;align-items:center;justify-content:center;flex-direction:column;gap:5px}
 .menu-toggle span{height:1.5px;width:17px;background:var(--ink)}
 .hero{position:relative;min-height:420px;height:min(58vw,650px);max-height:700px;overflow:hidden;border-radius:0 0 30px 30px;background:#e7ebf0;isolation:isolate}
-.hero-art{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 58%;z-index:-2;filter:saturate(.58) brightness(1.035) sepia(.025)}
+.hero-art{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 58%;z-index:-2;filter:saturate(.28) brightness(1.045) sepia(.10) contrast(.99)}
 .hero:after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,#f7f6f2e8 0%,#f7f6f277 43%,transparent 76%),linear-gradient(0deg,#f7f6f244,transparent 55%)}
 .hero-inner{padding-top:clamp(120px,14vw,185px);padding-bottom:64px}
 .eyebrow{font-size:10px;line-height:1.6;text-transform:uppercase;letter-spacing:.22em;color:#927c60;font-weight:600}
@@ -45,7 +45,7 @@ h2{font-size:clamp(36px,4.6vw,58px);line-height:1.05;letter-spacing:-.035em;marg
 .gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px 18px}
 .photo{margin:0;min-width:0}
 .photo-button{display:block;width:100%;padding:0;border:0;background:#e8e6df;overflow:hidden;cursor:zoom-in;aspect-ratio:4/3}
-.photo-button img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .5s ease}.photo-button img[src*="mostra-copertina.webp"]{filter:saturate(.58) brightness(1.035) sepia(.025)}
+.photo-button img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .5s ease}.photo-button img[src*="mostra-copertina.webp"]{filter:saturate(.28) brightness(1.045) sepia(.10) contrast(.99)}
 .photo-button:hover img{transform:scale(1.035)}
 figcaption{display:flex;justify-content:space-between;gap:12px;padding:12px 2px 0;font-size:12px;color:#55564f}
 figcaption span{font-size:10px;color:#9a8a73;letter-spacing:.1em}
