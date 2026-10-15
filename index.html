@@ -102,7 +102,16 @@ header{position:relative;background:#fff;border-bottom:1px solid #efefed}
 @media(max-width:1050px){.hero h1{font-size:clamp(58px,7.6vw,80px)}.hero-signature{font-size:8px;letter-spacing:.18em}}
 @media(max-width:600px){.hero-content{padding-top:34px;padding-bottom:10px}.hero-signature{font-size:8px;letter-spacing:.19em;margin-bottom:22px}.hero h1{font-size:clamp(52px,13.5vw,76px);line-height:1.08;letter-spacing:-.05em;margin-bottom:20px}.hero h1:after{margin-top:23px;width:38px}.hero p{font-size:14px;max-width:27ch;margin-bottom:23px}}
 @media(orientation:landscape) and (max-width:900px) and (min-width:601px){.hero-content{padding-top:35px;padding-bottom:40px}.hero h1{font-size:62px}.hero-signature{margin-bottom:18px}}
-.course-invitation{padding:80px 0;background:#eeece5}.course-invitation>.wrap{display:grid;grid-template-columns:.85fr 1.15fr;gap:65px;align-items:center}.course-invitation h2{font:400 clamp(36px,4.6vw,58px)/1.08 "Playfair Display",serif;margin:16px 0 22px;letter-spacing:-.035em}.course-invitation h2 em{font-weight:400}.course-invitation p{max-width:370px;color:#666b61;font-size:14px;line-height:1.85}.course-invitation img{width:100%;height:auto;display:block}@media(max-width:700px){.course-invitation{padding:52px 0}.course-invitation>.wrap{grid-template-columns:1fr;gap:32px}}</style>
+.course-invitation{padding:80px 0;background:#eeece5}.course-invitation>.wrap{display:grid;grid-template-columns:.85fr 1.15fr;gap:65px;align-items:center}.course-invitation h2{font:400 clamp(36px,4.6vw,58px)/1.08 "Playfair Display",serif;margin:16px 0 22px;letter-spacing:-.035em}.course-invitation h2 em{font-weight:400}.course-invitation p{max-width:370px;color:#666b61;font-size:14px;line-height:1.85}.course-invitation img{width:100%;height:auto;display:block}@media(max-width:700px){.course-invitation{padding:52px 0}.course-invitation>.wrap{grid-template-columns:1fr;gap:32px}}
+/* Testo e fotografia occupano colonne separate, senza sovrapposizioni. */
+.hero{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:32px;align-items:center;width:min(1440px,calc(100% - 64px));margin-inline:auto;min-height:560px;height:auto;max-height:none;overflow:visible}
+.hero-content{grid-column:1;grid-row:1;min-width:0;width:100%;max-width:none;margin:0;padding:64px 0}
+.hero-img{grid-column:2;grid-row:1;position:static;inset:auto;width:100%;height:auto;aspect-ratio:16/9;object-fit:contain;object-position:center;z-index:auto;margin:0;align-self:center}
+.hero h1{font-size:clamp(56px,6.4vw,94px);max-width:100%}
+@media(max-width:1050px){.hero{gap:28px;min-height:510px}.hero-content{padding:50px 0}.hero-img{width:100%;height:auto;right:auto}.hero h1{font-size:clamp(54px,6.3vw,70px)}}
+@media(max-width:850px){.hero{grid-template-columns:minmax(0,1fr);width:calc(100% - 36px);gap:10px;min-height:0;padding:32px 0 35px}.hero-content{grid-column:1;grid-row:1;padding:8px 0 12px;width:100%;margin:0}.hero-img{grid-column:1;grid-row:2;width:100%;height:auto;aspect-ratio:16/9;position:static;margin:0}.hero h1{font-size:clamp(52px,9vw,76px)}.hero p{max-width:360px}.hero-signature{margin-bottom:22px}}
+@media(max-width:600px){.hero{width:calc(100% - 32px);padding:26px 0 28px;gap:8px}.hero h1{font-size:clamp(50px,13vw,72px)}.hero-content{padding:6px 0 15px}.hero-img{margin:0;width:100%;height:auto}.hero p{font-size:14px;max-width:27ch}}
+</style>
 <link rel="stylesheet" href="brand-theme.css?v=20261015-attimi">
 </head>
 <body>
