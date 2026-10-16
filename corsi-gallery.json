@@ -466,5 +466,86 @@
     "index": 51,
     "title": "Il ritmo dei passaggi",
     "category": "Architettura e prospettive"
+  },
+  {
+    "src": "assets/corsi/71ca201c0439.jpg",
+    "thumb": "assets/corsi/71ca201c0439.webp",
+    "width": 4537,
+    "height": 3027,
+    "index": 52,
+    "title": "Sulla soglia della luce",
+    "category": "Ritratto ambientato"
+  },
+  {
+    "src": "assets/corsi/c29566d61761.jpg",
+    "thumb": "assets/corsi/c29566d61761.webp",
+    "width": 5758,
+    "height": 3842,
+    "index": 53,
+    "title": "Una cornice per il ritratto",
+    "category": "Ritratto ambientato"
+  },
+  {
+    "src": "assets/corsi/c237fa779bd9.jpg",
+    "thumb": "assets/corsi/c237fa779bd9.webp",
+    "width": 5191,
+    "height": 3467,
+    "index": 54,
+    "title": "Tra luce e colore",
+    "category": "Ritratto ambientato"
+  },
+  {
+    "src": "assets/corsi/a89c086d96c9.jpg",
+    "thumb": "assets/corsi/a89c086d96c9.webp",
+    "width": 2222,
+    "height": 1486,
+    "index": 55,
+    "title": "Una presenza, una storia",
+    "category": "Ritratto ambientato"
+  },
+  {
+    "src": "assets/corsi/aeb79d48dc97.jpg",
+    "thumb": "assets/corsi/aeb79d48dc97.webp",
+    "width": 5668,
+    "height": 3782,
+    "index": 56,
+    "title": "Il silenzio di una stanza",
+    "category": "Ritratto ambientato"
+  },
+  {
+    "src": "assets/corsi/2755471e15b2.jpg",
+    "thumb": "assets/corsi/2755471e15b2.webp",
+    "width": 1065,
+    "height": 852,
+    "index": 57,
+    "title": "La figura e le ombre",
+    "category": "Ritratto ambientato"
+  },
+  {
+    "src": "assets/corsi/0137ec0300c1.jpg",
+    "thumb": "assets/corsi/0137ec0300c1.webp",
+    "width": 4762,
+    "height": 3177,
+    "index": 58,
+    "title": "Il vento tra i capelli",
+    "category": "Racconti in bianco e nero"
+  },
+  {
+    "src": "assets/corsi/da6cbdcd7d5a.jpg",
+    "thumb": "assets/corsi/da6cbdcd7d5a.webp",
+    "width": 5065,
+    "height": 3379,
+    "index": 59,
+    "title": "Una figura nel riflesso",
+    "category": "Racconti in bianco e nero"
+  },
+  {
+    "src": "assets/corsi/3663bbf5b671.jpg",
+    "thumb": "assets/corsi/3663bbf5b671.webp",
+    "width": 5688,
+    "height": 3801,
+    "index": 60,
+    "title": "La luce oltre il passaggio",
+    "category": "Racconti in bianco e nero"
   }
 ]
