@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f7f6f2">
+<meta name="description" content="The Sound of Silence: a permanent photography exhibition by Magda Bernasconi in Mendrisio, Switzerland.">
+<title>The Sound of Silence — Magda Bernasconi | MBM Photo Art</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&amp;family=Playfair+Display:wght@400;500&amp;display=swap" rel="stylesheet">
+<style>
+:root{--paper:#f7f6f2;--ink:#252620;--muted:#686961;--line:#deddd5;--accent:#b49b7b;--white:#fff}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:20px}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:"DM Sans",Arial,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{width:min(1180px,calc(100% - 64px));margin-inline:auto}
+header{position:absolute;z-index:5;top:0;left:0;right:0;color:var(--ink)}
+.nav{min-height:82px;display:flex;align-items:center;justify-content:space-between;gap:24px;border-bottom:1px solid #25262020}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;font-size:11px;font-weight:600;letter-spacing:.18em;white-space:nowrap}
+.brand img{width:34px;height:38px;object-fit:contain}
+.links{display:flex;align-items:center;gap:clamp(15px,2.5vw,32px)}
+.links a{text-decoration:none;text-transform:uppercase;font-size:10px;letter-spacing:.12em;padding:10px 0;border-bottom:1px solid transparent}
+.links a:hover,.links a[aria-current=page]{border-color:var(--accent)}
+.menu-toggle{display:none;border:1px solid #25262055;background:#ffffffa8;border-radius:50%;width:44px;height:44px;align-items:center;justify-content:center;flex-direction:column;gap:5px}
+.menu-toggle span{height:1.5px;width:17px;background:var(--ink)}
+.hero{position:relative;min-height:420px;height:min(58vw,650px);max-height:700px;overflow:hidden;border-radius:0 0 30px 30px;background:#e7ebf0;isolation:isolate}
+.hero-art{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 58%;z-index:-2;filter:saturate(.28) brightness(1.045) sepia(.10) contrast(.99)}
+.hero:after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,#f7f6f2e8 0%,#f7f6f277 43%,transparent 76%),linear-gradient(0deg,#f7f6f244,transparent 55%)}
+.hero-inner{padding-top:clamp(120px,14vw,185px);padding-bottom:64px}
+.eyebrow{font-size:10px;line-height:1.6;text-transform:uppercase;letter-spacing:.22em;color:#927c60;font-weight:600}
+h1,h2,.quote{font-family:"Playfair Display",Georgia,serif;font-weight:400}
+h1{font-size:clamp(48px,7vw,88px);line-height:.98;letter-spacing:-.045em;margin:20px 0 14px;max-width:670px}
+.byline{font-size:14px;margin:0}
+.intro{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(32px,7vw,100px);padding:66px 0 62px;border-bottom:1px solid var(--line);align-items:start}
+.quote{font-size:clamp(22px,2.5vw,31px);font-style:italic;line-height:1.42;margin:0}
+.quote cite{display:block;margin-top:17px;font:500 11px "DM Sans",Arial,sans-serif;font-style:normal;color:var(--muted);letter-spacing:.04em}
+.intro-copy p{margin:0 0 16px;font-size:14px;line-height:1.95;color:#55564f}
+.glass-note{margin-top:22px;padding:18px 20px;border-left:2px solid var(--accent);background:#efeee8;font-size:12px;line-height:1.8;color:#4e4f48}
+.gallery-section{padding:64px 0 82px}
+.section-heading{display:flex;justify-content:space-between;align-items:end;gap:28px;margin-bottom:32px}
+h2{font-size:clamp(36px,4.6vw,58px);line-height:1.05;letter-spacing:-.035em;margin:10px 0 0}
+.lead{max-width:420px;color:var(--muted);font-size:13px;line-height:1.8;margin:0}
+.gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px 18px}
+.photo{margin:0;min-width:0}
+.photo-button{display:block;width:100%;padding:0;border:0;background:#e8e6df;overflow:hidden;cursor:zoom-in;aspect-ratio:4/3}
+.photo-button img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .5s ease}.photo-button img[src*="mostra-copertina.webp"]{filter:saturate(.28) brightness(1.045) sepia(.10) contrast(.99)}
+.photo-button:hover img{transform:scale(1.035)}
+figcaption{display:flex;justify-content:space-between;gap:12px;padding:12px 2px 0;font-size:12px;color:#55564f}
+figcaption span{font-size:10px;color:#9a8a73;letter-spacing:.1em}
+.location{padding:48px 0 54px;background:#eeede7}
+.location-grid{display:grid;grid-template-columns:1fr 1fr;gap:36px;align-items:center}
+.location h2{font-size:clamp(32px,4vw,46px);margin:12px 0}
+.location p{font-size:13px;line-height:1.9;color:var(--muted)}
+.map-link{display:inline-flex;align-items:center;gap:9px;text-decoration:none;border-bottom:1px solid var(--accent);padding:7px 0;font-size:11px;letter-spacing:.06em}
+footer{padding:24px 0;font-size:11px;color:var(--muted)}
+.footer{display:flex;justify-content:space-between;gap:18px;align-items:center}
+.footer a{text-decoration:none}
+.lightbox{display:none;position:fixed;inset:0;z-index:20;background:#11130ff2;align-items:center;justify-content:center;padding:24px}
+.lightbox.open{display:flex}
+.lightbox img{display:block;max-width:94vw;max-height:86svh;object-fit:contain}
+.lightbox img[src*="mostra-copertina.webp"]{filter:saturate(.28) brightness(1.045) sepia(.10) contrast(.99)}
+.lightbox-close{position:absolute;top:max(18px,env(safe-area-inset-top));right:18px;width:46px;height:46px;border:1px solid #ffffff70;border-radius:50%;background:#ffffff;color:#222;font-size:28px;cursor:pointer}
+@media(max-width:850px){.wrap{width:calc(100% - 40px)}.nav{min-height:72px}.menu-toggle{display:flex}.links{display:none;position:absolute;top:72px;left:20px;right:20px;background:var(--paper);padding:8px 18px;box-shadow:0 15px 35px #0002;flex-direction:column;align-items:stretch;gap:0}.links.open{display:flex}.links a{min-height:46px;display:flex;align-items:center;border-bottom:1px solid var(--line)}.hero{height:500px;min-height:0}.hero-inner{padding-top:145px}.intro{grid-template-columns:1fr;gap:25px;padding:45px 0}.gallery{grid-template-columns:repeat(2,minmax(0,1fr));gap:26px 14px}.section-heading{display:block}.lead{margin-top:18px}.location-grid{grid-template-columns:1fr;gap:8px}}
+@media(max-width:520px){.wrap{width:calc(100% - 32px)}.brand{font-size:9px;letter-spacing:.13em;gap:9px}.brand img{width:31px;height:35px}.hero{height:440px;border-radius:0 0 22px 22px}.hero-art{object-position:53% center}.hero:after{background:linear-gradient(90deg,#f7f6f2dd 0%,#f7f6f277 65%,transparent 100%),linear-gradient(0deg,#f7f6f255,transparent 60%)}.hero-inner{padding-top:132px}.hero h1{font-size:clamp(43px,12vw,60px);margin-top:18px}.byline{font-size:13px}.intro{padding:38px 0}.quote{font-size:24px}.gallery-section{padding:44px 0 54px}.gallery{grid-template-columns:1fr;gap:27px}.photo-button{aspect-ratio:4/3}.photo-button img{object-position:center}.location{padding:38px 0}.footer{align-items:flex-start;flex-direction:column;gap:8px}.lightbox{padding:12px}.lightbox img{max-width:100%;max-height:82svh}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+</style>
+<link rel="stylesheet" href="brand-theme.css?v=20261015-attimi">
+<link rel="stylesheet" href="site-utilities.css?v=20261016"><link rel="alternate" hreflang="it" href="https://mbmphotoart.github.io/mostra.html"><link rel="alternate" hreflang="en" href="https://mbmphotoart.github.io/mostra-en.html"></head>
+<body id="page-top">
+<header data-brand-tone="light">
+  <div class="wrap nav">
+    <a class="brand" href="index-en.html"><img src="logo.svg" alt=""><span>MBM PHOTO ART</span></a>
+    <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="siteLinks"><span></span><span></span><span></span></button>
+    <nav class="links" id="siteLinks" aria-label="Main navigation">
+      <a href="index-en.html#portfolio">Portfolio</a>
+      <a href="index-en.html#about">My vision</a>
+      <a href="concorsi-vinti-en.html">Awards</a>
+      <a href="mostra-en.html" aria-current="page">Exhibitions</a><a href="corsi-en.html">Workshops</a>
+      <a href="index-en.html#contatti">Contact</a>
+    <a href="biografia-en.html">Biography</a></nav>
+  <div class="language-switch" role="group" aria-label="Language / Lingua"><a href="mostra.html" lang="it" hreflang="it">IT</a><a href="mostra-en.html" lang="en" hreflang="en" aria-current="true">EN</a></div></div>
+</header>
+<main>
+  <section class="hero" aria-labelledby="page-title">
+    <img class="hero-art" src="assets/mostra-copertina.webp?v=20261015" alt="Snow-covered woodland in Lapland in blue winter light" fetchpriority="high">
+    <div class="wrap hero-inner">
+      <div class="eyebrow">Permanent photography exhibition · Mendrisio</div>
+      <h1 id="page-title">The sound<br>of silence.</h1>
+      <p class="byline">By Magda Bernasconi</p>
+    </div>
+  </section>
+  <div class="wrap">
+    <section class="intro" aria-label="The project">
+      <blockquote class="quote">“A photograph is a secret about a secret. The more it tells you, the less you know.”<cite>Diane Arbus</cite></blockquote>
+      <div class="intro-copy">
+        <div class="eyebrow">My vision</div>
+        <p>I love nature. In its presence I feel free, at home and at peace. Through photography I try to convey the feelings I experience while observing it.</p>
+        <p>Silence, scents and countless colours fascinate and carry me away. Travel becomes a reason to discover and photograph my world.</p>
+        <div class="glass-note">The exhibition photographs are printed entirely on glass: a choice that complements the project and invites you to look at each image slowly, making room for light and detail.</div>
+      </div>
+    </section>
+    <section class="gallery-section" aria-labelledby="gallery-title">
+      <div class="section-heading">
+        <div><div class="eyebrow">A photographic selection</div><h2 id="gallery-title">Landscapes to listen to.</h2></div>
+        <p class="lead">Places, water, forests and snow. Each photograph is a trace of a journey and a moment of silence.</p>
+      </div>
+      <div class="gallery">
+        <figure class="photo"><button class="photo-button" type="button" data-full="assets/valle-verzasca-01.webp" aria-label="Enlarge Valle Verzasca"><img src="assets/valle-verzasca-01.webp" alt="Water and rocks in the Verzasca Valley" loading="lazy" decoding="async"></button><figcaption>Valle Verzasca <span>01</span></figcaption></figure>
+        <figure class="photo"><button class="photo-button" type="button" data-full="assets/dalpe.webp" aria-label="Enlarge Dalpe"><img src="assets/dalpe.webp" alt="Mist-shrouded woods in Dalpe" loading="lazy" decoding="async"></button><figcaption>Dalpe <span>02</span></figcaption></figure>
+        <figure class="photo"><button class="photo-button" type="button" data-full="assets/piumogna-faido.webp" aria-label="Enlarge Piumogna Faido"><img src="assets/piumogna-faido.webp" alt="Piumogna waterfall in Faido" loading="lazy" decoding="async"></button><figcaption>Piumogna – Faido <span>03</span></figcaption></figure>
+        <figure class="photo"><button class="photo-button" type="button" data-full="assets/petronilla-biasca.webp" aria-label="Enlarge Petronilla Biasca"><img src="assets/petronilla-biasca.webp" alt="Petronilla waterfall in Biasca" loading="lazy" decoding="async"></button><figcaption>Petronilla – Biasca <span>04</span></figcaption></figure>
+        <figure class="photo"><button class="photo-button" type="button" data-full="assets/passo-della-novena.webp" aria-label="Enlarge Nufenen Pass"><img src="assets/passo-della-novena.webp" alt="The Nufenen Pass road between high snow walls" loading="lazy" decoding="async"></button><figcaption>Nufenen Pass <span>05</span></figcaption></figure>
+        <figure class="photo"><button class="photo-button" type="button" data-full="assets/rodano-bellwald.webp" aria-label="Enlarge Rodano Bellwald"><img src="assets/rodano-bellwald.webp" alt="The Rhone seen from above among dense forests" loading="lazy" decoding="async"></button><figcaption>Rodano – Bellwald <span>06</span></figcaption></figure>
+        <figure class="photo"><button class="photo-button" type="button" data-full="assets/nellim-lapponia.webp" aria-label="Enlarge Nellim Lapland al crepuscolo"><img src="assets/nellim-lapponia.webp" alt="Dark branches above the snowy landscape of Nellim at dusk" loading="lazy" decoding="async"></button><figcaption>Nellim – Lapland <span>07</span></figcaption></figure>
+        <figure class="photo"><button class="photo-button" type="button" data-full="assets/mostra-copertina.webp?v=20261015" aria-label="Enlarge Nellim Lapland nel blu dell'inverno"><img src="assets/mostra-copertina.webp?v=20261015" alt="Snow-covered forest in Nellim beneath a blue sky" loading="lazy" decoding="async"></button><figcaption>Nellim – Lapland <span>08</span></figcaption></figure>
+        <figure class="photo"><button class="photo-button" type="button" data-full="assets/valle-verzasca-02.webp" aria-label="Enlarge Valle Verzasca dalle acque turchesi"><img src="assets/valle-verzasca-02.webp" alt="Turquoise water among the rocks of the Verzasca Valley" loading="lazy" decoding="async"></button><figcaption>Valle Verzasca <span>09</span></figcaption></figure>
+        <figure class="photo"><button class="photo-button" type="button" data-full="assets/sunny-island-miami.webp" aria-label="Enlarge Sunny Island Miami"><img src="assets/sunny-island-miami.webp" alt="Coast and sea at Sunny Isles, Miami" loading="lazy" decoding="async"></button><figcaption>Sunny Island – Miami <span>10</span></figcaption></figure>
+        <figure class="photo"><button class="photo-button" type="button" data-full="assets/mendrisio.webp" aria-label="Enlarge Mendrisio"><img src="assets/mendrisio.webp" alt="Vineyards in the Mendrisio landscape" loading="lazy" decoding="async"></button><figcaption>Mendrisio <span>11</span></figcaption></figure>
+      </div>
+    </section>
+  </div>
+  <section class="location" id="visita">
+    <div class="wrap location-grid">
+      <div><div class="eyebrow">Where to visit</div><h2>Centromedico Mendrisio</h2></div>
+      <div><p>Via Giuseppe Motta 2<br>6850 Mendrisio, Switzerland</p><a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=Centromedico+Mendrisio+Via+Giuseppe+Motta+2" target="_blank" rel="noopener">View on the map ↗</a></div>
+    </div>
+  </section>
+</main>
+<footer><div class="wrap footer"><span>© MBM Photo Art · Magda Bernasconi</span><a href="index-en.html">Back to portfolio ↑</a></div><div class="site-contact-row wrap" aria-label="Contact and social"><a href="mailto:bernasconim8@gmail.com">bernasconim8@gmail.com</a><a href="https://www.instagram.com/mbm.photo.art?obrf=MWF1MWg5OWtlODZ6bg%3D%3D&amp;utm_source=qr" target="_blank" rel="noopener noreferrer">Instagram · @mbm.photo.art</a></div></footer>
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Enlarged photograph"><button class="lightbox-close" type="button" aria-label="Close image">×</button><img src="" alt=""></div>
+<script>
+const menuButton=document.querySelector('.menu-toggle');
+const links=document.querySelector('.links');
+menuButton.addEventListener('click',()=>{const open=menuButton.getAttribute('aria-expanded')!=='true';menuButton.setAttribute('aria-expanded',String(open));menuButton.setAttribute('aria-label',open?"Close menu":"Open menu");links.classList.toggle('open',open)});
+links.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{links.classList.remove('open');menuButton.setAttribute('aria-expanded','false')}));
+const lightbox=document.getElementById('lightbox'),lightboxImg=lightbox.querySelector('img'),closeLightbox=lightbox.querySelector('.lightbox-close');
+document.querySelectorAll('.photo-button').forEach(button=>button.addEventListener('click',()=>{lightboxImg.src=button.dataset.full;lightboxImg.alt=button.querySelector('img').alt;lightbox.classList.add('open');document.body.style.overflow='hidden';closeLightbox.focus()}));
+function closeImage(){lightbox.classList.remove('open');lightboxImg.src='';document.body.style.overflow=''}
+closeLightbox.addEventListener('click',closeImage);
+lightbox.addEventListener('click',e=>{if(e.target===lightbox)closeImage()});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeImage();links.classList.remove('open');menuButton.setAttribute('aria-expanded','false')}});
+</script>
+<a href="#page-top" class="back-to-top" aria-label="Back to top">↑<span>Back to top</span></a></body>
+</html>

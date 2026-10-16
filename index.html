@@ -9,7 +9,7 @@
 <link rel="icon" type="image/svg+xml" href="logo.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@200;300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@200;300;400;500;600;700&amp;family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&amp;display=swap" rel="stylesheet">
 <style>
 :root{--bg:#f7f6f2;--paper:#fffefa;--ink:#262722;--muted:#777970;--line:#e4e1d9;--accent:#9b7954;--dark:#20231f}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:"DM Sans",sans-serif}a{color:inherit;text-decoration:none}button{font:inherit}.wrap{width:min(1240px,calc(100% - 48px));margin:auto}
@@ -182,17 +182,17 @@ header{position:relative;background:#fff;border-bottom:1px solid #efefed}
 @media(max-width:560px){#gallery .photo-image{aspect-ratio:4/3}.hero-img{aspect-ratio:auto;height:auto;object-fit:contain}}
 </style>
 <link rel="stylesheet" href="brand-theme.css?v=20261015-attimi">
-</head>
-<body>
+<link rel="stylesheet" href="site-utilities.css?v=20261016"><link rel="alternate" hreflang="it" href="https://mbmphotoart.github.io/index.html"><link rel="alternate" hreflang="en" href="https://mbmphotoart.github.io/index-en.html"></head>
+<body id="page-top">
 <header data-brand-tone="light"><div class="wrap nav">
 <a class="brand" href="#home" aria-label="MBM Photo Art, home"><img src="logo.svg" alt=""><span>MBM PHOTO ART</span></a>
 <button class="menu-toggle" type="button" aria-label="Apri il menu" aria-controls="siteMenu" aria-expanded="false"><span></span><span></span><span></span></button>
 <nav class="navlinks" id="siteMenu" aria-label="Navigazione principale"><a href="#portfolio">Portfolio</a><a href="concorsi-vinti.html">Concorsi vinti</a><a href="mostra.html">Mostra permanente</a><a href="corsi.html">Corsi</a><a href="#portfolio">La visione</a><a href="#contatti">Contatti</a><a href="biografia.html">Biografia</a></nav>
-</div></header>
+<div class="language-switch" role="group" aria-label="Language / Lingua"><a href="index.html" lang="it" hreflang="it" aria-current="true">IT</a><a href="index-en.html" lang="en" hreflang="en">EN</a></div></div></header>
 <main>
 <section class="hero" id="home" aria-labelledby="home-title">
 <img class="hero-img" src="assets/home-attimi-che-restano.jpg" alt="Cime innevate tra le nuvole, fotografia di Magda Bernasconi" fetchpriority="high" width="2048" height="1152">
-<div class="wrap hero-content"><div class="hero-signature">Fotografie di Magda Bernasconi</div><h1 id="home-title"><span class="title-first">Attimi che</span><span class="title-second">restano.</span></h1><p>La fotografia, il mio modo di ricordare.</p><a class="button" href="#portfolio">Esplora le fotografie <span aria-hidden="true">&nbsp;→</span></a></div>
+<div class="wrap hero-content"><div class="hero-signature">Fotografie di Magda Bernasconi</div><h1 id="home-title"><span class="title-first">Attimi che</span><span class="title-second">restano.</span></h1><p>La fotografia, il mio modo di ricordare.</p><a class="button" href="#portfolio">Esplora le fotografie <span aria-hidden="true"> →</span></a></div>
 </section>
 <section class="section" id="portfolio"><div class="wrap">
 <div class="section-head"><div><div class="eyebrow">Portfolio · Magda Bernasconi</div><h2>Fotografie scelte.</h2></div></div>
@@ -200,7 +200,7 @@ header{position:relative;background:#fff;border-bottom:1px solid #efefed}
 
 <section class="about" id="about"><div class="wrap home-signoff"><p>Dietro ogni immagine, il mio sguardo.</p><a href="biografia.html">Conosci Magda Bernasconi ↗</a></div></section>
 </main>
-<footer id="contatti"><div class="wrap footer-inner"><div>© <span id="year"></span> MBM PHOTO ART · MAGDA BERNASCONI</div><div class="footer-links"><a href="concorsi-vinti.html">Concorsi vinti</a><a href="mostra.html">Mostra permanente</a><a href="mailto:bernasconim8@gmail.com">Scrivimi</a></div></div></footer>
+<footer id="contatti"><div class="wrap footer-inner"><div>© <span id="year"></span> MBM PHOTO ART · MAGDA BERNASCONI</div><div class="footer-links"><a href="concorsi-vinti.html">Concorsi vinti</a><a href="mostra.html">Mostra permanente</a></div></div><div class="site-contact-row wrap" aria-label="Contatti e social"><a href="mailto:bernasconim8@gmail.com">bernasconim8@gmail.com</a><a href="https://www.instagram.com/mbm.photo.art?obrf=MWF1MWg5OWtlODZ6bg%3D%3D&amp;utm_source=qr" target="_blank" rel="noopener noreferrer">Instagram · @mbm.photo.art</a></div></footer>
 <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Fotografia ingrandita" tabindex="-1"><button type="button" id="closeLightbox" aria-label="Chiudi">×</button><button class="lightbox-nav lightbox-prev" id="prevPhoto" type="button" aria-label="Fotografia precedente">‹</button><figure><img id="lightboxImage" alt=""><figcaption id="lightboxCaption"></figcaption></figure><button class="lightbox-nav" id="nextPhoto" type="button" aria-label="Fotografia successiva">›</button></div>
 <script>
 
@@ -230,9 +230,4 @@ document.addEventListener('keydown',e=>{if(!lightbox.classList.contains('open'))
 let touchX=0;lightbox.addEventListener('touchstart',e=>touchX=e.changedTouches[0].clientX,{passive:true});lightbox.addEventListener('touchend',e=>{const delta=e.changedTouches[0].clientX-touchX;if(Math.abs(delta)>60)stepPhoto(delta<0?1:-1)},{passive:true});
 document.getElementById('year').textContent=new Date().getFullYear();renderGallery();
 </script>
-</body></html>
-
-
-
-
-
+<a href="#page-top" class="back-to-top" aria-label="Torna in cima">↑<span>Torna in cima</span></a></body></html>

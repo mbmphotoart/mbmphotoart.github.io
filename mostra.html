@@ -8,7 +8,7 @@
 <title>Il rumore del silenzio — Magda Bernasconi | MBM Photo Art</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&amp;family=Playfair+Display:wght@400;500&amp;display=swap" rel="stylesheet">
 <style>
 :root{--paper:#f7f6f2;--ink:#252620;--muted:#686961;--line:#deddd5;--accent:#b49b7b;--white:#fff}
 *{box-sizing:border-box}
@@ -67,8 +67,8 @@ footer{padding:24px 0;font-size:11px;color:var(--muted)}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
 </style>
 <link rel="stylesheet" href="brand-theme.css?v=20261015-attimi">
-</head>
-<body>
+<link rel="stylesheet" href="site-utilities.css?v=20261016"><link rel="alternate" hreflang="it" href="https://mbmphotoart.github.io/mostra.html"><link rel="alternate" hreflang="en" href="https://mbmphotoart.github.io/mostra-en.html"></head>
+<body id="page-top">
 <header data-brand-tone="light">
   <div class="wrap nav">
     <a class="brand" href="index.html"><img src="logo.svg" alt=""><span>MBM PHOTO ART</span></a>
@@ -78,9 +78,9 @@ footer{padding:24px 0;font-size:11px;color:var(--muted)}
       <a href="index.html#about">La visione</a>
       <a href="concorsi-vinti.html">Concorsi vinti</a>
       <a href="mostra.html" aria-current="page">Mostre</a><a href="corsi.html">Corsi</a>
-      <a href="index.html#contact">Contatti</a>
+      <a href="index.html#contatti">Contatti</a>
     <a href="biografia.html">Biografia</a></nav>
-  </div>
+  <div class="language-switch" role="group" aria-label="Language / Lingua"><a href="mostra.html" lang="it" hreflang="it" aria-current="true">IT</a><a href="mostra-en.html" lang="en" hreflang="en">EN</a></div></div>
 </header>
 <main>
   <section class="hero" aria-labelledby="page-title">
@@ -124,11 +124,11 @@ footer{padding:24px 0;font-size:11px;color:var(--muted)}
   <section class="location" id="visita">
     <div class="wrap location-grid">
       <div><div class="eyebrow">Dove visitarla</div><h2>Centromedico Mendrisio</h2></div>
-      <div><p>Via Giuseppe Motta 2<br>6850 Mendrisio, Svizzera</p><a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Centromedico+Mendrisio+Via+Giuseppe+Motta+2" target="_blank" rel="noopener">Visualizza sulla mappa ↗</a></div>
+      <div><p>Via Giuseppe Motta 2<br>6850 Mendrisio, Svizzera</p><a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=Centromedico+Mendrisio+Via+Giuseppe+Motta+2" target="_blank" rel="noopener">Visualizza sulla mappa ↗</a></div>
     </div>
   </section>
 </main>
-<footer><div class="wrap footer"><span>© MBM Photo Art · Magda Bernasconi</span><a href="mailto:bernasconim8@gmail.com">bernasconim8@gmail.com</a><a href="index.html">Torna al portfolio ↑</a></div></footer>
+<footer><div class="wrap footer"><span>© MBM Photo Art · Magda Bernasconi</span><a href="index.html">Torna al portfolio ↑</a></div><div class="site-contact-row wrap" aria-label="Contatti e social"><a href="mailto:bernasconim8@gmail.com">bernasconim8@gmail.com</a><a href="https://www.instagram.com/mbm.photo.art?obrf=MWF1MWg5OWtlODZ6bg%3D%3D&amp;utm_source=qr" target="_blank" rel="noopener noreferrer">Instagram · @mbm.photo.art</a></div></footer>
 <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Fotografia ingrandita"><button class="lightbox-close" type="button" aria-label="Chiudi immagine">×</button><img src="" alt=""></div>
 <script>
 const menuButton=document.querySelector('.menu-toggle');
@@ -142,5 +142,5 @@ closeLightbox.addEventListener('click',closeImage);
 lightbox.addEventListener('click',e=>{if(e.target===lightbox)closeImage()});
 document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeImage();links.classList.remove('open');menuButton.setAttribute('aria-expanded','false')}});
 </script>
-</body>
+<a href="#page-top" class="back-to-top" aria-label="Torna in cima">↑<span>Torna in cima</span></a></body>
 </html>
