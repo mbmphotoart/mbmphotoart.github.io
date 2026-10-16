@@ -430,5 +430,41 @@
     "index": 47,
     "title": "La forza di uno sguardo",
     "category": "Ritratto e atmosfera"
+  },
+  {
+    "src": "assets/corsi/d18d435e83b6.jpg",
+    "thumb": "assets/corsi/d18d435e83b6.webp",
+    "width": 5094,
+    "height": 3397,
+    "index": 48,
+    "title": "Lo spazio riflesso",
+    "category": "Architettura e prospettive"
+  },
+  {
+    "src": "assets/corsi/8b9e69828cb0.jpg",
+    "thumb": "assets/corsi/8b9e69828cb0.webp",
+    "width": 4103,
+    "height": 2738,
+    "index": 49,
+    "title": "Oltre la superficie",
+    "category": "Architettura e prospettive"
+  },
+  {
+    "src": "assets/corsi/88ee80c82542.jpg",
+    "thumb": "assets/corsi/88ee80c82542.webp",
+    "width": 1066,
+    "height": 1600,
+    "index": 50,
+    "title": "Linee verso la luce",
+    "category": "Architettura e prospettive"
+  },
+  {
+    "src": "assets/corsi/1106984a0cd6.jpg",
+    "thumb": "assets/corsi/1106984a0cd6.webp",
+    "width": 4096,
+    "height": 2735,
+    "index": 51,
+    "title": "Il ritmo dei passaggi",
+    "category": "Architettura e prospettive"
   }
 ]
