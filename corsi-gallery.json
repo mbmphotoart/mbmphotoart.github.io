@@ -214,5 +214,149 @@
     "width": 3078,
     "height": 3846,
     "category": "Ritratti"
+  },
+  {
+    "category": "Bosco",
+    "src": "assets/corsi/729cee300172.jpg",
+    "thumb": "assets/corsi/729cee300172.webp",
+    "width": 5084,
+    "height": 3221,
+    "index": 24,
+    "title": "Un ramo nella luce"
+  },
+  {
+    "category": "Bosco",
+    "src": "assets/corsi/0b7a2c79f672.jpg",
+    "thumb": "assets/corsi/0b7a2c79f672.webp",
+    "width": 6016,
+    "height": 4016,
+    "index": 25,
+    "title": "Il bosco in uno specchio"
+  },
+  {
+    "category": "Bosco",
+    "src": "assets/corsi/0576961baef8.jpg",
+    "thumb": "assets/corsi/0576961baef8.webp",
+    "width": 5353,
+    "height": 3225,
+    "index": 26,
+    "title": "La vita sulla corteccia"
+  },
+  {
+    "category": "Bosco",
+    "src": "assets/corsi/e546cc98ab76.jpg",
+    "thumb": "assets/corsi/e546cc98ab76.webp",
+    "width": 4887,
+    "height": 3262,
+    "index": 27,
+    "title": "Un vortice di foglie"
+  },
+  {
+    "category": "Bosco",
+    "src": "assets/corsi/accc40042521.jpg",
+    "thumb": "assets/corsi/accc40042521.webp",
+    "width": 5052,
+    "height": 3323,
+    "index": 28,
+    "title": "Tra gli alberi e il silenzio"
+  },
+  {
+    "category": "Bosco",
+    "src": "assets/corsi/705ef3345cf0.jpg",
+    "thumb": "assets/corsi/705ef3345cf0.webp",
+    "width": 4620,
+    "height": 2898,
+    "index": 29,
+    "title": "Figure sotto il cielo"
+  },
+  {
+    "category": "Bosco",
+    "src": "assets/corsi/41295c4e4829.jpg",
+    "thumb": "assets/corsi/41295c4e4829.webp",
+    "width": 5128,
+    "height": 3423,
+    "index": 30,
+    "title": "Il paesaggio oltre il bosco"
+  },
+  {
+    "category": "Bosco",
+    "src": "assets/corsi/e13cdbfd29c6.jpg",
+    "thumb": "assets/corsi/e13cdbfd29c6.webp",
+    "width": 4414,
+    "height": 2939,
+    "index": 31,
+    "title": "Un segno tra gli alberi"
+  },
+  {
+    "category": "Dettagli",
+    "src": "assets/corsi/5fcc266d4df2.jpg",
+    "thumb": "assets/corsi/5fcc266d4df2.webp",
+    "width": 5167,
+    "height": 2907,
+    "index": 32,
+    "title": "Il gesto e la linea"
+  },
+  {
+    "category": "Dettagli",
+    "src": "assets/corsi/846dbda0e786.jpg",
+    "thumb": "assets/corsi/846dbda0e786.webp",
+    "width": 5287,
+    "height": 3530,
+    "index": 33,
+    "title": "Uno sguardo verso il basso"
+  },
+  {
+    "category": "Dettagli",
+    "src": "assets/corsi/9323a7652271.jpg",
+    "thumb": "assets/corsi/9323a7652271.webp",
+    "width": 3822,
+    "height": 5725,
+    "index": 34,
+    "title": "Le mani, al centro"
+  },
+  {
+    "category": "Dettagli",
+    "src": "assets/corsi/291b0bff70d3.jpg",
+    "thumb": "assets/corsi/291b0bff70d3.webp",
+    "width": 3695,
+    "height": 5551,
+    "index": 35,
+    "title": "Segni sulla pelle"
+  },
+  {
+    "category": "Dettagli",
+    "src": "assets/corsi/c173b4dc56dd.jpg",
+    "thumb": "assets/corsi/c173b4dc56dd.webp",
+    "width": 5893,
+    "height": 3934,
+    "index": 36,
+    "title": "Un gesto raccolto"
+  },
+  {
+    "category": "Dettagli",
+    "src": "assets/corsi/3e6eae7dc635.jpg",
+    "thumb": "assets/corsi/3e6eae7dc635.webp",
+    "width": 5655,
+    "height": 3753,
+    "index": 37,
+    "title": "Il corpo nella luce"
+  },
+  {
+    "category": "Dettagli",
+    "src": "assets/corsi/d8c38b9e1871.jpg",
+    "thumb": "assets/corsi/d8c38b9e1871.webp",
+    "width": 6016,
+    "height": 3454,
+    "index": 38,
+    "title": "Forme nel buio"
+  },
+  {
+    "category": "Dettagli",
+    "src": "assets/corsi/6eda7c29a23c.jpg",
+    "thumb": "assets/corsi/6eda7c29a23c.webp",
+    "width": 6016,
+    "height": 4016,
+    "index": 39,
+    "title": "La luce disegna"
   }
 ]
