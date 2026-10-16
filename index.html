@@ -172,6 +172,14 @@ header{position:relative;background:#fff;border-bottom:1px solid #efefed}
 .home-signoff a{font-size:11px;border-bottom:1px solid #a2ab97;padding-bottom:6px}
 @media(max-width:850px){.hero{width:calc(100% - 32px);padding:28px 22px 34px;gap:20px}.hero-content{grid-template-columns:1fr}.hero h1{font-size:clamp(42px,7vw,63px)}.hero p{grid-column:1;justify-self:start;margin:14px 0 0;max-width:none}.hero-img{aspect-ratio:16/9}#portfolio>.wrap{width:calc(100% - 40px)}#gallery{gap:28px 18px}.filters{gap:5px 18px}.filters .filter{font-size:10px}}
 @media(max-width:560px){.hero{width:100%;padding:26px 24px 30px}.hero-content{padding:0}.hero h1{font-size:44px}.hero-signature{font-size:7px;margin-bottom:15px}.hero p{font-size:12px}.hero-img{aspect-ratio:4/3}#portfolio{padding-top:32px}#portfolio>.wrap{width:calc(100% - 32px)}#portfolio .section-head h2{font-size:27px}.filters{gap:3px 17px}.filters .filter,.filters .filter[data-filter="all"]{font-size:10px;min-height:34px;padding:6px 0}.gallery-tools{display:flex;flex-direction:row;justify-content:space-between;gap:12px}#gallery{grid-template-columns:1fr;gap:27px}#gallery .photo-image{aspect-ratio:4/3}#gallery .photo-info{min-height:0}#gallery .photo-info strong{font-size:13px}.home-signoff{display:block;padding-block:30px}.home-signoff p{font-size:23px;margin-bottom:15px}}
+
+/* Fotografie sempre intere, con passe-partout neutro. */
+#gallery .photo-image{background:#f0efeb}
+#gallery .photo-image img{object-fit:contain;object-position:center;transform:none}
+#gallery .photo:hover .photo-image img{transform:none}
+.hero-img{aspect-ratio:auto;object-fit:contain;height:auto;background:transparent}
+@media(max-width:850px){.hero-img{aspect-ratio:auto;height:auto;object-fit:contain}}
+@media(max-width:560px){#gallery .photo-image{aspect-ratio:4/3}.hero-img{aspect-ratio:auto;height:auto;object-fit:contain}}
 </style>
 <link rel="stylesheet" href="brand-theme.css?v=20261015-attimi">
 </head>
