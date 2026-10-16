@@ -700,5 +700,95 @@
     "index": 77,
     "title": "Una presenza nascosta",
     "category": "Tim Burton"
+  },
+  {
+    "index": 78,
+    "src": "assets/corsi/28997940aed7.jpg",
+    "thumb": "assets/corsi/28997940aed7.webp",
+    "title": "Il colore prende il volo",
+    "width": 2800,
+    "height": 1869,
+    "category": "Body painting"
+  },
+  {
+    "index": 79,
+    "src": "assets/corsi/c6c127cc4a2f.jpg",
+    "thumb": "assets/corsi/c6c127cc4a2f.webp",
+    "title": "Un gesto, una pennellata",
+    "width": 2800,
+    "height": 1575,
+    "category": "Body painting"
+  },
+  {
+    "index": 80,
+    "src": "assets/corsi/bc147f5d7401.jpg",
+    "thumb": "assets/corsi/bc147f5d7401.webp",
+    "title": "La danza del colore",
+    "width": 2800,
+    "height": 1869,
+    "category": "Body painting"
+  },
+  {
+    "index": 81,
+    "src": "assets/corsi/7ef496fdba45.jpg",
+    "thumb": "assets/corsi/7ef496fdba45.webp",
+    "title": "Tra luce e movimento",
+    "width": 2800,
+    "height": 1575,
+    "category": "Body painting"
+  },
+  {
+    "index": 82,
+    "src": "assets/corsi/2e19667debc8.jpg",
+    "thumb": "assets/corsi/2e19667debc8.webp",
+    "title": "Il corpo diventa tela",
+    "width": 2800,
+    "height": 2800,
+    "category": "Body painting"
+  },
+  {
+    "index": 83,
+    "src": "assets/corsi/550195b7353f.jpg",
+    "thumb": "assets/corsi/550195b7353f.webp",
+    "title": "Un segno tra le dita",
+    "width": 2800,
+    "height": 1575,
+    "category": "Body painting"
+  },
+  {
+    "index": 84,
+    "src": "assets/corsi/100906f4883e.jpg",
+    "thumb": "assets/corsi/100906f4883e.webp",
+    "title": "Lo sguardo oltre il colore",
+    "width": 2800,
+    "height": 1575,
+    "category": "Body painting"
+  },
+  {
+    "index": 85,
+    "src": "assets/corsi/30fd0c2d4128.jpg",
+    "thumb": "assets/corsi/30fd0c2d4128.webp",
+    "title": "Tracce sul volto",
+    "width": 2800,
+    "height": 1575,
+    "category": "Body painting"
+  },
+  {
+    "index": 86,
+    "src": "assets/corsi/ac9e117e5a4b.jpg",
+    "thumb": "assets/corsi/ac9e117e5a4b.webp",
+    "title": "Linee e contrasti",
+    "width": 2800,
+    "height": 1869,
+    "category": "Body painting"
+  },
+  {
+    "index": 87,
+    "src": "assets/corsi/3f7b4d34dc46.jpg",
+    "thumb": "assets/corsi/3f7b4d34dc46.webp",
+    "title": "Rame nella luce",
+    "width": 2800,
+    "height": 1575,
+    "category": "Body painting"
   }
 ]
