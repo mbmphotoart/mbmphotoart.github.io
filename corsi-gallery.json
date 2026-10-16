@@ -547,5 +547,158 @@
     "index": 60,
     "title": "La luce oltre il passaggio",
     "category": "Racconti in bianco e nero"
+  },
+  {
+    "src": "assets/corsi/a4728127eace.jpg",
+    "thumb": "assets/corsi/a4728127eace.webp",
+    "width": 6016,
+    "height": 4016,
+    "index": 61,
+    "title": "Uno sguardo da un altro mondo",
+    "category": "Tim Burton"
+  },
+  {
+    "src": "assets/corsi/8316beb31b9b.jpg",
+    "thumb": "assets/corsi/8316beb31b9b.webp",
+    "width": 5882,
+    "height": 3897,
+    "index": 62,
+    "title": "Una sosta fuori dal tempo",
+    "category": "Tim Burton"
+  },
+  {
+    "src": "assets/corsi/91e631f78831.jpg",
+    "thumb": "assets/corsi/91e631f78831.webp",
+    "width": 5794,
+    "height": 3861,
+    "index": 63,
+    "title": "La scena nello specchio",
+    "category": "Tim Burton"
+  },
+  {
+    "src": "assets/corsi/90c34bdd096a.jpg",
+    "thumb": "assets/corsi/90c34bdd096a.webp",
+    "width": 5388,
+    "height": 3480,
+    "index": 64,
+    "title": "Un gesto irriverente",
+    "category": "Tim Burton"
+  },
+  {
+    "src": "assets/corsi/c7da45920454.jpg",
+    "thumb": "assets/corsi/c7da45920454.webp",
+    "width": 4877,
+    "height": 3011,
+    "index": 65,
+    "title": "Una bambola, una storia",
+    "category": "Tim Burton"
+  },
+  {
+    "src": "assets/corsi/a8d72e0e0da6.jpg",
+    "thumb": "assets/corsi/a8d72e0e0da6.webp",
+    "width": 5482,
+    "height": 3645,
+    "index": 66,
+    "title": "L’equilibrio dell’insolito",
+    "category": "Tim Burton"
+  },
+  {
+    "src": "assets/corsi/98f2af2238cb.jpg",
+    "thumb": "assets/corsi/98f2af2238cb.webp",
+    "width": 6016,
+    "height": 4016,
+    "index": 67,
+    "title": "Al volante della fantasia",
+    "category": "Tim Burton"
+  },
+  {
+    "src": "assets/corsi/b44d8f2f759f.jpg",
+    "thumb": "assets/corsi/b44d8f2f759f.webp",
+    "width": 5553,
+    "height": 3517,
+    "index": 68,
+    "title": "Uno sguardo dal finestrino",
+    "category": "Tim Burton"
+  },
+  {
+    "src": "assets/corsi/2bc2cbe2ada9.jpg",
+    "thumb": "assets/corsi/2bc2cbe2ada9.webp",
+    "width": 3998,
+    "height": 2669,
+    "index": 69,
+    "title": "Un invito all’imprevisto",
+    "category": "Tim Burton"
+  },
+  {
+    "src": "assets/corsi/addbf8fda0d8.jpg",
+    "thumb": "assets/corsi/addbf8fda0d8.webp",
+    "width": 4565,
+    "height": 2936,
+    "index": 70,
+    "title": "Un volto nel riflesso",
+    "category": "Tim Burton"
+  },
+  {
+    "src": "assets/corsi/089d9ae1a32c.jpg",
+    "thumb": "assets/corsi/089d9ae1a32c.webp",
+    "width": 6016,
+    "height": 4016,
+    "index": 71,
+    "title": "Rosso tra le scritte",
+    "category": "Tim Burton"
+  },
+  {
+    "src": "assets/corsi/26c74e56e01e.jpg",
+    "thumb": "assets/corsi/26c74e56e01e.webp",
+    "width": 5368,
+    "height": 3583,
+    "index": 72,
+    "title": "Il passo di un personaggio",
+    "category": "Tim Burton"
+  },
+  {
+    "src": "assets/corsi/664f859052fd.jpg",
+    "thumb": "assets/corsi/664f859052fd.webp",
+    "width": 5829,
+    "height": 3854,
+    "index": 73,
+    "title": "Un soffio di rosso",
+    "category": "Tim Burton"
+  },
+  {
+    "src": "assets/corsi/7f2cf663a96a.jpg",
+    "thumb": "assets/corsi/7f2cf663a96a.webp",
+    "width": 5565,
+    "height": 3684,
+    "index": 74,
+    "title": "Il velo prende il volo",
+    "category": "Tim Burton"
+  },
+  {
+    "src": "assets/corsi/9869a68cba4f.jpg",
+    "thumb": "assets/corsi/9869a68cba4f.webp",
+    "width": 5702,
+    "height": 3777,
+    "index": 75,
+    "title": "Il colore si fa racconto",
+    "category": "Tim Burton"
+  },
+  {
+    "src": "assets/corsi/a16990d49b67.jpg",
+    "thumb": "assets/corsi/a16990d49b67.webp",
+    "width": 5293,
+    "height": 3446,
+    "index": 76,
+    "title": "Pronta per un altro viaggio",
+    "category": "Tim Burton"
+  },
+  {
+    "src": "assets/corsi/9f88802e6b8a.jpg",
+    "thumb": "assets/corsi/9f88802e6b8a.webp",
+    "width": 5956,
+    "height": 3984,
+    "index": 77,
+    "title": "Una presenza nascosta",
+    "category": "Tim Burton"
   }
 ]
