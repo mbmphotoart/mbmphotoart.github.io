@@ -782,6 +782,18 @@
       "originalName": "2FD3AE4B-3C3D-4FC6-81B0-6B266CB52EA3(1).jpeg"
     },
     {
+      "id": "859a2fa75879",
+      "src": "assets/visione/859a2fa75879.jpg",
+      "thumb": "assets/visione/859a2fa75879.webp",
+      "width": 6016,
+      "height": 4016,
+      "originalName": "2-DSC_5079.jpg",
+      "title": "Fioriture d’alta quota",
+      "category": "fiori",
+      "color": "colore",
+      "season": ""
+    },
+    {
       "id": "143a61d6ecd4",
       "src": "assets/visione/143a61d6ecd4.jpeg",
       "thumb": "assets/visione/143a61d6ecd4.webp",
@@ -1488,6 +1500,18 @@
       "width": 2048,
       "height": 1189,
       "originalName": "YIPJ4100.JPEG"
+    },
+    {
+      "id": "d72c086821b6",
+      "src": "assets/visione/d72c086821b6.jpg",
+      "thumb": "assets/visione/d72c086821b6.webp",
+      "width": 5293,
+      "height": 3425,
+      "originalName": "1-0C25E2F8-B6BC-494C-93D5-7B1CF3490139.jpg",
+      "title": "Una via d’uscita",
+      "category": "significato",
+      "color": "colore",
+      "season": ""
     }
   ]
 }
