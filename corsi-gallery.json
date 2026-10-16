@@ -358,5 +358,77 @@
     "height": 4016,
     "index": 39,
     "title": "La luce disegna"
+  },
+  {
+    "src": "assets/corsi/591b64bf294f.jpg",
+    "thumb": "assets/corsi/591b64bf294f.webp",
+    "width": 6016,
+    "height": 3384,
+    "index": 40,
+    "title": "Il volto, in una pausa",
+    "category": "Ritratto e atmosfera"
+  },
+  {
+    "src": "assets/corsi/bee22f1cc84c.jpg",
+    "thumb": "assets/corsi/bee22f1cc84c.webp",
+    "width": 6016,
+    "height": 3384,
+    "index": 41,
+    "title": "Un gesto tra i capelli",
+    "category": "Ritratto e atmosfera"
+  },
+  {
+    "src": "assets/corsi/35f5c5a2dd10.jpg",
+    "thumb": "assets/corsi/35f5c5a2dd10.webp",
+    "width": 3203,
+    "height": 5694,
+    "index": 42,
+    "title": "Lo sguardo verso la luce",
+    "category": "Ritratto e atmosfera"
+  },
+  {
+    "src": "assets/corsi/bb49fee34bba.jpg",
+    "thumb": "assets/corsi/bb49fee34bba.webp",
+    "width": 2528,
+    "height": 2528,
+    "index": 43,
+    "title": "Una rosa nel silenzio",
+    "category": "Ritratto e atmosfera"
+  },
+  {
+    "src": "assets/corsi/2b3f65496388.jpg",
+    "thumb": "assets/corsi/2b3f65496388.webp",
+    "width": 6016,
+    "height": 3384,
+    "index": 44,
+    "title": "Il racconto delle mani",
+    "category": "Ritratto e atmosfera"
+  },
+  {
+    "src": "assets/corsi/8fb14ca0a4e4.jpg",
+    "thumb": "assets/corsi/8fb14ca0a4e4.webp",
+    "width": 5791,
+    "height": 3257,
+    "index": 45,
+    "title": "Trame e luce",
+    "category": "Ritratto e atmosfera"
+  },
+  {
+    "src": "assets/corsi/03ad7d0bc533.jpg",
+    "thumb": "assets/corsi/03ad7d0bc533.webp",
+    "width": 6016,
+    "height": 4016,
+    "index": 46,
+    "title": "Un gesto, un’atmosfera",
+    "category": "Ritratto e atmosfera"
+  },
+  {
+    "src": "assets/corsi/851da9c130a1.jpg",
+    "thumb": "assets/corsi/851da9c130a1.webp",
+    "width": 2782,
+    "height": 1564,
+    "index": 47,
+    "title": "La forza di uno sguardo",
+    "category": "Ritratto e atmosfera"
   }
 ]
