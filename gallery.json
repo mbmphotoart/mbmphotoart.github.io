@@ -35,7 +35,8 @@
       "width": 3840,
       "height": 2502,
       "originalName": "29-1CA53BBF-1F4F-44E4-B388-41F571802E17.jpg",
-      "dateTaken": "2026-08-09 14:21:21"
+      "dateTaken": "2026-08-09 14:21:21",
+      "top": true
     },
     {
       "id": "6a6a250d3470",
@@ -100,7 +101,8 @@
       "width": 2563,
       "height": 3840,
       "originalName": "24-07B3308F-794D-40A1-8914-091227C59029.jpg",
-      "dateTaken": "2026-08-02 11:25:29"
+      "dateTaken": "2026-08-02 11:25:29",
+      "top": true
     },
     {
       "id": "8c53a9d68654",
@@ -126,7 +128,8 @@
       "width": 3840,
       "height": 2563,
       "originalName": "22-9D2D7F6F-1BFD-4294-B4CD-035FD7DDDD35.jpg",
-      "dateTaken": "2026-08-02 11:05:37"
+      "dateTaken": "2026-08-02 11:05:37",
+      "top": true
     },
     {
       "id": "de0d1255b95f",
@@ -191,7 +194,8 @@
       "width": 2259,
       "height": 4016,
       "originalName": "QBZF3771(1).jpeg",
-      "dateTaken": "2026-06-09 09:38:23"
+      "dateTaken": "2026-06-09 09:38:23",
+      "top": true
     },
     {
       "id": "29461d0ea99d",
@@ -321,7 +325,8 @@
       "width": 3776,
       "height": 2497,
       "originalName": "10-1CE7C455-3A75-4092-A35F-BAFFE3D52FCD.jpg",
-      "dateTaken": "2026-01-25 16:15:24"
+      "dateTaken": "2026-01-25 16:15:24",
+      "top": true
     },
     {
       "id": "462e6937f6ae",
@@ -438,7 +443,8 @@
       "width": 3840,
       "height": 2160,
       "originalName": "3-139D26DF-A403-4454-A9A6-AA1D2FB18096.jpg",
-      "dateTaken": "2025-10-18 16:52:19"
+      "dateTaken": "2025-10-18 16:52:19",
+      "top": true
     },
     {
       "id": "e131e45ebfc4",
@@ -568,7 +574,8 @@
       "width": 3840,
       "height": 2554,
       "originalName": "31-F19F704C-BCF4-422B-BDBA-8273B2DD4648.jpg",
-      "dateTaken": "2025-09-16 17:34:46"
+      "dateTaken": "2025-09-16 17:34:46",
+      "top": true
     },
     {
       "id": "421c3ab3e587",
@@ -854,7 +861,8 @@
       "width": 3840,
       "height": 2160,
       "originalName": "9-46365D36-02E6-4CFA-AB0C-14DCCF42A6EE.jpg",
-      "dateTaken": "2025-07-10 21:14:42"
+      "dateTaken": "2025-07-10 21:14:42",
+      "top": true
     },
     {
       "id": "0aacfb766207",
@@ -893,7 +901,8 @@
       "width": 3073,
       "height": 3840,
       "originalName": "7-7C84C798-10A0-496D-8982-DEDCE7011838.jpg",
-      "dateTaken": "2025-06-09 13:47:55"
+      "dateTaken": "2025-06-09 13:47:55",
+      "top": true
     },
     {
       "id": "7e0c5d151efc",
@@ -997,7 +1006,8 @@
       "width": 3613,
       "height": 2032,
       "originalName": "GGCV8113.jpeg",
-      "dateTaken": "2024-11-23 10:39:28"
+      "dateTaken": "2024-11-23 10:39:28",
+      "top": true
     },
     {
       "id": "81e602e2f134",
@@ -1179,7 +1189,8 @@
       "width": 3266,
       "height": 2007,
       "originalName": "26-FC686C2A-3343-423F-AAF9-CB7B16390873.jpg",
-      "dateTaken": "2021-09-08 10:33:48"
+      "dateTaken": "2021-09-08 10:33:48",
+      "top": true
     },
     {
       "id": "4055a689c1fd",
@@ -1270,7 +1281,8 @@
       "width": 3840,
       "height": 2509,
       "originalName": "19-64EA6FCB-F8F0-4F32-AC28-87096123B690.jpg",
-      "dateTaken": "2021-09-03 15:10:45"
+      "dateTaken": "2021-09-03 15:10:45",
+      "top": true
     },
     {
       "id": "7d8814331136",
@@ -1439,7 +1451,8 @@
       "width": 2800,
       "height": 1943,
       "originalName": "4-7B14137E-0B04-473D-A345-B45CE45AA483.jpg",
-      "dateTaken": "2021-05-17 13:35:41"
+      "dateTaken": "2021-05-17 13:35:41",
+      "top": true
     },
     {
       "id": "9e7409610bfe",
@@ -1543,7 +1556,8 @@
       "width": 3840,
       "height": 2563,
       "originalName": "5-3AEA2641-D69E-4986-800B-A26189D6B2ED.jpg",
-      "dateTaken": "2021-03-24 06:48:50"
+      "dateTaken": "2021-03-24 06:48:50",
+      "top": true
     },
     {
       "id": "92c60880e02a",
@@ -1621,7 +1635,8 @@
       "width": 3399,
       "height": 2550,
       "originalName": "1-BBB54D7D-7CE4-451A-A3AB-E2235A98249C.jpg",
-      "dateTaken": "2021-02-26 11:53:33"
+      "dateTaken": "2021-02-26 11:53:33",
+      "top": true
     },
     {
       "id": "af94d6c4c04d",
@@ -1933,7 +1948,8 @@
       "width": 3287,
       "height": 2183,
       "originalName": "52-6E75841B-CA7E-4F7A-9839-A19CAC20A86D.jpg",
-      "dateTaken": "2020-09-19 13:05:36"
+      "dateTaken": "2020-09-19 13:05:36",
+      "top": true
     },
     {
       "id": "f114925cc9b7",
@@ -2245,7 +2261,8 @@
       "width": 3840,
       "height": 2563,
       "originalName": "28-CF62A8F7-9D76-4609-BF59-5F2F675E7D45.jpg",
-      "dateTaken": "2020-06-12 16:54:00"
+      "dateTaken": "2020-06-12 16:54:00",
+      "top": true
     },
     {
       "id": "a4808dea1fb2",
@@ -2362,7 +2379,8 @@
       "width": 3840,
       "height": 2563,
       "originalName": "20-84335E47-4129-44DB-A5F3-3E76FD66075B.jpg",
-      "dateTaken": "2020-05-30 10:32:50"
+      "dateTaken": "2020-05-30 10:32:50",
+      "top": true
     },
     {
       "id": "c8ee8a047ecd",
@@ -2401,7 +2419,8 @@
       "width": 3840,
       "height": 2564,
       "originalName": "17-B3DD9770-6F2C-43D6-AF1C-53F389FE53EA.jpg",
-      "dateTaken": "2020-05-30 10:12:53"
+      "dateTaken": "2020-05-30 10:12:53",
+      "top": true
     },
     {
       "id": "de9f1fc0cc55",
@@ -2661,7 +2680,8 @@
       "width": 3840,
       "height": 2564,
       "originalName": "11-EAD2CEB6-C04C-44C3-A586-82E36B22F2C3.jpg",
-      "dateTaken": "2020-04-19 10:57:38"
+      "dateTaken": "2020-04-19 10:57:38",
+      "top": true
     },
     {
       "id": "58727cdda4ce",
@@ -3116,7 +3136,8 @@
       "width": 2800,
       "height": 1869,
       "originalName": "63-3130FE06-365F-4164-AF05-5DEF0DF5CAC6.jpg",
-      "dateTaken": "2019-10-07 10:52:56"
+      "dateTaken": "2019-10-07 10:52:56",
+      "top": true
     },
     {
       "id": "4623a284e7c3",
@@ -3298,7 +3319,8 @@
       "width": 2800,
       "height": 1871,
       "originalName": "77-F0A54605-1D9F-49C5-BAA2-4EE43A85B482.jpg",
-      "dateTaken": "2019-08-16 17:37:00"
+      "dateTaken": "2019-08-16 17:37:00",
+      "top": true
     },
     {
       "id": "1b389dca3cf8",
@@ -3363,7 +3385,8 @@
       "width": 2800,
       "height": 1870,
       "originalName": "82-9C638452-AF9F-4A51-BFBB-7DC0182C3D7D.jpg",
-      "dateTaken": "2019-07-22 10:55:36"
+      "dateTaken": "2019-07-22 10:55:36",
+      "top": true
     },
     {
       "id": "a8b818d623bf",
@@ -3847,6 +3870,20 @@
       "dateTaken": "2013-03-30 16:16:36"
     },
     {
+      "id": "ponte-sospeso-cielo-bn",
+      "src": "assets/visione/ponte-sospeso-cielo-bn.svg",
+      "thumb": "assets/visione/ponte-sospeso-cielo-bn.svg",
+      "title": "Sospesi nel cielo",
+      "category": "architettura",
+      "color": "bn",
+      "season": "",
+      "width": 1536,
+      "height": 1025,
+      "originalName": "F2ABE714-B131-4479-B67E-0C1A9417E677.jpeg",
+      "dateAdded": "2026-10-21",
+      "top": true
+    },
+    {
       "id": "fb04ffe9e366",
       "src": "assets/visione/fb04ffe9e366.jpg",
       "thumb": "assets/visione/fb04ffe9e366.webp",
@@ -3940,7 +3977,8 @@
       "season": "",
       "width": 2048,
       "height": 1152,
-      "originalName": "SKRB8186.JPG"
+      "originalName": "SKRB8186.JPG",
+      "top": true
     },
     {
       "id": "b1af12b9024b",
@@ -4192,7 +4230,8 @@
       "season": "",
       "width": 1536,
       "height": 1058,
-      "originalName": "XAEK7284.jpeg"
+      "originalName": "XAEK7284.jpeg",
+      "top": true
     },
     {
       "id": "b26d4f1d2e9e",
@@ -4240,7 +4279,8 @@
       "season": "inverno",
       "width": 2048,
       "height": 1152,
-      "originalName": "OGIT8565.JPG"
+      "originalName": "OGIT8565.JPG",
+      "top": true
     },
     {
       "id": "c71e532eb331",
@@ -4384,7 +4424,8 @@
       "season": "",
       "width": 2048,
       "height": 1367,
-      "originalName": "LKAX3143.JPG"
+      "originalName": "LKAX3143.JPG",
+      "top": true
     },
     {
       "id": "4cb31ecf1581",
@@ -4840,7 +4881,8 @@
       "season": "",
       "width": 2048,
       "height": 1367,
-      "originalName": "RNSI2765.JPG"
+      "originalName": "RNSI2765.JPG",
+      "top": true
     },
     {
       "id": "3156f8ac7e21",
@@ -4900,7 +4942,8 @@
       "season": "inverno",
       "width": 1674,
       "height": 939,
-      "originalName": "UBNI0673(1).PNG"
+      "originalName": "UBNI0673(1).PNG",
+      "top": true
     },
     {
       "id": "95d411b7c47d",
@@ -5008,7 +5051,8 @@
       "season": "inverno",
       "width": 2800,
       "height": 1575,
-      "originalName": "22-8E3C1867-8A11-45D8-93E9-9C044EAD8352.jpg"
+      "originalName": "22-8E3C1867-8A11-45D8-93E9-9C044EAD8352.jpg",
+      "top": true
     },
     {
       "id": "4f15347ed2f2",
@@ -5080,7 +5124,8 @@
       "season": "",
       "width": 863,
       "height": 1536,
-      "originalName": "RWTF9432.jpeg"
+      "originalName": "RWTF9432.jpeg",
+      "top": true
     },
     {
       "id": "9a97f51d4713",
@@ -5740,7 +5785,8 @@
       "season": "",
       "width": 1025,
       "height": 1536,
-      "originalName": "BRNB3887(1).jpeg"
+      "originalName": "BRNB3887(1).jpeg",
+      "top": true
     },
     {
       "id": "a20e3fe29cce",
@@ -5776,7 +5822,8 @@
       "season": "",
       "width": 1024,
       "height": 1536,
-      "originalName": "IMG_3390.jpeg"
+      "originalName": "IMG_3390.jpeg",
+      "top": true
     },
     {
       "id": "01a4e256674e",
@@ -6244,7 +6291,8 @@
       "season": "",
       "width": 1536,
       "height": 864,
-      "originalName": "EAFT1733.jpeg"
+      "originalName": "EAFT1733.jpeg",
+      "top": true
     },
     {
       "id": "5676edefe8bb",
@@ -6532,7 +6580,8 @@
       "season": "",
       "width": 1536,
       "height": 864,
-      "originalName": "TYAZ4937.jpeg"
+      "originalName": "TYAZ4937.jpeg",
+      "top": true
     },
     {
       "id": "a73d1b68a865",
@@ -6545,6 +6594,50 @@
       "width": 1536,
       "height": 864,
       "originalName": "TYZZ3791.jpeg"
+    }
+  ],
+  "selections": [
+    {
+      "id": "top",
+      "title": "Top",
+      "photoIds": [
+        "466ff7abb980",
+        "c50ae6b8baef",
+        "b5a067da75f8",
+        "84b2cd8497a7",
+        "2a6de8fc120b",
+        "844e4c52719f",
+        "a8d2da137b67",
+        "0fdffb4aee6f",
+        "a52d3d0a5950",
+        "fb69d2674991",
+        "11a9e8abd073",
+        "a06d4ab4cf5e",
+        "1f672c9c32f6",
+        "0ccba56d14da",
+        "ae8f6f07dd60",
+        "3d86a042023d",
+        "418ba90f4290",
+        "539f6e2ffe65",
+        "6470848cb012",
+        "bf4f19244885",
+        "76010a5be3a4",
+        "5fa9db2d070c",
+        "44aa3612d120",
+        "ponte-sospeso-cielo-bn",
+        "073bcfd581c9",
+        "b5cf5c89d2c9",
+        "7e83e35702e3",
+        "c2dfd1ebe642",
+        "71b5a291effa",
+        "68a1c3f6f5ab",
+        "58ef566902a7",
+        "6af8ee8e763d",
+        "906259bb0ba0",
+        "bfab2fe29c8e",
+        "ec072db2b255",
+        "3c7ed0571c1c"
+      ]
     }
   ]
 }

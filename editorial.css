@@ -23,3 +23,7 @@
 
 /* Match the exhibition cover to its gallery and full-screen rendition. */
 .exhibition-page .hero-art,.exhibition-page .photo-button img[src*="mostra-copertina.webp"],.exhibition-page .lightbox img[src*="mostra-copertina.webp"]{filter:saturate(.28) brightness(1.045) sepia(.10) contrast(.99)}
+
+/* A quiet introduction to the curated portfolio selection. */
+.selection-note{max-width:46rem;margin:-.35rem 0 2.4rem;font-size:.88rem;line-height:1.8;color:#747474;font-weight:300;}
+
