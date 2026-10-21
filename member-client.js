@@ -6,7 +6,7 @@ export function configured() { return /^https:\/\/[a-z0-9-]+\.supabase\.co$/.tes
 export async function getClient() {
   if (!configured()) throw new Error(text('La raccolta riservata non è ancora attiva.', 'The private collection is not yet available.'));
   if (!client) {
-    const { createClient } = await import('https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm');
+    const { createClient } = await import('https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.118.0/+esm');
     client = createClient(config.url, config.publishableKey, { auth: { flowType: 'pkce', detectSessionInUrl: true, persistSession: true } });
   }
   return client;

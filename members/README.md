@@ -34,3 +34,11 @@ La distribuzione finale mantiene pubbliche copertina, 18 Top e le altre pagine. 
 - Inserire un'informativa privacy coerente con conservazione e fornitori effettivamente scelti; email raccolte per accesso, senza iscrizione automatica a newsletter.
 
 Documentazione ufficiale: https://supabase.com/docs/guides/auth/auth-email-passwordless e https://supabase.com/docs/guides/storage/security/access-control .
+
+## Stato del collegamento — 21 ottobre 2026
+
+Creato progetto Supabase MBM Photo Art nella regione eu-central-2. Applicata migrazione private_portfolio_membership con funzioni interne nello schema portfolio_private. I test SQL transazionali hanno verificato utente confermato consentito, non confermato negato, revocato negato e isolamento delle righe degli iscritti. Nessun account di test persistente. Advisor sicurezza: nessuna segnalazione dopo la migrazione.
+
+La configurazione frontend contiene solo URL e chiave pubblicabile. SDK fissato a 2.118.0. L’amministrazione valida la sessione lato server con getUser e, finché non configurato un UUID, richiede esattamente l’email confermata bernasconim8@gmail.com. Nessuna fiducia nei metadati modificabili dagli utenti.
+
+Restano da completare accesso al pannello per URL e modelli email/SMTP, caricamento verificato delle immagini e risoluzione della sorgente GitHub pubblica. La raccolta NON è ancora attiva e il sito pubblico non è stato sostituito.
