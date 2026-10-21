@@ -1962,19 +1962,6 @@
       "dateTaken": "2020-09-05 09:22:58"
     },
     {
-      "id": "914a89d6b8f3",
-      "src": "assets/visione/914a89d6b8f3.jpg",
-      "thumb": "assets/visione/914a89d6b8f3-thumb.jpg",
-      "category": "ricerca",
-      "title": "Viola nel ghiaccio",
-      "color": "colore",
-      "season": "",
-      "width": 3840,
-      "height": 2571,
-      "originalName": "46-A1D727A5-C3D6-4436-A320-E5F0CF70D8F5.jpg",
-      "dateTaken": "2020-09-05 09:22:56"
-    },
-    {
       "id": "78057d9716da",
       "src": "assets/visione/78057d9716da.jpg",
       "thumb": "assets/visione/78057d9716da-thumb.jpg",
@@ -2142,19 +2129,6 @@
       "height": 2564,
       "originalName": "32-148B588F-EBBD-4FB3-B10E-CD002FA7A85F.jpg",
       "dateTaken": "2020-06-29 11:59:03"
-    },
-    {
-      "id": "013fbbe93d9f",
-      "src": "assets/visione/013fbbe93d9f.jpg",
-      "thumb": "assets/visione/013fbbe93d9f-thumb.jpg",
-      "category": "architettura",
-      "title": "Riflessi in bianco e nero",
-      "color": "bn",
-      "season": "",
-      "width": 3840,
-      "height": 2685,
-      "originalName": "31-45B471ED-4C08-48F9-B5F3-F739F6D30648.jpg",
-      "dateTaken": "2020-06-28 07:18:17"
     },
     {
       "id": "461cf21d69f8",
@@ -5990,18 +5964,6 @@
       "width": 1032,
       "height": 1536,
       "originalName": "089C3C65-939F-4BB8-9033-A284F6EF0E29.jpeg"
-    },
-    {
-      "id": "94096d183fb5",
-      "src": "assets/visione/94096d183fb5.jpg",
-      "thumb": "assets/visione/94096d183fb5.webp",
-      "title": "L’anfiteatro",
-      "category": "architettura",
-      "color": "bn",
-      "season": "",
-      "width": 2048,
-      "height": 1152,
-      "originalName": "KDDN9407.JPG"
     },
     {
       "id": "13b9a33efd19",
