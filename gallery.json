@@ -129,6 +129,19 @@
       "dateTaken": "2026-08-02 11:05:37"
     },
     {
+      "id": "de0d1255b95f",
+      "src": "assets/visione/de0d1255b95f.jpeg",
+      "thumb": "assets/visione/de0d1255b95f.webp",
+      "title": "Paesaggio di campagna",
+      "category": "boschi",
+      "color": "colore",
+      "season": "estate",
+      "width": 1536,
+      "height": 864,
+      "originalName": "dji_fly_20260712_101546_0179_1783844467657_photo.jpeg",
+      "dateTaken": "2026-07-12 10:15:46"
+    },
+    {
       "id": "4db32ec4cca8",
       "src": "assets/visione/4db32ec4cca8.jpg",
       "thumb": "assets/visione/4db32ec4cca8-thumb.jpg",
@@ -179,6 +192,19 @@
       "height": 4016,
       "originalName": "QBZF3771(1).jpeg",
       "dateTaken": "2026-06-09 09:38:23"
+    },
+    {
+      "id": "29461d0ea99d",
+      "src": "assets/visione/29461d0ea99d.jpeg",
+      "thumb": "assets/visione/29461d0ea99d.webp",
+      "title": "Ai piedi del mulino",
+      "category": "architettura",
+      "color": "colore",
+      "season": "",
+      "width": 1536,
+      "height": 864,
+      "originalName": "dji_fly_20260513_124518_0068_1778669114900_photo.jpeg",
+      "dateTaken": "2026-05-13 12:45:18"
     },
     {
       "id": "8eb08cc8ab72",
@@ -972,6 +998,45 @@
       "height": 2032,
       "originalName": "GGCV8113.jpeg",
       "dateTaken": "2024-11-23 10:39:28"
+    },
+    {
+      "id": "81e602e2f134",
+      "src": "assets/visione/81e602e2f134.jpeg",
+      "thumb": "assets/visione/81e602e2f134.webp",
+      "title": "Iris",
+      "category": "ricerca",
+      "color": "colore",
+      "season": "",
+      "width": 1070,
+      "height": 1070,
+      "originalName": "Rivière 1 iris.jpeg",
+      "dateTaken": "2024-05-18 13:27:37"
+    },
+    {
+      "id": "688bd270462d",
+      "src": "assets/visione/688bd270462d.jpeg",
+      "thumb": "assets/visione/688bd270462d.webp",
+      "title": "La prua dall’alto",
+      "category": "mare",
+      "color": "colore",
+      "season": "",
+      "width": 1536,
+      "height": 864,
+      "originalName": "dji_fly_20240129_191000_0117_1789579722141_photo.jpeg",
+      "dateTaken": "2024-01-29 19:10:00"
+    },
+    {
+      "id": "a04cbf8b9ef0",
+      "src": "assets/visione/a04cbf8b9ef0.jpeg",
+      "thumb": "assets/visione/a04cbf8b9ef0.webp",
+      "title": "Disegni sull’acqua",
+      "category": "mare",
+      "color": "colore",
+      "season": "",
+      "width": 1536,
+      "height": 864,
+      "originalName": "dji_fly_20240128_142954_0078_1789476697896_photo.jpeg",
+      "dateTaken": "2024-01-28 14:29:54"
     },
     {
       "id": "e644238fdbb3",
@@ -3962,18 +4027,6 @@
       "originalName": "QFAI1084.JPEG"
     },
     {
-      "id": "a04cbf8b9ef0",
-      "src": "assets/visione/a04cbf8b9ef0.jpeg",
-      "thumb": "assets/visione/a04cbf8b9ef0.webp",
-      "title": "Disegni sull’acqua",
-      "category": "mare",
-      "color": "colore",
-      "season": "",
-      "width": 1536,
-      "height": 864,
-      "originalName": "dji_fly_20240128_142954_0078_1789476697896_photo.jpeg"
-    },
-    {
       "id": "b8a4fce9a6a5",
       "src": "assets/visione/b8a4fce9a6a5.jpg",
       "thumb": "assets/visione/b8a4fce9a6a5.webp",
@@ -4020,18 +4073,6 @@
       "width": 2048,
       "height": 1269,
       "originalName": "XJVHE7139.JPG"
-    },
-    {
-      "id": "688bd270462d",
-      "src": "assets/visione/688bd270462d.jpeg",
-      "thumb": "assets/visione/688bd270462d.webp",
-      "title": "La prua dall’alto",
-      "category": "mare",
-      "color": "colore",
-      "season": "",
-      "width": 1536,
-      "height": 864,
-      "originalName": "dji_fly_20240129_191000_0117_1789579722141_photo.jpeg"
     },
     {
       "id": "eb2e6906af75",
@@ -4932,18 +4973,6 @@
       "width": 2048,
       "height": 1306,
       "originalName": "UQGH1140.JPEG"
-    },
-    {
-      "id": "de0d1255b95f",
-      "src": "assets/visione/de0d1255b95f.jpeg",
-      "thumb": "assets/visione/de0d1255b95f.webp",
-      "title": "Paesaggio di campagna",
-      "category": "boschi",
-      "color": "colore",
-      "season": "estate",
-      "width": 1536,
-      "height": 864,
-      "originalName": "dji_fly_20260712_101546_0179_1783844467657_photo.jpeg"
     },
     {
       "id": "560e45805bf8",
@@ -6146,18 +6175,6 @@
       "originalName": "WWGZ2036.JPEG"
     },
     {
-      "id": "29461d0ea99d",
-      "src": "assets/visione/29461d0ea99d.jpeg",
-      "thumb": "assets/visione/29461d0ea99d.webp",
-      "title": "Ai piedi del mulino",
-      "category": "architettura",
-      "color": "colore",
-      "season": "",
-      "width": 1536,
-      "height": 864,
-      "originalName": "dji_fly_20260513_124518_0068_1778669114900_photo.jpeg"
-    },
-    {
       "id": "1e0f612c0861",
       "src": "assets/visione/1e0f612c0861.jpeg",
       "thumb": "assets/visione/1e0f612c0861.webp",
@@ -6444,18 +6461,6 @@
       "width": 2048,
       "height": 1213,
       "originalName": "BNEG2818.JPEG"
-    },
-    {
-      "id": "81e602e2f134",
-      "src": "assets/visione/81e602e2f134.jpeg",
-      "thumb": "assets/visione/81e602e2f134.webp",
-      "title": "Iris",
-      "category": "ricerca",
-      "color": "colore",
-      "season": "",
-      "width": 1070,
-      "height": 1070,
-      "originalName": "Rivière 1 iris.jpeg"
     },
     {
       "id": "cfcc5fd6b8ce",
