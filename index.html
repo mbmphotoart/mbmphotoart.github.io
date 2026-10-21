@@ -17,7 +17,7 @@
 <header data-brand-tone="light"><div class="wrap nav">
 <a class="brand" href="#home" aria-label="MBM Photo Art, home"><img src="logo.svg" alt=""><span>MBM PHOTO ART</span></a>
 <button class="menu-toggle" type="button" aria-label="Apri il menu" aria-controls="siteMenu" aria-expanded="false"><span></span><span></span><span></span></button>
-<nav class="navlinks" id="siteMenu" aria-label="Navigazione principale"><a href="index.html#portfolio">Portfolio</a><a href="biografia.html">Il mio sguardo</a><a href="corsi.html">Corsi</a><a href="mostra.html">Mostra</a><a href="concorsi-vinti.html">Concorsi</a><a href="index.html#contatti">Contatti</a></nav>
+<nav class="navlinks" id="siteMenu" aria-label="Navigazione principale"><a href="index.html#portfolio">Portfolio</a><a href="biografia.html">Il mio sguardo</a><a href="corsi.html">Corsi</a><a href="mostra.html">Mostra</a><a href="concorsi-vinti.html">Concorsi</a><a href="contatti.html">Contatti</a></nav>
 <div class="language-switch" role="group" aria-label="Language / Lingua"><a href="index.html" lang="it" hreflang="it" aria-current="true">IT</a><a href="index-en.html" lang="en" hreflang="en">EN</a></div></div></header>
 <main>
 <section class="hero" id="home" aria-labelledby="home-title">
@@ -60,7 +60,7 @@ document.addEventListener('keydown',e=>{if(!lightbox.classList.contains('open'))
 let touchX=0;lightbox.addEventListener('touchstart',e=>touchX=e.changedTouches[0].clientX,{passive:true});lightbox.addEventListener('touchend',e=>{const delta=e.changedTouches[0].clientX-touchX;if(Math.abs(delta)>60)stepPhoto(delta<0?1:-1)},{passive:true});
 document.getElementById('year').textContent=new Date().getFullYear();renderGallery();
 </script>
-<a href="#page-top" class="back-to-top" aria-label="Torna in cima">↑<span>Torna in cima</span></a></body></html>
+<a href="#page-top" class="back-to-top" aria-label="Torna in cima">↑<span>Torna in cima</span></a><script>function openLegacyContact(){if(location.hash==='#contatti')location.replace('contatti.html')}openLegacyContact();addEventListener('hashchange',openLegacyContact);</script></body></html>
 
 
 

@@ -1,0 +1,25 @@
+/* Direct contact, in the same quiet editorial language as the photographs. */
+.contacts-page .contact-main{padding-top:38px;padding-bottom:0;min-height:calc(100svh - 198px)}
+.contact-kicker{display:flex;align-items:center;justify-content:space-between;gap:24px;border-bottom:1px solid #ddd;padding-bottom:19px;font:500 9px/1.6 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:#777}
+.contact-layout{display:grid;grid-template-columns:1fr 1fr;gap:90px;align-items:center;padding:65px 0 85px}
+.contacts-page .contact-intro h1{margin:0;font:500 clamp(64px,7.8vw,112px)/.98 var(--sans);letter-spacing:-.065em;color:#151515}
+.contact-intro>p{max-width:340px;font:400 14px/1.9 var(--sans);color:#777;margin:30px 0 0}
+.contact-options{min-width:0;padding-top:2px}
+.contact-option{position:relative;display:grid;gap:13px;padding:28px 44px 28px 0;border-top:1px solid #ddd;color:#151515;text-decoration:none}
+.contact-option:last-child{border-bottom:1px solid #ddd}
+.contact-option-label{font:500 9px/1.6 var(--sans);letter-spacing:.15em;text-transform:uppercase;color:#777}
+.contact-option-value{font:400 clamp(18px,2.3vw,32px)/1.3 var(--sans);letter-spacing:-.035em;overflow-wrap:anywhere}
+.contact-option-note{font:400 10px/1.8 var(--sans);color:#777}
+.contact-arrow{position:absolute;right:0;top:50%;transform:translateY(-50%);font:300 27px/1 var(--sans);transition:transform .2s}
+.contact-option:hover .contact-option-value{text-decoration:underline;text-underline-offset:6px;text-decoration-thickness:1px}
+.contact-option:hover .contact-arrow{transform:translate(3px,calc(-50% - 3px))}
+.contact-closing{display:flex;align-items:baseline;justify-content:space-between;gap:40px;padding:27px 0 45px;border-top:1px solid #ddd}
+.contact-closing p{margin:0;max-width:620px;color:#777;font:400 12px/1.8 var(--sans)}
+.contact-closing>a{flex-shrink:0;display:inline-flex;align-items:center;gap:27px;min-height:44px;border-bottom:1px solid #bbb;color:#333;font:500 10px/1.6 var(--sans)}
+.contacts-page footer{padding:5px 0}
+.contacts-page footer .footer-inner{padding:25px 0}
+.contacts-page footer .brand{color:#fff}
+@media(max-width:1050px){.contact-layout{gap:55px}.contacts-page .contact-intro h1{font-size:clamp(60px,8.2vw,92px)}}
+@media(max-width:760px){.contacts-page .contact-main{padding-top:25px}.contact-layout{grid-template-columns:1fr;gap:38px;padding:40px 0 45px}.contacts-page .contact-intro h1{font-size:clamp(62px,11vw,86px)}.contact-intro>p{max-width:370px;font-size:13px;margin-top:24px}.contact-option{padding-block:25px}.contact-option-value{font-size:clamp(20px,4.3vw,31px)}.contact-closing{align-items:start;flex-direction:column;gap:18px;padding:25px 0 40px}.contacts-page footer .footer-inner{flex-direction:row;align-items:center}.contact-kicker{font-size:8px;letter-spacing:.1em}}
+@media(max-width:400px){.contact-option-value{font-size:19px}.contact-option{padding-right:27px}.contact-arrow{font-size:23px}.contacts-page .contact-intro h1{font-size:61px}.contacts-page footer .footer-inner{align-items:start;flex-direction:column;gap:18px}}
+@media(prefers-reduced-motion:reduce){.contact-arrow{transition:none}}

@@ -17,7 +17,7 @@
 <header data-brand-tone="light"><div class="wrap nav">
 <a class="brand" href="#home" aria-label="MBM Photo Art, home"><img src="logo.svg" alt=""><span>MBM PHOTO ART</span></a>
 <button class="menu-toggle" type="button" aria-label="Open menu" aria-controls="siteMenu" aria-expanded="false"><span></span><span></span><span></span></button>
-<nav class="navlinks" id="siteMenu" aria-label="Main navigation"><a href="index-en.html#portfolio">Portfolio</a><a href="biografia-en.html">My perspective</a><a href="corsi-en.html">Courses</a><a href="mostra-en.html">Exhibition</a><a href="concorsi-vinti-en.html">Awards</a><a href="index-en.html#contatti">Contact</a></nav>
+<nav class="navlinks" id="siteMenu" aria-label="Main navigation"><a href="index-en.html#portfolio">Portfolio</a><a href="biografia-en.html">My perspective</a><a href="corsi-en.html">Courses</a><a href="mostra-en.html">Exhibition</a><a href="concorsi-vinti-en.html">Awards</a><a href="contatti-en.html">Contact</a></nav>
 <div class="language-switch" role="group" aria-label="Language / Lingua"><a href="index.html" lang="it" hreflang="it">IT</a><a href="index-en.html" lang="en" hreflang="en" aria-current="true">EN</a></div></div></header>
 <main>
 <section class="hero" id="home" aria-labelledby="home-title">
@@ -60,7 +60,7 @@ document.addEventListener('keydown',e=>{if(!lightbox.classList.contains('open'))
 let touchX=0;lightbox.addEventListener('touchstart',e=>touchX=e.changedTouches[0].clientX,{passive:true});lightbox.addEventListener('touchend',e=>{const delta=e.changedTouches[0].clientX-touchX;if(Math.abs(delta)>60)stepPhoto(delta<0?1:-1)},{passive:true});
 document.getElementById('year').textContent=new Date().getFullYear();renderGallery();
 </script>
-<a href="#page-top" class="back-to-top" aria-label="Back to top">↑<span>Back to top</span></a></body></html>
+<a href="#page-top" class="back-to-top" aria-label="Back to top">↑<span>Back to top</span></a><script>function openLegacyContact(){if(location.hash==='#contatti')location.replace('contatti-en.html')}openLegacyContact();addEventListener('hashchange',openLegacyContact);</script></body></html>
 
 
 
