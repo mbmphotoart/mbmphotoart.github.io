@@ -66,7 +66,7 @@
 .editorial-site .language-switch a{min-width:40px;min-height:44px}
 .editorial-site .brand{font-size:12px;letter-spacing:.08em}
 .editorial-site .eyebrow,.editorial-site .hero-signature,.editorial-site .chapter-label{font-size:13px;line-height:1.7;letter-spacing:.08em}
-.editorial-site .bio-copy p,.editorial-site .bio-story p,.editorial-site .bio-motto-explanation p,.editorial-site .hero-note,.editorial-site .chapter-description>p,.editorial-site .closing p,.editorial-site .intro-copy,.editorial-site .copy{font-size:18px;line-height:1.85}
+.editorial-site .bio-copy p,.editorial-site .bio-story p,.editorial-site .bio-motto-explanation p,.editorial-site .hero-note,.editorial-site .hero-copy p,.editorial-site .chapter-description>p,.editorial-site .closing p,.editorial-site .intro-copy,.editorial-site .intro-copy p,.editorial-site .copy,.editorial-site .copy p,.exhibition-page .section-heading .lead{font-size:18px;line-height:1.85}
 .editorial-site .button,.editorial-site .back,.editorial-site .outline-link,.editorial-site .journey-link{font-size:16px;line-height:1.6;min-height:48px}
 .portfolio-page .hero p{font-size:18px;line-height:1.75}
 .portfolio-page .hero .button{font-size:16px;line-height:1.6;min-height:48px;gap:16px}
