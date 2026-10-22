@@ -72,33 +72,6 @@
     "category": "light painting"
   },
   {
-    "index": 8,
-    "src": "assets/corsi/8afa2ae9da34.jpg",
-    "thumb": "assets/corsi/8afa2ae9da34.webp",
-    "title": "Due gesti, una trasformazione",
-    "width": 2507,
-    "height": 4789,
-    "category": "Metamorfosi"
-  },
-  {
-    "index": 9,
-    "src": "assets/corsi/4ef6943ccdbc.jpg",
-    "thumb": "assets/corsi/4ef6943ccdbc.webp",
-    "title": "Dialogo allo specchio",
-    "width": 4619,
-    "height": 2599,
-    "category": "Metamorfosi"
-  },
-  {
-    "index": 10,
-    "src": "assets/corsi/944078f30235.jpg",
-    "thumb": "assets/corsi/944078f30235.webp",
-    "title": "Un gesto sospeso",
-    "width": 4016,
-    "height": 4016,
-    "category": "Metamorfosi"
-  },
-  {
     "index": 11,
     "src": "assets/corsi/9194679e2acd.jpg",
     "thumb": "assets/corsi/9194679e2acd.webp",
@@ -108,30 +81,12 @@
     "category": "Metamorfosi"
   },
   {
-    "index": 12,
-    "src": "assets/corsi/090b52b7d8bd.jpg",
-    "thumb": "assets/corsi/090b52b7d8bd.webp",
-    "title": "Un’altra prospettiva",
-    "width": 3681,
-    "height": 5514,
-    "category": "Metamorfosi"
-  },
-  {
     "index": 13,
     "src": "assets/corsi/684abaa9b046.jpg",
     "thumb": "assets/corsi/684abaa9b046.webp",
     "title": "La luce sul volto",
     "width": 4016,
     "height": 4016,
-    "category": "Metamorfosi"
-  },
-  {
-    "index": 14,
-    "src": "assets/corsi/6c5e20496986.jpg",
-    "thumb": "assets/corsi/6c5e20496986.webp",
-    "title": "Un filo di colore",
-    "width": 3671,
-    "height": 3671,
     "category": "Metamorfosi"
   },
   {
@@ -235,30 +190,12 @@
   },
   {
     "category": "Bosco",
-    "src": "assets/corsi/0576961baef8.jpg",
-    "thumb": "assets/corsi/0576961baef8.webp",
-    "width": 5353,
-    "height": 3225,
-    "index": 26,
-    "title": "La vita sulla corteccia"
-  },
-  {
-    "category": "Bosco",
     "src": "assets/corsi/e546cc98ab76.jpg",
     "thumb": "assets/corsi/e546cc98ab76.webp",
     "width": 4887,
     "height": 3262,
     "index": 27,
     "title": "Un vortice di foglie"
-  },
-  {
-    "category": "Bosco",
-    "src": "assets/corsi/accc40042521.jpg",
-    "thumb": "assets/corsi/accc40042521.webp",
-    "width": 5052,
-    "height": 3323,
-    "index": 28,
-    "title": "Tra gli alberi e il silenzio"
   },
   {
     "category": "Bosco",
@@ -270,24 +207,6 @@
     "title": "Figure sotto il cielo"
   },
   {
-    "category": "Bosco",
-    "src": "assets/corsi/41295c4e4829.jpg",
-    "thumb": "assets/corsi/41295c4e4829.webp",
-    "width": 5128,
-    "height": 3423,
-    "index": 30,
-    "title": "Il paesaggio oltre il bosco"
-  },
-  {
-    "category": "Bosco",
-    "src": "assets/corsi/e13cdbfd29c6.jpg",
-    "thumb": "assets/corsi/e13cdbfd29c6.webp",
-    "width": 4414,
-    "height": 2939,
-    "index": 31,
-    "title": "Un segno tra gli alberi"
-  },
-  {
     "category": "Dettagli",
     "src": "assets/corsi/5fcc266d4df2.jpg",
     "thumb": "assets/corsi/5fcc266d4df2.webp",
@@ -295,33 +214,6 @@
     "height": 2907,
     "index": 32,
     "title": "Il gesto e la linea"
-  },
-  {
-    "category": "Dettagli",
-    "src": "assets/corsi/846dbda0e786.jpg",
-    "thumb": "assets/corsi/846dbda0e786.webp",
-    "width": 5287,
-    "height": 3530,
-    "index": 33,
-    "title": "Uno sguardo verso il basso"
-  },
-  {
-    "category": "Dettagli",
-    "src": "assets/corsi/9323a7652271.jpg",
-    "thumb": "assets/corsi/9323a7652271.webp",
-    "width": 3822,
-    "height": 5725,
-    "index": 34,
-    "title": "Le mani, al centro"
-  },
-  {
-    "category": "Dettagli",
-    "src": "assets/corsi/291b0bff70d3.jpg",
-    "thumb": "assets/corsi/291b0bff70d3.webp",
-    "width": 3695,
-    "height": 5551,
-    "index": 35,
-    "title": "Segni sulla pelle"
   },
   {
     "category": "Dettagli",
@@ -351,15 +243,6 @@
     "title": "Forme nel buio"
   },
   {
-    "category": "Dettagli",
-    "src": "assets/corsi/6eda7c29a23c.jpg",
-    "thumb": "assets/corsi/6eda7c29a23c.webp",
-    "width": 6016,
-    "height": 4016,
-    "index": 39,
-    "title": "La luce disegna"
-  },
-  {
     "src": "assets/corsi/591b64bf294f.jpg",
     "thumb": "assets/corsi/591b64bf294f.webp",
     "width": 6016,
@@ -369,48 +252,12 @@
     "category": "Ritratto e atmosfera"
   },
   {
-    "src": "assets/corsi/bee22f1cc84c.jpg",
-    "thumb": "assets/corsi/bee22f1cc84c.webp",
-    "width": 6016,
-    "height": 3384,
-    "index": 41,
-    "title": "Un gesto tra i capelli",
-    "category": "Ritratto e atmosfera"
-  },
-  {
-    "src": "assets/corsi/35f5c5a2dd10.jpg",
-    "thumb": "assets/corsi/35f5c5a2dd10.webp",
-    "width": 3203,
-    "height": 5694,
-    "index": 42,
-    "title": "Lo sguardo verso la luce",
-    "category": "Ritratto e atmosfera"
-  },
-  {
     "src": "assets/corsi/bb49fee34bba.jpg",
     "thumb": "assets/corsi/bb49fee34bba.webp",
     "width": 2528,
     "height": 2528,
     "index": 43,
     "title": "Una rosa nel silenzio",
-    "category": "Ritratto e atmosfera"
-  },
-  {
-    "src": "assets/corsi/2b3f65496388.jpg",
-    "thumb": "assets/corsi/2b3f65496388.webp",
-    "width": 6016,
-    "height": 3384,
-    "index": 44,
-    "title": "Il racconto delle mani",
-    "category": "Ritratto e atmosfera"
-  },
-  {
-    "src": "assets/corsi/8fb14ca0a4e4.jpg",
-    "thumb": "assets/corsi/8fb14ca0a4e4.webp",
-    "width": 5791,
-    "height": 3257,
-    "index": 45,
-    "title": "Trame e luce",
     "category": "Ritratto e atmosfera"
   },
   {
@@ -486,30 +333,12 @@
     "category": "Ritratto ambientato"
   },
   {
-    "src": "assets/corsi/c237fa779bd9.jpg",
-    "thumb": "assets/corsi/c237fa779bd9.webp",
-    "width": 5191,
-    "height": 3467,
-    "index": 54,
-    "title": "Tra luce e colore",
-    "category": "Ritratto ambientato"
-  },
-  {
     "src": "assets/corsi/a89c086d96c9.jpg",
     "thumb": "assets/corsi/a89c086d96c9.webp",
     "width": 2222,
     "height": 1486,
     "index": 55,
     "title": "Una presenza, una storia",
-    "category": "Ritratto ambientato"
-  },
-  {
-    "src": "assets/corsi/aeb79d48dc97.jpg",
-    "thumb": "assets/corsi/aeb79d48dc97.webp",
-    "width": 5668,
-    "height": 3782,
-    "index": 56,
-    "title": "Il silenzio di una stanza",
     "category": "Ritratto ambientato"
   },
   {
@@ -567,111 +396,12 @@
     "category": "Tim Burton"
   },
   {
-    "src": "assets/corsi/91e631f78831.jpg",
-    "thumb": "assets/corsi/91e631f78831.webp",
-    "width": 5794,
-    "height": 3861,
-    "index": 63,
-    "title": "La scena nello specchio",
-    "category": "Tim Burton"
-  },
-  {
-    "src": "assets/corsi/90c34bdd096a.jpg",
-    "thumb": "assets/corsi/90c34bdd096a.webp",
-    "width": 5388,
-    "height": 3480,
-    "index": 64,
-    "title": "Un gesto irriverente",
-    "category": "Tim Burton"
-  },
-  {
-    "src": "assets/corsi/c7da45920454.jpg",
-    "thumb": "assets/corsi/c7da45920454.webp",
-    "width": 4877,
-    "height": 3011,
-    "index": 65,
-    "title": "Una bambola, una storia",
-    "category": "Tim Burton"
-  },
-  {
-    "src": "assets/corsi/a8d72e0e0da6.jpg",
-    "thumb": "assets/corsi/a8d72e0e0da6.webp",
-    "width": 5482,
-    "height": 3645,
-    "index": 66,
-    "title": "L’equilibrio dell’insolito",
-    "category": "Tim Burton"
-  },
-  {
-    "src": "assets/corsi/98f2af2238cb.jpg",
-    "thumb": "assets/corsi/98f2af2238cb.webp",
-    "width": 6016,
-    "height": 4016,
-    "index": 67,
-    "title": "Al volante della fantasia",
-    "category": "Tim Burton"
-  },
-  {
-    "src": "assets/corsi/b44d8f2f759f.jpg",
-    "thumb": "assets/corsi/b44d8f2f759f.webp",
-    "width": 5553,
-    "height": 3517,
-    "index": 68,
-    "title": "Uno sguardo dal finestrino",
-    "category": "Tim Burton"
-  },
-  {
     "src": "assets/corsi/2bc2cbe2ada9.jpg",
     "thumb": "assets/corsi/2bc2cbe2ada9.webp",
     "width": 3998,
     "height": 2669,
     "index": 69,
     "title": "Un invito all’imprevisto",
-    "category": "Tim Burton"
-  },
-  {
-    "src": "assets/corsi/addbf8fda0d8.jpg",
-    "thumb": "assets/corsi/addbf8fda0d8.webp",
-    "width": 4565,
-    "height": 2936,
-    "index": 70,
-    "title": "Un volto nel riflesso",
-    "category": "Tim Burton"
-  },
-  {
-    "src": "assets/corsi/089d9ae1a32c.jpg",
-    "thumb": "assets/corsi/089d9ae1a32c.webp",
-    "width": 6016,
-    "height": 4016,
-    "index": 71,
-    "title": "Rosso tra le scritte",
-    "category": "Tim Burton"
-  },
-  {
-    "src": "assets/corsi/26c74e56e01e.jpg",
-    "thumb": "assets/corsi/26c74e56e01e.webp",
-    "width": 5368,
-    "height": 3583,
-    "index": 72,
-    "title": "Il passo di un personaggio",
-    "category": "Tim Burton"
-  },
-  {
-    "src": "assets/corsi/664f859052fd.jpg",
-    "thumb": "assets/corsi/664f859052fd.webp",
-    "width": 5829,
-    "height": 3854,
-    "index": 73,
-    "title": "Un soffio di rosso",
-    "category": "Tim Burton"
-  },
-  {
-    "src": "assets/corsi/7f2cf663a96a.jpg",
-    "thumb": "assets/corsi/7f2cf663a96a.webp",
-    "width": 5565,
-    "height": 3684,
-    "index": 74,
-    "title": "Il velo prende il volo",
     "category": "Tim Burton"
   },
   {
@@ -684,57 +414,12 @@
     "category": "Tim Burton"
   },
   {
-    "src": "assets/corsi/a16990d49b67.jpg",
-    "thumb": "assets/corsi/a16990d49b67.webp",
-    "width": 5293,
-    "height": 3446,
-    "index": 76,
-    "title": "Pronta per un altro viaggio",
-    "category": "Tim Burton"
-  },
-  {
-    "src": "assets/corsi/9f88802e6b8a.jpg",
-    "thumb": "assets/corsi/9f88802e6b8a.webp",
-    "width": 5956,
-    "height": 3984,
-    "index": 77,
-    "title": "Una presenza nascosta",
-    "category": "Tim Burton"
-  },
-  {
     "index": 78,
     "src": "assets/corsi/28997940aed7.jpg",
     "thumb": "assets/corsi/28997940aed7.webp",
     "title": "Il colore prende il volo",
     "width": 2800,
     "height": 1869,
-    "category": "Body painting"
-  },
-  {
-    "index": 79,
-    "src": "assets/corsi/c6c127cc4a2f.jpg",
-    "thumb": "assets/corsi/c6c127cc4a2f.webp",
-    "title": "Un gesto, una pennellata",
-    "width": 2800,
-    "height": 1575,
-    "category": "Body painting"
-  },
-  {
-    "index": 80,
-    "src": "assets/corsi/bc147f5d7401.jpg",
-    "thumb": "assets/corsi/bc147f5d7401.webp",
-    "title": "La danza del colore",
-    "width": 2800,
-    "height": 1869,
-    "category": "Body painting"
-  },
-  {
-    "index": 81,
-    "src": "assets/corsi/7ef496fdba45.jpg",
-    "thumb": "assets/corsi/7ef496fdba45.webp",
-    "title": "Tra luce e movimento",
-    "width": 2800,
-    "height": 1575,
     "category": "Body painting"
   },
   {
@@ -747,39 +432,12 @@
     "category": "Body painting"
   },
   {
-    "index": 83,
-    "src": "assets/corsi/550195b7353f.jpg",
-    "thumb": "assets/corsi/550195b7353f.webp",
-    "title": "Un segno tra le dita",
-    "width": 2800,
-    "height": 1575,
-    "category": "Body painting"
-  },
-  {
-    "index": 84,
-    "src": "assets/corsi/100906f4883e.jpg",
-    "thumb": "assets/corsi/100906f4883e.webp",
-    "title": "Lo sguardo oltre il colore",
-    "width": 2800,
-    "height": 1575,
-    "category": "Body painting"
-  },
-  {
     "index": 85,
     "src": "assets/corsi/30fd0c2d4128.jpg",
     "thumb": "assets/corsi/30fd0c2d4128.webp",
     "title": "Tracce sul volto",
     "width": 2800,
     "height": 1575,
-    "category": "Body painting"
-  },
-  {
-    "index": 86,
-    "src": "assets/corsi/ac9e117e5a4b.jpg",
-    "thumb": "assets/corsi/ac9e117e5a4b.webp",
-    "title": "Linee e contrasti",
-    "width": 2800,
-    "height": 1869,
     "category": "Body painting"
   },
   {
