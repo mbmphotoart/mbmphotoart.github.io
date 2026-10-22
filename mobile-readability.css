@@ -1,98 +1,39 @@
 /* Comfortable reading and touch targets on phones and tablets. */
 @media(max-width:1000px){
-.editorial-site header nav a{font-size:17px;line-height:1.5;min-height:48px;padding-block:12px}
-.editorial-site .language-switch{font-size:14px}
+.editorial-site header nav a{font-size:19px;line-height:1.5;min-height:48px;padding-block:12px}
+.editorial-site .language-switch{font-size:16px}
 .editorial-site .language-switch a{min-width:40px;min-height:44px}
 }
 @media(max-width:760px){
-.editorial-site{font-size:16px;line-height:1.75}
-.editorial-site .brand{font-size:10px;letter-spacing:.1em}
-.editorial-site .eyebrow,.editorial-site .hero-signature,.editorial-site .chapter-label{font-size:12px;line-height:1.7;letter-spacing:.08em}
-.editorial-site .bio-copy p,.editorial-site .bio-story p,.editorial-site .bio-motto-explanation p,.editorial-site .hero-note,.editorial-site .chapter-description>p,.editorial-site .closing p,.editorial-site .intro-copy,.editorial-site .copy{font-size:16px;line-height:1.85}
-.portfolio-page .hero p{font-size:16px;line-height:1.7;max-width:26rem}
+.editorial-site{font-size:18px;line-height:1.75}
+.editorial-site .brand{font-size:12px;letter-spacing:.1em}
+.editorial-site .eyebrow,.editorial-site .hero-signature,.editorial-site .chapter-label{font-size:14px;line-height:1.7;letter-spacing:.08em}
+.editorial-site .bio-copy p,.editorial-site .bio-story p,.editorial-site .bio-motto-explanation p,.editorial-site .hero-note,.editorial-site .chapter-description>p,.editorial-site .closing p,.editorial-site .intro-copy,.editorial-site .copy{font-size:18px;line-height:1.85}
+.portfolio-page .hero p{font-size:18px;line-height:1.7;max-width:26rem}
 .portfolio-page .hero-intro{align-items:flex-start;flex-direction:column;gap:18px}
-.portfolio-page .hero .button{font-size:14px;line-height:1.6;min-height:44px;max-width:none;gap:18px}
-.portfolio-page .hero-caption{font-size:12px;line-height:1.7;flex-wrap:wrap;gap:12px 24px}
-.portfolio-page .hero-caption a{display:inline-flex;align-items:center;min-height:44px}
-.portfolio-page .filters{gap:4px 22px;padding-block:15px}
-.portfolio-page .filter,.portfolio-page .filter[data-filter="all"]{font-size:15px;line-height:1.6;min-height:46px;padding-block:10px}
-.portfolio-page .selection-note{font-size:16px;line-height:1.8;margin-bottom:26px;color:#606060}
-.portfolio-page .gallery-tools{font-size:14px;gap:16px;flex-wrap:wrap;align-items:center}
-.portfolio-page #galleryCount,.portfolio-page .refine-filters{font-size:14px;line-height:1.7}
-.portfolio-page .refine-filters{max-width:100%}
-.portfolio-page .refine-filters summary{display:flex;align-items:center;min-height:44px}
-.portfolio-page .refine-filters select{font-size:16px;min-height:44px;max-width:100%}
-.portfolio-page .photo-info strong,.editorial-site .photo-caption,.exhibition-page .photo figcaption{font-size:14px;line-height:1.65}
-.portfolio-page .photo-info .arrow{font-size:18px}
-.portfolio-page .gallery-pages,.portfolio-page #pageInfo{font-size:14px}
-.portfolio-page .gallery-pages button{font-size:15px;line-height:1.5;min-height:48px}
-.portfolio-page .home-signoff a{font-size:14px;line-height:1.7;min-height:44px;display:inline-flex;align-items:center}
-.editorial-site .bio-portrait figcaption,.editorial-site .hero-figure figcaption,.editorial-site .lightbox figcaption{font-size:14px;line-height:1.7}
-.editorial-site .techniques li{font-size:13px;line-height:1.7}
-.editorial-site .hero-stats{font-size:14px}
-.editorial-site .course-index>summary{font-size:16px;line-height:1.6;gap:16px}
-.editorial-site .course-index-meta{font-size:13px;gap:12px}
-.editorial-site .course-index-links>a{font-size:15px;line-height:1.65;min-height:48px;gap:10px}
-.editorial-site .course-index-links>a>span{font-size:12px}
-.editorial-site .byline,.exhibition-page .glass-note{font-size:14px;line-height:1.8}
-.editorial-site .award-kicker,.editorial-site .contact-kicker{font-size:12px;line-height:1.7;letter-spacing:.08em;flex-wrap:wrap;gap:12px 24px}
-.editorial-site .award-summary,.editorial-site .award-story-copy>p:not(.eyebrow){font-size:16px;line-height:1.85}
-.editorial-site .award-artwork figcaption,.editorial-site .award-enlarge,.editorial-site .award-viewer figcaption{font-size:14px;line-height:1.7}
-.editorial-site .award-record dt{font-size:12px;line-height:1.7}
-.editorial-site .award-record dd{font-size:15px;line-height:1.8;overflow-wrap:anywhere}
-.editorial-site .award-critique cite{font-size:13px;line-height:1.8}
-.editorial-site .award-continue a{font-size:15px;min-height:44px}
-.editorial-site .contact-intro>p{font-size:16px;line-height:1.85}
-.editorial-site .contact-option-label,.editorial-site .contact-option-note{font-size:14px;line-height:1.7}
-.editorial-site .contact-closing p{font-size:15px;line-height:1.8}
-.editorial-site .contact-closing>a{font-size:14px;line-height:1.7}
-.editorial-site .contact-invitation>a{font-size:15px;line-height:1.7;min-height:44px}
-.editorial-site .footer-inner,.editorial-site .foot{font-size:13px;line-height:1.8;letter-spacing:.02em}
-.editorial-site .footer-links{flex-wrap:wrap;gap:12px 24px}
-.editorial-site .footer-links a,.editorial-site .site-contact-row a{display:inline-flex;align-items:center;min-height:44px;overflow-wrap:anywhere}
-.editorial-site .site-contact-row{font-size:14px;line-height:1.8}
-}
-@media(max-width:480px){
-.editorial-site .course-index-links{grid-template-columns:1fr}
-.editorial-site .course-index>summary{flex-wrap:wrap}
-.editorial-site .course-index-meta{margin-left:auto}
-.editorial-site .contact-kicker,.editorial-site .award-kicker{justify-content:flex-start}
-}
-/* iPad portrait and landscape, including the 13-inch display. */
-@media(min-width:761px) and (max-width:1366px){
-.editorial-site{font-size:18px;line-height:1.8}
-.editorial-site header nav a{font-size:17px;line-height:1.5;min-height:48px;padding-block:12px}
-.editorial-site .language-switch{font-size:15px}
-.editorial-site .language-switch a{min-width:40px;min-height:44px}
-.editorial-site .brand{font-size:12px;letter-spacing:.08em}
-.editorial-site .eyebrow,.editorial-site .hero-signature,.editorial-site .chapter-label{font-size:13px;line-height:1.7;letter-spacing:.08em}
-.editorial-site .bio-copy p,.editorial-site .bio-story p,.editorial-site .bio-motto-explanation p,.editorial-site .hero-note,.editorial-site .hero-copy p,.editorial-site .chapter-description>p,.editorial-site .closing p,.editorial-site .intro-copy,.editorial-site .intro-copy p,.editorial-site .copy,.editorial-site .copy p,.exhibition-page .section-heading .lead{font-size:18px;line-height:1.85}
-.editorial-site .button,.editorial-site .back,.editorial-site .outline-link,.editorial-site .journey-link{font-size:16px;line-height:1.6;min-height:48px}
-.portfolio-page .hero p{font-size:18px;line-height:1.75}
-.portfolio-page .hero .button{font-size:16px;line-height:1.6;min-height:48px;gap:16px}
+.portfolio-page .hero .button{font-size:16px;line-height:1.6;min-height:44px;max-width:none;gap:18px}
 .portfolio-page .hero-caption{font-size:14px;line-height:1.7;flex-wrap:wrap;gap:12px 24px}
 .portfolio-page .hero-caption a{display:inline-flex;align-items:center;min-height:44px}
-.portfolio-page .filters{gap:8px 24px;padding-block:18px}
-.portfolio-page .filter,.portfolio-page .filter[data-filter="all"]{font-size:17px;line-height:1.6;min-height:48px;padding-block:10px}
-.portfolio-page .selection-note{font-size:18px;line-height:1.8;color:#606060}
-.portfolio-page .gallery-tools{font-size:16px;gap:20px;flex-wrap:wrap;align-items:center}
+.portfolio-page .filters{gap:4px 22px;padding-block:15px}
+.portfolio-page .filter,.portfolio-page .filter[data-filter="all"]{font-size:17px;line-height:1.6;min-height:46px;padding-block:10px}
+.portfolio-page .selection-note{font-size:18px;line-height:1.8;margin-bottom:26px;color:#606060}
+.portfolio-page .gallery-tools{font-size:16px;gap:16px;flex-wrap:wrap;align-items:center}
 .portfolio-page #galleryCount,.portfolio-page .refine-filters{font-size:16px;line-height:1.7}
 .portfolio-page .refine-filters{max-width:100%}
 .portfolio-page .refine-filters summary{display:flex;align-items:center;min-height:44px}
-.portfolio-page .refine-filters select{font-size:17px;min-height:44px;max-width:100%}
+.portfolio-page .refine-filters select{font-size:18px;min-height:44px;max-width:100%}
 .portfolio-page .photo-info strong,.editorial-site .photo-caption,.exhibition-page .photo figcaption{font-size:16px;line-height:1.65}
 .portfolio-page .photo-info .arrow{font-size:20px}
 .portfolio-page .gallery-pages,.portfolio-page #pageInfo{font-size:16px}
 .portfolio-page .gallery-pages button{font-size:17px;line-height:1.5;min-height:48px}
 .portfolio-page .home-signoff a{font-size:16px;line-height:1.7;min-height:44px;display:inline-flex;align-items:center}
-.editorial-site .bio-portrait figcaption,.editorial-site .hero-figure figcaption,.editorial-site .lightbox figcaption{font-size:15px;line-height:1.7}
+.editorial-site .bio-portrait figcaption,.editorial-site .hero-figure figcaption,.editorial-site .lightbox figcaption{font-size:16px;line-height:1.7}
 .editorial-site .techniques li{font-size:15px;line-height:1.7}
 .editorial-site .hero-stats{font-size:16px}
 .editorial-site .course-index>summary{font-size:18px;line-height:1.6;gap:16px}
 .editorial-site .course-index-meta{font-size:15px;gap:12px}
-.editorial-site .course-index-links>a{font-size:17px;line-height:1.65;min-height:48px;gap:12px}
+.editorial-site .course-index-links>a{font-size:17px;line-height:1.65;min-height:48px;gap:10px}
 .editorial-site .course-index-links>a>span{font-size:14px}
-.editorial-site .chapter-nav a{font-size:16px;min-height:44px;display:inline-flex;align-items:center}
 .editorial-site .byline,.exhibition-page .glass-note{font-size:16px;line-height:1.8}
 .editorial-site .award-kicker,.editorial-site .contact-kicker{font-size:14px;line-height:1.7;letter-spacing:.08em;flex-wrap:wrap;gap:12px 24px}
 .editorial-site .award-summary,.editorial-site .award-story-copy>p:not(.eyebrow){font-size:18px;line-height:1.85}
@@ -110,4 +51,81 @@
 .editorial-site .footer-links{flex-wrap:wrap;gap:12px 24px}
 .editorial-site .footer-links a,.editorial-site .site-contact-row a{display:inline-flex;align-items:center;min-height:44px;overflow-wrap:anywhere}
 .editorial-site .site-contact-row{font-size:16px;line-height:1.8}
+}
+@media(max-width:480px){
+.editorial-site .course-index-links{grid-template-columns:1fr}
+.editorial-site .course-index>summary{flex-wrap:wrap}
+.editorial-site .course-index-meta{margin-left:auto}
+.editorial-site .contact-kicker,.editorial-site .award-kicker{justify-content:flex-start}
+}
+/* iPad portrait and landscape, including the 13-inch display. */
+@media(min-width:761px) and (max-width:1366px){
+.editorial-site{font-size:20px;line-height:1.8}
+.editorial-site header nav a{font-size:19px;line-height:1.5;min-height:48px;padding-block:12px}
+.editorial-site .language-switch{font-size:17px}
+.editorial-site .language-switch a{min-width:40px;min-height:44px}
+.editorial-site .brand{font-size:14px;letter-spacing:.08em}
+.editorial-site .eyebrow,.editorial-site .hero-signature,.editorial-site .chapter-label{font-size:15px;line-height:1.7;letter-spacing:.08em}
+.editorial-site .bio-copy p,.editorial-site .bio-story p,.editorial-site .bio-motto-explanation p,.editorial-site .hero-note,.editorial-site .hero-copy p,.editorial-site .chapter-description>p,.editorial-site .closing p,.editorial-site .intro-copy,.editorial-site .intro-copy p,.editorial-site .copy,.editorial-site .copy p,.exhibition-page .section-heading .lead{font-size:20px;line-height:1.85}
+.editorial-site .button,.editorial-site .back,.editorial-site .outline-link,.editorial-site .journey-link{font-size:18px;line-height:1.6;min-height:48px}
+.portfolio-page .hero p{font-size:20px;line-height:1.75}
+.portfolio-page .hero .button{font-size:18px;line-height:1.6;min-height:48px;gap:16px}
+.portfolio-page .hero-caption{font-size:16px;line-height:1.7;flex-wrap:wrap;gap:12px 24px}
+.portfolio-page .hero-caption a{display:inline-flex;align-items:center;min-height:44px}
+.portfolio-page .filters{gap:8px 24px;padding-block:18px}
+.portfolio-page .filter,.portfolio-page .filter[data-filter="all"]{font-size:19px;line-height:1.6;min-height:48px;padding-block:10px}
+.portfolio-page .selection-note{font-size:20px;line-height:1.8;color:#606060}
+.portfolio-page .gallery-tools{font-size:18px;gap:20px;flex-wrap:wrap;align-items:center}
+.portfolio-page #galleryCount,.portfolio-page .refine-filters{font-size:18px;line-height:1.7}
+.portfolio-page .refine-filters{max-width:100%}
+.portfolio-page .refine-filters summary{display:flex;align-items:center;min-height:44px}
+.portfolio-page .refine-filters select{font-size:19px;min-height:44px;max-width:100%}
+.portfolio-page .photo-info strong,.editorial-site .photo-caption,.exhibition-page .photo figcaption{font-size:18px;line-height:1.65}
+.portfolio-page .photo-info .arrow{font-size:22px}
+.portfolio-page .gallery-pages,.portfolio-page #pageInfo{font-size:18px}
+.portfolio-page .gallery-pages button{font-size:19px;line-height:1.5;min-height:48px}
+.portfolio-page .home-signoff a{font-size:18px;line-height:1.7;min-height:44px;display:inline-flex;align-items:center}
+.editorial-site .bio-portrait figcaption,.editorial-site .hero-figure figcaption,.editorial-site .lightbox figcaption{font-size:17px;line-height:1.7}
+.editorial-site .techniques li{font-size:17px;line-height:1.7}
+.editorial-site .hero-stats{font-size:18px}
+.editorial-site .course-index>summary{font-size:20px;line-height:1.6;gap:16px}
+.editorial-site .course-index-meta{font-size:17px;gap:12px}
+.editorial-site .course-index-links>a{font-size:19px;line-height:1.65;min-height:48px;gap:12px}
+.editorial-site .course-index-links>a>span{font-size:16px}
+.editorial-site .chapter-nav a{font-size:18px;min-height:44px;display:inline-flex;align-items:center}
+.editorial-site .byline,.exhibition-page .glass-note{font-size:18px;line-height:1.8}
+.editorial-site .award-kicker,.editorial-site .contact-kicker{font-size:16px;line-height:1.7;letter-spacing:.08em;flex-wrap:wrap;gap:12px 24px}
+.editorial-site .award-summary,.editorial-site .award-story-copy>p:not(.eyebrow){font-size:20px;line-height:1.85}
+.editorial-site .award-artwork figcaption,.editorial-site .award-enlarge,.editorial-site .award-viewer figcaption{font-size:18px;line-height:1.7}
+.editorial-site .award-record dt{font-size:16px;line-height:1.7}
+.editorial-site .award-record dd{font-size:19px;line-height:1.8;overflow-wrap:anywhere}
+.editorial-site .award-critique cite{font-size:17px;line-height:1.8}
+.editorial-site .award-continue a{font-size:19px;min-height:44px}
+.editorial-site .contact-intro>p{font-size:20px;line-height:1.85}
+.editorial-site .contact-option-label,.editorial-site .contact-option-note{font-size:18px;line-height:1.7}
+.editorial-site .contact-closing p{font-size:19px;line-height:1.8}
+.editorial-site .contact-closing>a{font-size:18px;line-height:1.7}
+.editorial-site .contact-invitation>a{font-size:19px;line-height:1.7;min-height:44px}
+.editorial-site .footer-inner,.editorial-site .foot{font-size:17px;line-height:1.8;letter-spacing:.02em}
+.editorial-site .footer-links{flex-wrap:wrap;gap:12px 24px}
+.editorial-site .footer-links a,.editorial-site .site-contact-row a{display:inline-flex;align-items:center;min-height:44px;overflow-wrap:anywhere}
+.editorial-site .site-contact-row{font-size:18px;line-height:1.8}
+}
+
+/* Shared by the minimal and complete sites, after every page stylesheet. */
+@media(max-width:1366px){
+.editorial-site .language-switch a{font-size:16px;line-height:1.5}
+.editorial-site .button{font-size:17px;line-height:1.65;white-space:normal}
+.editorial-site .footer-links a,.editorial-site .site-contact-row a{font-size:16px;line-height:1.75}
+.editorial-site .photo-info strong{overflow-wrap:anywhere}
+.editorial-site .recognition-context p{font-size:18px;line-height:1.85}
+.editorial-site .recognition-source{font-size:16px;line-height:1.75}
+.editorial-site .minimal-request-copy{font-size:18px;line-height:1.85}
+.editorial-site .minimal-request .button{font-size:17px;line-height:1.65}
+.editorial-site .back-to-top span{font-size:14px}
+}
+@media(min-width:761px) and (max-width:1366px){
+.editorial-site .footer-links a,.editorial-site .site-contact-row a{font-size:18px}
+.editorial-site .recognition-context p,.editorial-site .minimal-request-copy{font-size:20px}
+.editorial-site .recognition-source,.editorial-site .minimal-request .button{font-size:18px}
 }
