@@ -1,0 +1,6 @@
+/* Monochrome vector navigation icons; no platform-dependent emoji. */
+.editorial-site .site-arrow{display:inline-block;width:20px;height:20px;min-width:20px;flex:0 0 auto;vertical-align:-.2em;color:inherit;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.editorial-site .contact-arrow .site-arrow{width:28px;height:28px}
+.editorial-site .back-to-top>.site-arrow{width:22px;height:22px}
+.editorial-site a:hover .site-arrow,.editorial-site button:hover .site-arrow{stroke-width:1.8}
+@media(prefers-reduced-motion:no-preference){.editorial-site .site-arrow{transition:stroke-width .18s ease}}
