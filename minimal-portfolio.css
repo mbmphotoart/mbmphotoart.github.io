@@ -35,3 +35,10 @@
 .minimal-portfolio .photo:focus-visible{outline:2px solid #333;outline-offset:8px}
 @media(max-width:900px){.minimal-portfolio #portfolio>.wrap{width:calc(100% - 48px)}.minimal-portfolio #gallery{gap:54px 32px}}
 @media(max-width:560px){.minimal-portfolio .hero{margin-top:30px}.minimal-portfolio .hero-content{padding-bottom:38px}.minimal-portfolio #portfolio{padding-top:40px}.minimal-portfolio #portfolio>.wrap{width:calc(100% - 40px)}.minimal-portfolio .selection-note{margin-bottom:36px}.minimal-portfolio #gallery{grid-template-columns:1fr;gap:45px}.minimal-portfolio #gallery .photo:first-child{margin-bottom:0}.minimal-portfolio #gallery .photo-image img{max-height:75svh}.minimal-portfolio .photo-info strong{font-size:12px}}
+
+/* Keep the opening image large; give the remaining works equal display areas. */
+.minimal-portfolio #gallery .photo:not(:first-child) .photo-image{aspect-ratio:4/3;overflow:hidden}
+.minimal-portfolio #gallery .photo:not(:first-child) .photo-image img{width:100%;height:100%;max-height:none;object-fit:contain}
+.minimal-portfolio #gallery .photo:last-child{width:calc((100% - 64px)/2)}
+@media(max-width:900px){.minimal-portfolio #gallery .photo:last-child{width:calc((100% - 32px)/2)}}
+@media(max-width:560px){.minimal-portfolio #gallery .photo:last-child{width:100%}}
