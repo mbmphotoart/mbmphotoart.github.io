@@ -8,7 +8,7 @@ document.addEventListener('keydown',e=>{if(e.key==='Escape')setAwardMenu(false)}
 const viewer=document.getElementById('awardViewer');
 const viewerClose=document.getElementById('closeAwardViewer');
 let awardReturnFocus=null;
-document.querySelectorAll('[data-open-award]').forEach(button=>button.addEventListener('click',()=>{awardReturnFocus=button;viewer.showModal();document.body.classList.add('award-viewer-open');viewerClose.focus()}));
+document.querySelectorAll('[data-open-award]').forEach(button=>button.addEventListener('click',()=>{awardReturnFocus=button;const entry=button.closest('.recognition-entry');if(entry){const image=viewer.querySelector('img');image.src=entry.dataset.awardSrc;image.alt=entry.querySelector('.award-image-button img').alt;viewer.querySelector('figcaption').textContent=entry.dataset.awardCaption;viewer.setAttribute('aria-label',entry.dataset.awardTitle)}viewer.showModal();document.body.classList.add('award-viewer-open');viewerClose.focus()}));
 viewerClose.addEventListener('click',()=>viewer.close());
 viewer.addEventListener('click',e=>{if(e.target===viewer)viewer.close()});
 viewer.addEventListener('close',()=>{document.body.classList.remove('award-viewer-open');awardReturnFocus?.focus()});
