@@ -12,7 +12,8 @@
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@200;300;400;500;600;700&amp;family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&amp;display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="brand-theme.css?v=20261015-attimi">
-<link rel="stylesheet" href="site-utilities.css?v=20261016"><link rel="alternate" hreflang="it" href="https://mbmphotoart.github.io/index.html"><link rel="alternate" hreflang="en" href="https://mbmphotoart.github.io/index-en.html"><link rel="stylesheet" href="editorial.css?v=20261021-top"><link rel="stylesheet" href="minimal-portfolio.css?v=20261022-passepartout-04"><link rel="stylesheet" href="mobile-readability.css?v=20261022-large-type-04"><link rel="stylesheet" href="site-icons.css?v=20261022-vector-01"></head>
+<link rel="stylesheet" href="site-utilities.css?v=20261016"><link rel="alternate" hreflang="it" href="https://mbmphotoart.github.io/index.html"><link rel="alternate" hreflang="en" href="https://mbmphotoart.github.io/index-en.html"><link rel="stylesheet" href="editorial.css?v=20261021-top"><link rel="stylesheet" href="minimal-portfolio.css?v=20261022-passepartout-04"><link rel="stylesheet" href="mobile-readability.css?v=20261022-large-type-04"><link rel="stylesheet" href="site-icons.css?v=20261022-vector-01"><link rel="stylesheet" href="photo-fullscreen.css?v=20261028-01">
+</head>
 <body id="page-top" class="editorial-site portfolio-page minimal-portfolio">
 <header data-brand-tone="light"><div class="wrap nav">
 <a class="brand" href="#home" aria-label="MBM Photo Art, home"><img src="logo.svg" alt=""><span>MBM PHOTO ART</span></a>
@@ -60,7 +61,9 @@ document.addEventListener('keydown',e=>{if(!lightbox.classList.contains('open'))
 let touchX=0;lightbox.addEventListener('touchstart',e=>touchX=e.changedTouches[0].clientX,{passive:true});lightbox.addEventListener('touchend',e=>{const delta=e.changedTouches[0].clientX-touchX;if(Math.abs(delta)>60)stepPhoto(delta<0?1:-1)},{passive:true});
 document.getElementById('year').textContent=new Date().getFullYear();renderGallery();
 </script>
-<a href="#page-top" class="back-to-top" aria-label="Torna in cima"><svg class="site-arrow" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 20V4m-7 7 7-7 7 7"/></svg><span>Torna in cima</span></a><script>function openLegacyContact(){if(location.hash==='#contatti')location.replace('contatti.html')}openLegacyContact();addEventListener('hashchange',openLegacyContact);</script></body></html>
+<a href="#page-top" class="back-to-top" aria-label="Torna in cima"><svg class="site-arrow" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 20V4m-7 7 7-7 7 7"/></svg><span>Torna in cima</span></a><script>function openLegacyContact(){if(location.hash==='#contatti')location.replace('contatti.html')}openLegacyContact();addEventListener('hashchange',openLegacyContact);</script><script src="photo-fullscreen.js?v=20261028-01"></script>
+</body></html>
+
 
 
 

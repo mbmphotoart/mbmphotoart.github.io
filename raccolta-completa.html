@@ -13,7 +13,8 @@
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@200;300;400;500;600;700&amp;family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&amp;display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="brand-theme.css?v=20261015-attimi">
-<link rel="stylesheet" href="site-utilities.css?v=20261016"><link rel="alternate" hreflang="it" href="https://mbmphotoart.github.io/raccolta-completa.html"><link rel="alternate" hreflang="en" href="https://mbmphotoart.github.io/raccolta-completa-en.html"><link rel="stylesheet" href="editorial.css?v=20261021-top"><link rel="stylesheet" href="mobile-readability.css?v=20261022-large-type-04"><link rel="stylesheet" href="site-icons.css?v=20261022-vector-01"></head>
+<link rel="stylesheet" href="site-utilities.css?v=20261016"><link rel="alternate" hreflang="it" href="https://mbmphotoart.github.io/raccolta-completa.html"><link rel="alternate" hreflang="en" href="https://mbmphotoart.github.io/raccolta-completa-en.html"><link rel="stylesheet" href="editorial.css?v=20261021-top"><link rel="stylesheet" href="mobile-readability.css?v=20261022-large-type-04"><link rel="stylesheet" href="site-icons.css?v=20261022-vector-01"><link rel="stylesheet" href="photo-fullscreen.css?v=20261028-01">
+</head>
 <body id="page-top" class="editorial-site portfolio-page">
 <header data-brand-tone="light"><div class="wrap nav">
 <a class="brand" href="#home" aria-label="MBM Photo Art, home"><img src="logo.svg" alt=""><span>MBM PHOTO ART</span></a>
@@ -53,15 +54,17 @@ function turnPage(delta){page+=delta;renderGallery();document.getElementById('ga
 document.getElementById('prevPage').addEventListener('click',()=>turnPage(-1));document.getElementById('nextPage').addEventListener('click',()=>turnPage(1));
 const lightbox=document.getElementById('lightbox'),lightboxImage=document.getElementById('lightboxImage');
 function showPhoto(index){currentPhoto=index;const p=photoData[index];lightboxImage.src=p.src;lightboxImage.alt=p.title;document.getElementById('lightboxCaption').textContent=p.title;}
-photos.forEach((p,i)=>p.addEventListener('click',()=>{returnFocus=p;showPhoto(i);lightbox.classList.add('open');document.body.style.overflow='hidden';document.getElementById('closeLightbox').focus()}));
-function closeBox(){lightbox.classList.remove('open');lightboxImage.removeAttribute('src');document.body.style.overflow='';returnFocus?.focus()}
+photos.forEach((p,i)=>p.addEventListener('click',()=>{returnFocus=p;showPhoto(i);lightbox.classList.add('open');document.body.style.overflow='hidden';document.getElementById('closeLightbox').focus({preventScroll:true})}));
+function closeBox(){lightbox.classList.remove('open');lightboxImage.removeAttribute('src');document.body.style.overflow='';returnFocus?.focus({preventScroll:true})}
 function stepPhoto(delta){const position=filtered.indexOf(currentPhoto);showPhoto(filtered[(position+delta+filtered.length)%filtered.length])}
 document.getElementById('closeLightbox').addEventListener('click',closeBox);document.getElementById('prevPhoto').addEventListener('click',()=>stepPhoto(-1));document.getElementById('nextPhoto').addEventListener('click',()=>stepPhoto(1));lightbox.addEventListener('click',e=>{if(e.target===lightbox)closeBox()});
 document.addEventListener('keydown',e=>{if(!lightbox.classList.contains('open'))return;if(e.key==='Escape')closeBox();if(e.key==='ArrowLeft')stepPhoto(-1);if(e.key==='ArrowRight')stepPhoto(1);if(e.key==='Tab'){const focusable=[...lightbox.querySelectorAll('button')];const first=focusable[0],last=focusable.at(-1);if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus()}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus()}}});
 let touchX=0;lightbox.addEventListener('touchstart',e=>touchX=e.changedTouches[0].clientX,{passive:true});lightbox.addEventListener('touchend',e=>{const delta=e.changedTouches[0].clientX-touchX;if(Math.abs(delta)>60)stepPhoto(delta<0?1:-1)},{passive:true});
 document.getElementById('year').textContent=new Date().getFullYear();renderGallery();
 </script>
-<a href="#page-top" class="back-to-top" aria-label="Torna in cima"><svg class="site-arrow" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 20V4m-7 7 7-7 7 7"/></svg><span>Torna in cima</span></a><script>function openLegacyContact(){if(location.hash==='#contatti')location.replace('contatti.html')}openLegacyContact();addEventListener('hashchange',openLegacyContact);</script></body></html>
+<a href="#page-top" class="back-to-top" aria-label="Torna in cima"><svg class="site-arrow" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 20V4m-7 7 7-7 7 7"/></svg><span>Torna in cima</span></a><script>function openLegacyContact(){if(location.hash==='#contatti')location.replace('contatti.html')}openLegacyContact();addEventListener('hashchange',openLegacyContact);</script><script src="photo-fullscreen.js?v=20261028-01"></script>
+</body></html>
+
 
 
 

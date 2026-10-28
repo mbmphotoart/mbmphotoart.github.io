@@ -67,7 +67,8 @@ footer{padding:24px 0;font-size:11px;color:var(--muted)}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
 </style>
 <link rel="stylesheet" href="brand-theme.css?v=20261015-attimi">
-<link rel="stylesheet" href="site-utilities.css?v=20261016"><link rel="alternate" hreflang="it" href="https://mbmphotoart.github.io/mostra.html"><link rel="alternate" hreflang="en" href="https://mbmphotoart.github.io/mostra-en.html"><link rel="stylesheet" href="editorial.css?v=20261021-02"><link rel="stylesheet" href="mobile-readability.css?v=20261022-large-type-04"><link rel="stylesheet" href="site-icons.css?v=20261022-vector-01"></head>
+<link rel="stylesheet" href="site-utilities.css?v=20261016"><link rel="alternate" hreflang="it" href="https://mbmphotoart.github.io/mostra.html"><link rel="alternate" hreflang="en" href="https://mbmphotoart.github.io/mostra-en.html"><link rel="stylesheet" href="editorial.css?v=20261021-02"><link rel="stylesheet" href="mobile-readability.css?v=20261022-large-type-04"><link rel="stylesheet" href="site-icons.css?v=20261022-vector-01"><link rel="stylesheet" href="photo-fullscreen.css?v=20261028-01">
+</head>
 <body id="page-top" class="editorial-site exhibition-page">
 <header data-brand-tone="light">
   <div class="wrap nav">
@@ -130,11 +131,13 @@ const links=document.querySelector('.links');
 menuButton.addEventListener('click',()=>{const open=menuButton.getAttribute('aria-expanded')!=='true';menuButton.setAttribute('aria-expanded',String(open));menuButton.setAttribute('aria-label',open?"Close menu":"Open menu");links.classList.toggle('open',open)});
 links.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{links.classList.remove('open');menuButton.setAttribute('aria-expanded','false')}));
 const lightbox=document.getElementById('lightbox'),lightboxImg=lightbox.querySelector('img'),closeLightbox=lightbox.querySelector('.lightbox-close');
-document.querySelectorAll('.photo-button').forEach(button=>button.addEventListener('click',()=>{lightboxImg.src=button.dataset.full;lightboxImg.alt=button.querySelector('img').alt;lightbox.classList.add('open');document.body.style.overflow='hidden';closeLightbox.focus()}));
+document.querySelectorAll('.photo-button').forEach(button=>button.addEventListener('click',()=>{lightboxImg.src=button.dataset.full;lightboxImg.alt=button.querySelector('img').alt;lightbox.classList.add('open');document.body.style.overflow='hidden';closeLightbox.focus({preventScroll:true})}));
 function closeImage(){lightbox.classList.remove('open');lightboxImg.src='';document.body.style.overflow=''}
 closeLightbox.addEventListener('click',closeImage);
 lightbox.addEventListener('click',e=>{if(e.target===lightbox)closeImage()});
 document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeImage();links.classList.remove('open');menuButton.setAttribute('aria-expanded','false')}});
 </script>
-<a href="#page-top" class="back-to-top" aria-label="Back to top"><svg class="site-arrow" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 20V4m-7 7 7-7 7 7"/></svg><span>Back to top</span></a></body>
+<a href="#page-top" class="back-to-top" aria-label="Back to top"><svg class="site-arrow" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 20V4m-7 7 7-7 7 7"/></svg><span>Back to top</span></a><script src="photo-fullscreen.js?v=20261028-01"></script>
+</body>
 </html>
+
