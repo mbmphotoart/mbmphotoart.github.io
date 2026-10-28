@@ -47,3 +47,32 @@ dialog.immersive-viewer.immersive-viewer[open]{display:flex}
   .immersive-viewer.immersive-viewer button{width:44px;height:44px;min-width:44px;min-height:44px}
   .immersive-viewer.immersive-viewer figcaption{font-size:16px;padding-inline:52px}
 }
+
+/* The same quiet passe-partout for every photograph, without cropping. */
+.immersive-viewer.immersive-viewer {
+  --photo-width:min(80vw,1120px);
+  --photo-height:72vh;
+  --photo-height:72dvh;
+}
+.immersive-viewer.immersive-viewer figure {
+  width:var(--photo-width);height:var(--photo-height);
+  flex:0 0 auto;
+}
+.immersive-viewer.immersive-viewer > img {
+  width:var(--photo-width);height:var(--photo-height);
+  max-width:var(--photo-width);max-height:var(--photo-height);
+}
+.immersive-viewer.immersive-viewer figure img {
+  width:100%;height:100%;max-width:100%;max-height:100%;
+}
+.immersive-viewer.immersive-viewer figcaption {
+  background:none;
+  padding-top:0;
+}
+@media(max-width:699px) {
+  .immersive-viewer.immersive-viewer {
+    --photo-width:calc(100vw - 100px);
+    --photo-height:68vh;
+    --photo-height:68dvh;
+  }
+}
